@@ -1,6 +1,5 @@
 # Cyber_Attack_Trace
-The tool can be used to trace the attacker (limited) --- written in flask
-
+The tool can be used to trace the attacker (limited) --- written in scala
 
 
 ## Desired Features：
