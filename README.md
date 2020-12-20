@@ -14,4 +14,15 @@ The tool can be used to trace the attacker (limited) --- written in scala/flask
 ...
 
 
+## Web UI:
+
+### Functions:
+- Interface to upload files
+- Register/Log in
+- Dag
+- Topology
+- Logs
+- Download
+
+
 **On going ...**
