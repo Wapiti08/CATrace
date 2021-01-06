@@ -1,0 +1,48 @@
+# Nmap 7.40 scan initiated Wed Feb  5 23:01:58 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/62.210.103.181.nmap 62.210.103.181
+Nmap scan report for 62.210.103.181
+Host is up (0.14s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+3000/tcp open  ppp?
+8086/tcp open  http    InfluxDB http admin 1.7.9
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3000-TCP:V=7.40%I=7%D=2/6%Time=5E3B7BC3%P=x86_64-pc-linux-gnu%r(Gen
+SF:ericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20te
+SF:xt/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x2
+SF:0Request")%r(GetRequest,132,"HTTP/1\.0\x20302\x20Found\r\nCache-Control
+SF::\x20no-cache\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nExpire
+SF:s:\x20-1\r\nLocation:\x20/login\r\nPragma:\x20no-cache\r\nSet-Cookie:\x
+SF:20redirect_to=%2F;\x20Path=/;\x20HttpOnly;\x20SameSite=Lax\r\nX-Frame-O
+SF:ptions:\x20deny\r\nDate:\x20Thu,\x2006\x20Feb\x202020\x2002:36:51\x20GM
+SF:T\r\nContent-Length:\x2029\r\n\r\n<a\x20href=\"/login\">Found</a>\.\n\n
+SF:")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20te
+SF:xt/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x2
+SF:0Request")%r(HTTPOptions,1B3C,"HTTP/1\.0\x20404\x20Not\x20Found\r\nCach
+SF:e-Control:\x20no-cache\r\nContent-Type:\x20text/html;\x20charset=UTF-8\
+SF:r\nExpires:\x20-1\r\nPragma:\x20no-cache\r\nX-Frame-Options:\x20deny\r\
+SF:nDate:\x20Thu,\x2006\x20Feb\x202020\x2002:36:57\x20GMT\r\n\r\n<!DOCTYPE
+SF:\x20html>\n<html\x20lang=\"en\">\n\x20\x20<head>\n\x20\x20\x20\x20<scri
+SF:pt>\n\x20\x20\x20\x20\x20\x20\n\x20\x20\x20\x20\x20\x20!\(function\(\)\
+SF:x20{\n\x20\x20\x20\x20\x20\x20\x20\x20if\x20\('PerformanceLongTaskTimin
+SF:g'\x20in\x20window\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20var\
+SF:x20g\x20=\x20\(window\.__tti\x20=\x20{\x20e:\x20\[\]\x20}\);\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20g\.o\x20=\x20new\x20PerformanceObserver\
+SF:(function\(l\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20g\
+SF:.e\x20=\x20g\.e\.concat\(l\.getEntries\(\)\);\n\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20}\);\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20g\.o\.obs
+SF:erve\({\x20entryTypes:\x20\['longtask'\]\x20}\);\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20}\n\x20\x20\x20\x20\x20\x20}\)\(\);\n\n\x20\x20\x20\x20</scr
+SF:ipt>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"\x20/>\n\x20\x20\x20\x2
+SF:0<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrome=1\
+SF:"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=
+SF:device-width\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"theme-color\"\x20
+SF:content=\"#000\"\x20/>\n\n\x20\x20\x20\x20<title>Grafana</title>\n\n\x2
+SF:0\x20\x20\x20<base\x20href=\"/\"\x20/>\n\n\x20\x20\x20\x20<link\n\x20\x
+SF:20\x20\x20\x20\x20rel=\"preload\"\n\x20\x20\x20\x20\x20\x20href=\"publi
+SF:c/fonts/roboto/RxZJdnzeo3R5zSe");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb  6 03:38:24 2020 -- 1 IP address (1 host up) scanned in 16586.18 seconds

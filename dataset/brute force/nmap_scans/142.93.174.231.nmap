@@ -1,0 +1,24 @@
+# Nmap 7.40 scan initiated Wed Dec  2 18:05:15 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/142.93.174.231.nmap 142.93.174.231
+Nmap scan report for 142.93.174.231
+Host is up (0.47s latency).
+Not shown: 986 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    VERSION
+21/tcp    open  ftp        Pure-FTPd
+22/tcp    open  ssh        OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+25/tcp    open  tcpwrapped
+53/tcp    open  domain     PowerDNS 4.2.1
+80/tcp    open  http       LiteSpeed httpd
+110/tcp   open  pop3?
+143/tcp   open  imap       Dovecot imapd
+443/tcp   open  ssl/http   LiteSpeed httpd
+465/tcp   open  ssl/smtps?
+587/tcp   open  smtp       Postfix smtpd
+993/tcp   open  imaps?
+995/tcp   open  pop3s?
+8090/tcp  open  ssl/http   LiteSpeed httpd
+16001/tcp open  http       Node.js Express framework
+Service Info: Host:  mail.2urkeybooking.com; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Dec  2 22:47:47 2020 -- 1 IP address (1 host up) scanned in 16951.95 seconds

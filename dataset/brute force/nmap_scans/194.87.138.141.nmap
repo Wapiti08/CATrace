@@ -1,0 +1,10 @@
+# Nmap 7.40 scan initiated Mon Aug 24 03:19:56 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/194.87.138.141.nmap 194.87.138.141
+Nmap scan report for 194.87.138.141
+Host is up (15s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+3389/tcp open  ms-wbt-server?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug 24 07:31:16 2020 -- 1 IP address (1 host up) scanned in 15080.21 seconds

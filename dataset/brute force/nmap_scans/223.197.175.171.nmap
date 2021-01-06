@@ -1,0 +1,40 @@
+# Nmap 7.40 scan initiated Wed Mar 18 15:38:02 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/223.197.175.171.nmap 223.197.175.171
+Nmap scan report for 223.197.175.171
+Host is up (0.69s latency).
+Not shown: 986 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE  VERSION
+21/tcp    open  ftp      ProFTPD 1.3.5e
+22/tcp    open  ssh      OpenSSH 6.6.1 (protocol 2.0)
+25/tcp    open  smtp     Postfix smtpd
+53/tcp    open  domain   ISC BIND 9.9.4
+80/tcp    open  http     Apache httpd 2.4.6 (PHP 5.4.16)
+110/tcp   open  pop3     Dovecot pop3d
+143/tcp   open  imap     Dovecot imapd
+443/tcp   open  ssl/http Apache httpd 2.4.6 (PHP 5.4.16)
+587/tcp   open  smtp     Postfix smtpd
+993/tcp   open  ssl/imap Dovecot imapd
+995/tcp   open  ssl/pop3 Dovecot pop3d
+2222/tcp  open  ssh      (protocol 2.0)
+10000/tcp open  http     MiniServ 1.844 (Webmin httpd)
+20000/tcp open  http     MiniServ 1.711 (Webmin httpd)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port2222-TCP:V=7.40%I=7%D=3/18%Time=5E726DCF%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,35B,"SSH-2\.0-FTP\x20Server\x20ready\.\r\n\0\0\x03<\x04\x14\x92\xa2J
+SF:\xf1\xea\x93\x97\xb0\xceU\x06\xfe\xaa\xc9\xd5;\0\0\0\xc4ecdh-sha2-nistp
+SF:256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange
+SF:-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,
+SF:diffie-hellman-group1-sha1,rsa1024-sha1\0\0\0\x0fssh-rsa,ssh-dss\0\0\0\
+SF:x8faes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,bl
+SF:owfish-ctr,blowfish-cbc,cast128-cbc,arcfour256,arcfour128,3des-ctr,3des
+SF:-cbc\0\0\0\x8faes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,ae
+SF:s128-cbc,blowfish-ctr,blowfish-cbc,cast128-cbc,arcfour256,arcfour128,3d
+SF:es-ctr,3des-cbc\0\0\0jhmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-9
+SF:6,hmac-md5,hmac-md5-96,hmac-ripemd160,umac-64@openssh\.com\0\0\0jhmac-s
+SF:ha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-
+SF:ripemd160,umac-64@openssh\.com\0\0\0\x1azlib@openssh\.com,zlib,none\0\0
+SF:\0\x1azlib@openssh\.com,zlib,none\0\0\0\0\0\0\0\0\0\0\0\0\0Q<\x8e\xde");
+Service Info: Host:  media.brandoutlet.net; OSs: Unix, Red Hat Enterprise Linux 7; CPE: cpe:/o:redhat:enterprise_linux:7
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar 18 19:53:01 2020 -- 1 IP address (1 host up) scanned in 15298.50 seconds

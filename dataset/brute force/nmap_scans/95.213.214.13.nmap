@@ -1,0 +1,56 @@
+# Nmap 7.40 scan initiated Thu Apr 23 10:03:18 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/95.213.214.13.nmap 95.213.214.13
+Nmap scan report for 95.213.214.13
+Host is up (0.32s latency).
+Not shown: 990 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          vsftpd 3.0.3
+22/tcp   open  ssh          OpenSSH 7.6p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http         nginx 1.14.0 (Ubuntu)
+443/tcp  open  ssl/http     Apache httpd 2.4.29 ((Ubuntu))
+3001/tcp open  http         Apache httpd 2.4.29 ((Ubuntu))
+8001/tcp open  vcom-tunnel?
+8080/tcp open  http         Node.js (Express middleware)
+8081/tcp open  http         Node.js (Express middleware)
+8082/tcp open  http         Node.js (Express middleware)
+9091/tcp open  http         Tornado httpd 6.0.3
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8001-TCP:V=7.40%I=7%D=4/23%Time=5EA18C57%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,56B8,"HTTP/1\.0\x20200\x20OK\r\nCache-Control:\x20no-cache\r\n
+SF:Content-Type:\x20text/html;\x20charset=UTF-8\r\nExpires:\x20-1\r\nPragm
+SF:a:\x20no-cache\r\nDate:\x20Thu,\x2023\x20Apr\x202020\x2012:38:47\x20GMT
+SF:\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\n<head>\n\x20\x20<m
+SF:eta\x20charset=\"utf-8\">\n\x20\x20<meta\x20http-equiv=\"X-UA-Compatibl
+SF:e\"\x20content=\"IE=edge,chrome=1\">\n\x20\x20<meta\x20name=\"viewport\
+SF:"\x20content=\"width=device-width\">\n\x20\x20<meta\x20name=\"theme-col
+SF:or\"\x20content=\"#000\">\n\n\x20\x20<title>Grafana</title>\n\n\x20\x20
+SF:<base\x20href=\"/\"\x20/>\n\n\x20\x20<link\x20rel=\"preload\"\x20href=\
+SF:"public/fonts/roboto/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw\.woff2
+SF:\"\x20as=\"font\"\x20crossorigin\x20/>\n\x20\x20<link\x20rel=\"icon\"\x
+SF:20type=\"image/png\"\x20href=\"public/img/fav32\.png\">\n\x20\x20<link\
+SF:x20rel=\"mask-icon\"\x20href=\"public/img/grafana_mask_icon\.svg\"\x20c
+SF:olor=\"#F05A28\">\n\x20\x20<link\x20rel=\"apple-touch-icon\"\x20sizes=\
+SF:"180x180\"\x20href=\"public/img/apple-touch-icon\.png\">\n\n\x20\x20<li
+SF:nk\x20rel=\"stylesheet\"\x20href=\"public/build/grafana\.dark\.189a5a82
+SF:9d25dac84fc0\.css\">\n\n\x20\x20<meta\x20name=\"apple-mobile-we")%r(Fou
+SF:rOhFourRequest,30A2,"HTTP/1\.0\x20200\x20OK\r\nCache-Control:\x20no-cac
+SF:he\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nExpires:\x20-1\r\
+SF:nPragma:\x20no-cache\r\nDate:\x20Thu,\x2023\x20Apr\x202020\x2012:38:48\
+SF:x20GMT\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\n<head>\n\x20
+SF:\x20<meta\x20charset=\"utf-8\">\n\x20\x20<meta\x20http-equiv=\"X-UA-Com
+SF:patible\"\x20content=\"IE=edge,chrome=1\">\n\x20\x20<meta\x20name=\"vie
+SF:wport\"\x20content=\"width=device-width\">\n\x20\x20<meta\x20name=\"the
+SF:me-color\"\x20content=\"#000\">\n\n\x20\x20<title>Grafana</title>\n\n\x
+SF:20\x20<base\x20href=\"/\"\x20/>\n\n\x20\x20<link\x20rel=\"preload\"\x20
+SF:href=\"public/fonts/roboto/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw\
+SF:.woff2\"\x20as=\"font\"\x20crossorigin\x20/>\n\x20\x20<link\x20rel=\"ic
+SF:on\"\x20type=\"image/png\"\x20href=\"public/img/fav32\.png\">\n\x20\x20
+SF:<link\x20rel=\"mask-icon\"\x20href=\"public/img/grafana_mask_icon\.svg\
+SF:"\x20color=\"#F05A28\">\n\x20\x20<link\x20rel=\"apple-touch-icon\"\x20s
+SF:izes=\"180x180\"\x20href=\"public/img/apple-touch-icon\.png\">\n\n\x20\
+SF:x20<link\x20rel=\"stylesheet\"\x20href=\"public/build/grafana\.dark\.18
+SF:9a5a829d25dac84fc0\.css\">\n\n\x20\x20<meta\x20name=\"apple-mobile-we");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr 23 14:40:52 2020 -- 1 IP address (1 host up) scanned in 16654.37 seconds

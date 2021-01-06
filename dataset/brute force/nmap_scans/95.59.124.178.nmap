@@ -1,0 +1,51 @@
+# Nmap 7.40 scan initiated Sun Jun  7 12:19:46 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/95.59.124.178.nmap 95.59.124.178
+Nmap scan report for 95.59.124.178
+Host is up (0.27s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       Apache httpd 2.4.29 ((Ubuntu))
+81/tcp   open  http       nginx 1.15.2
+82/tcp   open  http       Apache httpd 2.4.18
+443/tcp  open  ssl/http   Apache httpd 2.4.29
+2000/tcp open  http       Virata-EmWeb 6.0.1
+2001/tcp open  dc?
+8080/tcp open  http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.40%I=7%D=6/7%Time=5EDCFA81%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,1182,"HTTP/1\.1\x20200\x20\r\nX-AREQUESTID:\x201232x88847x1\r\n
+SF:X-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nos
+SF:niff\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20f
+SF:rame-ancestors\x20'self'\r\nX-ASEN:\x20SEN-L15426398\r\nSet-Cookie:\x20
+SF:atlassian\.xsrf\.token=BT9O-5Q55-WVSM-8KDY\|37149202655db492dca3f32278b
+SF:9a9481a82864c\|lout;path=/\r\nX-AUSERNAME:\x20anonymous\r\nSet-Cookie:\
+SF:x20JSESSIONID=1DB1BDFADDD19BA655C8C2D9B98D4405;path=/;HttpOnly\r\nX-Acc
+SF:el-Buffering:\x20no\r\nContent-Type:\x20text/html;charset=UTF-8\r\nDate
+SF::\x20Sun,\x2007\x20Jun\x202020\x2014:32:43\x20GMT\r\nConnection:\x20clo
+SF:se\r\n\r\n\n<!DOCTYPE\x20html>\n<html\x20lang=\"ru\">\n<head>\n\x20\x20
+SF:\x20\x20\n\n\n\n\n\n\n<meta\x20charset=\"utf-8\">\n<meta\x20http-equiv=
+SF:\"X-UA-Compatible\"\x20content=\"IE=Edge\"/>\n<meta\x20name=\"applicati
+SF:on-name\"\x20content=\"JIRA\"\x20data-name=\"jira\"\x20data-version=\"7
+SF:\.7\.1\"><meta\x20name=\"ajs-dev-mode\"\x20content=\"false\">\n<meta\x2
+SF:0name=\"ajs-context-path\"\x20content=\"\">\n<meta\x20name=\"ajs-versio
+SF:n-number\"\x20content=\"7\.7\.1\">\n<meta\x20name=\"ajs-bui")%r(HTTPOpt
+SF:ions,16D0,"HTTP/1\.1\x20200\x20\r\nX-AREQUESTID:\x201232x88848x1\r\nX-X
+SF:SS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosnif
+SF:f\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20fram
+SF:e-ancestors\x20'self'\r\nX-ASEN:\x20SEN-L15426398\r\nSet-Cookie:\x20atl
+SF:assian\.xsrf\.token=BT9O-5Q55-WVSM-8KDY\|61130fe76c091a8f9c73fb4c47a830
+SF:0179533686\|lout;path=/\r\nX-AUSERNAME:\x20anonymous\r\nSet-Cookie:\x20
+SF:JSESSIONID=BA415B85B9FE11BEA07ADA7EAD58E8CB;path=/;HttpOnly\r\nX-Accel-
+SF:Buffering:\x20no\r\nContent-Type:\x20text/html;charset=UTF-8\r\nDate:\x
+SF:20Sun,\x2007\x20Jun\x202020\x2014:32:43\x20GMT\r\nConnection:\x20close\
+SF:r\n\r\n\n<!DOCTYPE\x20html>\n<html\x20lang=\"ru\">\n<head>\n\x20\x20\x2
+SF:0\x20\n\n\n\n\n\n\n<meta\x20charset=\"utf-8\">\n<meta\x20http-equiv=\"X
+SF:-UA-Compatible\"\x20content=\"IE=Edge\"/>\n<meta\x20name=\"application-
+SF:name\"\x20content=\"JIRA\"\x20data-name=\"jira\"\x20data-version=\"7\.7
+SF:\.1\"><meta\x20name=\"ajs-dev-mode\"\x20content=\"false\">\n<meta\x20na
+SF:me=\"ajs-context-path\"\x20content=\"\">\n<meta\x20name=\"ajs-version-n
+SF:umber\"\x20content=\"7\.7\.1\">\n<meta\x20name=\"ajs-bui");
+Service Info: Hosts: 127.0.1.1, 1c.rcku.kz
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jun  7 16:33:01 2020 -- 1 IP address (1 host up) scanned in 15195.27 seconds

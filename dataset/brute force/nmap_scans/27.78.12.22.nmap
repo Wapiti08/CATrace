@@ -1,0 +1,16 @@
+# Nmap 7.40 scan initiated Tue Feb  4 03:01:10 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/27.78.12.22.nmap 27.78.12.22
+Nmap scan report for 27.78.12.22
+Host is up (0.47s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+21/tcp   open  ftp            MikroTik router ftpd 6.44.1
+22/tcp   open  ssh            MikroTik RouterOS sshd (protocol 2.0)
+23/tcp   open  telnet         Linux telnetd
+80/tcp   open  http           MikroTik router config httpd
+2000/tcp open  bandwidth-test MikroTik bandwidth-test server
+8291/tcp open  unknown
+Service Info: OSs: Linux, RouterOS; Device: router; CPE: cpe:/o:mikrotik:routeros, cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb  4 07:39:06 2020 -- 1 IP address (1 host up) scanned in 16675.73 seconds

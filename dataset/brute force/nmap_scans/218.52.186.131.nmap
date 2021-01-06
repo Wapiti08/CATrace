@@ -1,0 +1,19 @@
+# Nmap 7.40 scan initiated Thu May 14 09:17:04 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/218.52.186.131.nmap 218.52.186.131
+Nmap scan report for 218.52.186.131
+Host is up (0.53s latency).
+Not shown: 991 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE VERSION
+21/tcp   open  ftp     vsftpd (before 2.0.8) or WU-FTPD
+25/tcp   open  smtp    Sendmail 8.13.8/8.13.8
+80/tcp   open  http    Apache httpd 2.2.22 ((Unix) mod_ssl/2.2.22 OpenSSL/1.0.1b DAV/2 PHP/5.3.5)
+111/tcp  open  rpcbind 2 (RPC #100000)
+143/tcp  open  imap    UW imapd 2004.357
+548/tcp  open  afp     Netatalk 2.2.2 (name: wisegiga; protocol 3.3)
+873/tcp  open  rsync   (protocol version 30)
+3306/tcp open  mysql   MySQL (unauthorized)
+7000/tcp open  ssh     OpenSSH 4.3 (protocol 1.99)
+Service Info: Hosts: Welcome, localhost.localdomain; OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 14 13:52:33 2020 -- 1 IP address (1 host up) scanned in 16528.82 seconds

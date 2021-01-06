@@ -1,0 +1,18 @@
+# Nmap 7.40 scan initiated Sat Mar  7 13:20:13 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/201.116.46.11.nmap 201.116.46.11
+Nmap scan report for 201.116.46.11
+Host is up (0.50s latency).
+Not shown: 992 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 7.4 (protocol 2.0)
+80/tcp   open  http        Apache httpd 2.4.6 ((CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_wsgi/3.4 Python/2.7.5)
+111/tcp  open  rpcbind     2-4 (RPC #100000)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: SAMBA)
+443/tcp  open  ssl/http    Apache httpd 2.4.6 ((CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_wsgi/3.4 Python/2.7.5)
+445/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: SAMBA)
+3306/tcp open  mysql       MySQL 5.5.64-MariaDB
+6000/tcp open  X11         (access denied)
+Service Info: Host: CENTOS; OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  7 17:56:05 2020 -- 1 IP address (1 host up) scanned in 16552.64 seconds

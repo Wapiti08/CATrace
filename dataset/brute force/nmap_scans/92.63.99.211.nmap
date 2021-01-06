@@ -1,0 +1,48 @@
+# Nmap 7.40 scan initiated Thu Apr  2 12:43:04 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/92.63.99.211.nmap 92.63.99.211
+Nmap scan report for 92.63.99.211
+Host is up (0.21s latency).
+Not shown: 984 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          ProFTPD or KnFTPD
+25/tcp   open  smtp         Exim smtpd 4.91
+53/tcp   open  domain       ISC BIND 9.8.2rc1
+80/tcp   open  http         Apache httpd 2.2.22 ((@RELEASE@))
+110/tcp  open  pop3         Dovecot pop3d
+143/tcp  open  imap         Dovecot imapd
+443/tcp  open  ssl/http     Apache httpd 2.2.22 ((@RELEASE@))
+465/tcp  open  ssl/smtp     Exim smtpd 4.91
+587/tcp  open  smtp         Exim smtpd 4.91
+993/tcp  open  ssl/imap     Dovecot imapd
+995/tcp  open  ssl/pop3     Dovecot pop3d
+1500/tcp open  ssl/vlsi-lm?
+3306/tcp open  mysql        MySQL (unauthorized)
+8000/tcp open  http         Icecast streaming media server 2.4.1
+8010/tcp open  http         Icecast streaming media server 2.4.1
+8080/tcp open  http         nginx 1.14.2
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1500-TCP:V=7.40%T=SSL%I=7%D=4/2%Time=5E860293%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1121,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20close\r\nC
+SF:ontent-Type:\x20text/html;\x20charset=UTF-8\r\nPragma:\x20no-cache\r\nC
+SF:ache-Control:\x20no-cache\r\nExpires:\x200\r\nSet-Cookie:\x20ispmgrses5
+SF:=;\x20path=/;\x20HttpOnly;\x20expires=Fri,\x2002\x20Apr\x202021\x2018:1
+SF:9:47\x20MSK;\x20Secure\r\nSet-Cookie:\x20ispmgrlang5=orion:en;\x20path=
+SF:/;\x20expires=Fri,\x2002\x20Apr\x202021\x2018:19:47\x20MSK;\x20Secure\r
+SF:\nX-Frame-Options:\x20SAMEORIGIN\r\nDate:\x20Thu,\x2002\x20Apr\x202020\
+SF:x2015:19:47\x20GMT\r\n\r\n<!DOCTYPE\x20html><html><head><meta\x20http-e
+SF:quiv=\"Content-Type\"\x20content=\"text/html;\x20charset=UTF-8\"><link\
+SF:x20href=\"/manimg/orion/local_1b4aa19cc231/main\.css\?v=&amp;r=\"\x20re
+SF:l=\"stylesheet\"\x20type=\"text/css\"><link\x20rel=\"stylesheet\"\x20me
+SF:dia=\"screen,\x20print\"\x20href=\"/manimg/common/sprite\.css\?v=&amp;r
+SF:=\"\x20type=\"text/css\"><link\x20rel=\"mask-icon\"\x20href=\"https:///
+SF:manimg/common/maskicon/ispmgr\.svg\"\x20color=\"#000000\"><script\x20ty
+SF:pe=\"text/javascript\"\x20src=\"/manimg/orion/lib/jquery-1\.12\.4\.min\
+SF:.js\"></script><script\x20type=\"text/javascript\"\x20src=\"/manimg/ori
+SF:on/lib")%r(HTTPOptions,4B,"HTTP/1\.0\x20200\x20OK\r\nContent-Length:\x2
+SF:00\r\nDate:\x20Thu,\x2002\x20Apr\x202020\x2015:19:51\x20GMT\r\n\r\n")%r
+SF:(RTSPRequest,4B,"HTTP/1\.1\x20200\x20OK\r\nContent-Length:\x200\r\nDate
+SF::\x20Thu,\x2002\x20Apr\x202020\x2015:19:54\x20GMT\r\n\r\n");
+Service Info: Host: my80sbedroomradio.com; OSs: Unix, Red Hat Enterprise Linux 6; CPE: cpe:/o:redhat:enterprise_linux:6
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr  2 17:21:02 2020 -- 1 IP address (1 host up) scanned in 16678.00 seconds

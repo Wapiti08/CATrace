@@ -1,0 +1,21 @@
+# Nmap 7.40 scan initiated Sun Mar  1 11:11:15 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/179.232.1.254.nmap 179.232.1.254
+Nmap scan report for 179.232.1.254
+Host is up (0.64s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE    VERSION
+22/tcp  open  ssh        OpenSSH 6.7p1 Debian 5+deb8u1 (protocol 2.0)
+25/tcp  open  smtp       Postfix smtpd
+80/tcp  open  http       Apache httpd 2.4.10 ((Debian))
+111/tcp open  rpcbind    2-4 (RPC #100000)
+512/tcp open  exec       netkit-rsh rexecd
+513/tcp open  login?
+514/tcp open  tcpwrapped
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port513-TCP:V=7.40%I=7%D=3/1%Time=5E5BCAC3%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReq,1,"\x01")%r(DNSStatusRequest,1,"\x01")%r(Kerberos,1,"\x01
+SF:")%r(SMBProgNeg,1,"\x01")%r(oracle-tns,1,"\x01")%r(afp,1,"\x01");
+Service Info: Host:  debian; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar  1 15:47:05 2020 -- 1 IP address (1 host up) scanned in 16549.80 seconds

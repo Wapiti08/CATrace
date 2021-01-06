@@ -1,0 +1,16 @@
+# Nmap 7.40 scan initiated Mon Aug 17 20:15:29 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/52.172.26.78.nmap 52.172.26.78
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 52.172.26.78
+Host is up (11s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE            VERSION
+3389/tcp open  ssl/ms-wbt-server?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug 18 00:27:55 2020 -- 1 IP address (1 host up) scanned in 15145.87 seconds

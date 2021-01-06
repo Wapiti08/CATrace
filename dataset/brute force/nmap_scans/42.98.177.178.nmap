@@ -1,0 +1,62 @@
+# Nmap 7.40 scan initiated Tue Aug  4 11:46:42 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/42.98.177.178.nmap 42.98.177.178
+Nmap scan report for 42.98.177.178
+Host is up (0.61s latency).
+Not shown: 981 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE          VERSION
+21/tcp   open  ftp              ProFTPD 1.3.4a
+22/tcp   open  ssh              OpenSSH 7.9 (protocol 2.0)
+80/tcp   open  http             Apache httpd
+443/tcp  open  ssl/http         Apache httpd
+548/tcp  open  afp              Netatalk 3.1.12 (name: AsusMilton; protocol 3.4)
+631/tcp  open  ipp              CUPS 1.7
+873/tcp  open  rsync            (protocol version 30)
+2049/tcp open  nfs              2-3 (RPC #100003)
+2222/tcp open  ssh              OpenSSH 7.9 (protocol 2.0)
+3260/tcp open  iscsi?
+3689/tcp open  daap             forked-daapd
+6881/tcp open  http             uTorrent WebUI
+8000/tcp open  http             lighttpd
+8008/tcp open  http             Tornado httpd 4.3
+8010/tcp open  http             BaseHTTPServer 0.3 (Python 2.7.10)
+8081/tcp open  blackice-icecap?
+8200/tcp open  upnp             MiniDLNA 1.2.1 (Linux 4.15.0-99-generic; DLNADOC 1.50; UPnP 1.0)
+9900/tcp open  http             BaseHTTPServer 0.3 (Python 2.7.10)
+9999/tcp open  http             Transmission BitTorrent management httpd (unauthorized)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8081-TCP:V=7.40%I=7%D=8/4%Time=5F296FC0%P=x86_64-pc-linux-gnu%r(SIP
+SF:Options,84,"HTTP/1\.0\x20403\x20Forbidden\r\nserver:\x20libwebsockets\r
+SF:\ncontent-type:\x20text/html\r\ncontent-length:\x2038\r\n\r\n<html><bod
+SF:y><h1>403</h1></body></html>")%r(WWWOFFLEctrlstat,84,"HTTP/1\.0\x20403\
+SF:x20Forbidden\r\nserver:\x20libwebsockets\r\ncontent-type:\x20text/html\
+SF:r\ncontent-length:\x2038\r\n\r\n<html><body><h1>403</h1></body></html>"
+SF:)%r(RPCCheck,84,"HTTP/1\.0\x20403\x20Forbidden\r\nserver:\x20libwebsock
+SF:ets\r\ncontent-type:\x20text/html\r\ncontent-length:\x2038\r\n\r\n<html
+SF:><body><h1>403</h1></body></html>")%r(DNSVersionBindReq,84,"HTTP/1\.0\x
+SF:20403\x20Forbidden\r\nserver:\x20libwebsockets\r\ncontent-type:\x20text
+SF:/html\r\ncontent-length:\x2038\r\n\r\n<html><body><h1>403</h1></body></
+SF:html>")%r(DNSStatusRequest,84,"HTTP/1\.0\x20403\x20Forbidden\r\nserver:
+SF:\x20libwebsockets\r\ncontent-type:\x20text/html\r\ncontent-length:\x203
+SF:8\r\n\r\n<html><body><h1>403</h1></body></html>")%r(Help,84,"HTTP/1\.0\
+SF:x20403\x20Forbidden\r\nserver:\x20libwebsockets\r\ncontent-type:\x20tex
+SF:t/html\r\ncontent-length:\x2038\r\n\r\n<html><body><h1>403</h1></body><
+SF:/html>")%r(SSLSessionReq,84,"HTTP/1\.0\x20403\x20Forbidden\r\nserver:\x
+SF:20libwebsockets\r\ncontent-type:\x20text/html\r\ncontent-length:\x2038\
+SF:r\n\r\n<html><body><h1>403</h1></body></html>")%r(TLSSessionReq,84,"HTT
+SF:P/1\.0\x20403\x20Forbidden\r\nserver:\x20libwebsockets\r\ncontent-type:
+SF:\x20text/html\r\ncontent-length:\x2038\r\n\r\n<html><body><h1>403</h1><
+SF:/body></html>")%r(Kerberos,84,"HTTP/1\.0\x20403\x20Forbidden\r\nserver:
+SF:\x20libwebsockets\r\ncontent-type:\x20text/html\r\ncontent-length:\x203
+SF:8\r\n\r\n<html><body><h1>403</h1></body></html>")%r(SMBProgNeg,84,"HTTP
+SF:/1\.0\x20403\x20Forbidden\r\nserver:\x20libwebsockets\r\ncontent-type:\
+SF:x20text/html\r\ncontent-length:\x2038\r\n\r\n<html><body><h1>403</h1></
+SF:body></html>")%r(X11Probe,84,"HTTP/1\.0\x20403\x20Forbidden\r\nserver:\
+SF:x20libwebsockets\r\ncontent-type:\x20text/html\r\ncontent-length:\x2038
+SF:\r\n\r\n<html><body><h1>403</h1></body></html>")%r(LPDString,84,"HTTP/1
+SF:\.0\x20403\x20Forbidden\r\nserver:\x20libwebsockets\r\ncontent-type:\x2
+SF:0text/html\r\ncontent-length:\x2038\r\n\r\n<html><body><h1>403</h1></bo
+SF:dy></html>");
+Service Info: OSs: Unix, Windows, Linux; CPE: cpe:/o:microsoft:windows, cpe:/o:linux:linux_kernel:4.15.0
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug  4 16:26:24 2020 -- 1 IP address (1 host up) scanned in 16782.01 seconds

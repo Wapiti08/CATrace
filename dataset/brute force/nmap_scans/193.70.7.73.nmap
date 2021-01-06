@@ -1,0 +1,13 @@
+# Nmap 7.40 scan initiated Sun Jul 12 01:35:24 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/193.70.7.73.nmap 193.70.7.73
+Nmap scan report for 193.70.7.73
+Host is up (0.37s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+5901/tcp open  vnc     VNC (protocol 3.8)
+6001/tcp open  X11     (access denied)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jul 12 06:10:18 2020 -- 1 IP address (1 host up) scanned in 16493.29 seconds

@@ -1,0 +1,10 @@
+# Nmap 7.40 scan initiated Mon Oct 12 16:36:40 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/85.239.35.130.nmap 85.239.35.130
+Nmap scan report for 85.239.35.130
+Host is up (0.20s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 12 21:11:32 2020 -- 1 IP address (1 host up) scanned in 16492.74 seconds

@@ -1,0 +1,13 @@
+# Nmap 7.40 scan initiated Fri Oct 23 19:37:10 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/178.33.50.85.nmap 178.33.50.85
+Nmap scan report for 178.33.50.85
+Host is up (0.23s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 7.8 (FreeBSD 20180909; protocol 2.0)
+3306/tcp  open  mysql   MySQL 5.6.45
+15000/tcp open  hydap?
+Service Info: OS: FreeBSD; CPE: cpe:/o:freebsd:freebsd
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 24 00:14:01 2020 -- 1 IP address (1 host up) scanned in 16611.44 seconds

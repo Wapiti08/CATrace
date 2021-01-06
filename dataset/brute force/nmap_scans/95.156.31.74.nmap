@@ -1,0 +1,81 @@
+# Nmap 7.40 scan initiated Fri Apr  3 10:48:46 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/95.156.31.74.nmap 95.156.31.74
+Nmap scan report for 95.156.31.74
+Host is up (0.34s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+53/tcp   open  domain
+3128/tcp open  tcpwrapped
+8000/tcp open  http-proxy    Squid http proxy 3.5.27
+8080/tcp open  http-proxy
+8443/tcp open  ssl/https-alt
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.40%I=7%D=4/3%Time=5E8738F3%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,69E,"HTTP/1\.1\x20200\x20OK\r\nConnection:\x20close\r\nLast-Mod
+SF:ified:\x20Fri,\x2015\x20Nov\x202019\x2001:39:23\x20GMT\r\nContent-Lengt
+SF:h:\x201504\r\nContent-Type:\x20text/html\r\nAccept-Ranges:\x20bytes\r\n
+SF:Date:\x20Fri,\x2003\x20Apr\x202020\x2013:24:03\x20GMT\r\n\r\n<!DOCTYPE\
+SF:x20html>\n\n<html>\n<head>\n\x20\x20\x20\x20<!--\x20proper\x20charset\x
+SF:20-->\n\x20\x20\x20\x20<meta\x20http-equiv=\"content-type\"\x20content=
+SF:\"text/html;charset=utf-8\"\x20/>\n\x20\x20\x20\x20<meta\x20http-equiv=
+SF:\"X-UA-Compatible\"\x20content=\"IE=EmulateIE8\"\x20/>\n\n\x20\x20\x20\
+SF:x20<title>Welcome\x20to\x20WildFly</title>\n\x20\x20\x20\x20<link\x20re
+SF:l=\"shortcut\x20icon\"\x20href=\"favicon\.ico\"\x20type=\"image/x-icon\
+SF:">\n\x20\x20\x20\x20<link\x20rel=\"StyleSheet\"\x20href=\"wildfly\.css\
+SF:"\x20type=\"text/css\">\n</head>\n\n<body>\n<div\x20class=\"wrapper\">\
+SF:n\x20\x20\x20\x20<div\x20class=\"content\">\n\x20\x20\x20\x20\x20\x20\x
+SF:20\x20<div\x20class=\"logo\">\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20<img\x20src=\"wildfly_logo\.png\"\x20alt=\"Wild
+SF:Fly\"\x20border=\"0\"\x20/>\n\x20\x20\x20\x20\x20\x20\x20\x20</div>\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20<h1>Welcome\x20to\x20WildFly</h1>\n\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20<h3>Your\x20WildFly\x20instance\x20is\x20ru
+SF:nning\.</h3>\n\n\x20\x20\x20\x20\x20\x20\x20\x20<p><a\x20href=\"https:/
+SF:/docs\.wildfly\.org\">Documentation</a>\x20\|\x20<a\x20href")%r(HTTPOpt
+SF:ions,F3,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nAllow:\x20GET,
+SF:\x20HEAD,\x20POST\r\nConnection:\x20close\r\nContent-Length:\x2083\r\nC
+SF:ontent-Type:\x20text/html\r\nDate:\x20Fri,\x2003\x20Apr\x202020\x2013:2
+SF:4:03\x20GMT\r\n\r\n<html><head><title>Error</title></head><body>405\x20
+SF:-\x20Method\x20Not\x20Allowed</body></html>")%r(RTSPRequest,42,"HTTP/1\
+SF:.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20c
+SF:lose\r\n\r\n")%r(FourOhFourRequest,C9,"HTTP/1\.1\x20404\x20Not\x20Found
+SF:\r\nConnection:\x20close\r\nContent-Length:\x2074\r\nContent-Type:\x20t
+SF:ext/html\r\nDate:\x20Fri,\x2003\x20Apr\x202020\x2013:24:03\x20GMT\r\n\r
+SF:\n<html><head><title>Error</title></head><body>404\x20-\x20Not\x20Found
+SF:</body></html>");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8443-TCP:V=7.40%T=SSL%I=7%D=4/3%Time=5E873944%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,69E,"HTTP/1\.1\x20200\x20OK\r\nConnection:\x20close\r\nLa
+SF:st-Modified:\x20Fri,\x2015\x20Nov\x202019\x2001:39:23\x20GMT\r\nContent
+SF:-Length:\x201504\r\nContent-Type:\x20text/html\r\nAccept-Ranges:\x20byt
+SF:es\r\nDate:\x20Fri,\x2003\x20Apr\x202020\x2013:25:24\x20GMT\r\n\r\n<!DO
+SF:CTYPE\x20html>\n\n<html>\n<head>\n\x20\x20\x20\x20<!--\x20proper\x20cha
+SF:rset\x20-->\n\x20\x20\x20\x20<meta\x20http-equiv=\"content-type\"\x20co
+SF:ntent=\"text/html;charset=utf-8\"\x20/>\n\x20\x20\x20\x20<meta\x20http-
+SF:equiv=\"X-UA-Compatible\"\x20content=\"IE=EmulateIE8\"\x20/>\n\n\x20\x2
+SF:0\x20\x20<title>Welcome\x20to\x20WildFly</title>\n\x20\x20\x20\x20<link
+SF:\x20rel=\"shortcut\x20icon\"\x20href=\"favicon\.ico\"\x20type=\"image/x
+SF:-icon\">\n\x20\x20\x20\x20<link\x20rel=\"StyleSheet\"\x20href=\"wildfly
+SF:\.css\"\x20type=\"text/css\">\n</head>\n\n<body>\n<div\x20class=\"wrapp
+SF:er\">\n\x20\x20\x20\x20<div\x20class=\"content\">\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20<div\x20class=\"logo\">\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\"wildfly_logo\.png\"\x20alt=
+SF:\"WildFly\"\x20border=\"0\"\x20/>\n\x20\x20\x20\x20\x20\x20\x20\x20</di
+SF:v>\n\x20\x20\x20\x20\x20\x20\x20\x20<h1>Welcome\x20to\x20WildFly</h1>\n
+SF:\n\x20\x20\x20\x20\x20\x20\x20\x20<h3>Your\x20WildFly\x20instance\x20is
+SF:\x20running\.</h3>\n\n\x20\x20\x20\x20\x20\x20\x20\x20<p><a\x20href=\"h
+SF:ttps://docs\.wildfly\.org\">Documentation</a>\x20\|\x20<a\x20href")%r(H
+SF:TTPOptions,F3,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nAllow:\x
+SF:20GET,\x20HEAD,\x20POST\r\nConnection:\x20close\r\nContent-Length:\x208
+SF:3\r\nContent-Type:\x20text/html\r\nDate:\x20Fri,\x2003\x20Apr\x202020\x
+SF:2013:25:25\x20GMT\r\n\r\n<html><head><title>Error</title></head><body>4
+SF:05\x20-\x20Method\x20Not\x20Allowed</body></html>")%r(FourOhFourRequest
+SF:,C9,"HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nConten
+SF:t-Length:\x2074\r\nContent-Type:\x20text/html\r\nDate:\x20Fri,\x2003\x2
+SF:0Apr\x202020\x2013:25:26\x20GMT\r\n\r\n<html><head><title>Error</title>
+SF:</head><body>404\x20-\x20Not\x20Found</body></html>");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr  3 15:26:39 2020 -- 1 IP address (1 host up) scanned in 16672.24 seconds

@@ -1,0 +1,11 @@
+# Nmap 7.40 scan initiated Sun Nov 22 21:35:36 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/161.35.164.203.nmap 161.35.164.203
+Nmap scan report for 161.35.164.203
+Host is up (0.19s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov 23 02:10:22 2020 -- 1 IP address (1 host up) scanned in 16486.20 seconds

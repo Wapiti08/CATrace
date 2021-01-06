@@ -1,0 +1,122 @@
+# Nmap 7.40 scan initiated Thu Oct 22 22:07:21 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/124.194.49.19.nmap 124.194.49.19
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 124.194.49.19
+Host is up (0.60s latency).
+Not shown: 989 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE            VERSION
+80/tcp   open  http
+1078/tcp open  http               lighttpd
+1079/tcp open  rtsp               D-Link DCS-2130 or Pelco IDE10DN webcam rtspd
+1723/tcp open  pptp               linux (Firmware: 1)
+3306/tcp open  mysql              MySQL 5.7.28
+5001/tcp open  ssl/commplex-link?
+5100/tcp open  ssl/admd?
+6000/tcp open  http               Node.js Express framework
+8000/tcp open  http               Node.js Express framework
+8002/tcp open  teradataordbms?
+8081/tcp open  http               nginx
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.40%I=7%D=10/23%Time=5F9226E5%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,10C,"HTTP/1\.1\x20302\x20\r\nSet-Cookie:\x20JSESSIONID=D5AD570B
+SF:1CA004131E2189C8EC64CCBC;\x20Path=/;\x20HttpOnly\r\nLocation:\x20http:/
+SF:/localhost:8080/apt/login/login_form\.do\r\nContent-Type:\x20text/html;
+SF:charset=ISO-8859-1\r\nContent-Length:\x200\r\nDate:\x20Fri,\x2023\x20Oc
+SF:t\x202020\x2000:42:13\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(HTTPOp
+SF:tions,4F6,"HTTP/1\.1\x20405\x20\r\nContent-Type:\x20text/html;charset=u
+SF:tf-8\r\nContent-Language:\x20en\r\nContent-Length:\x201114\r\nDate:\x20
+SF:Fri,\x2023\x20Oct\x202020\x2000:42:13\x20GMT\r\nConnection:\x20close\r\
+SF:n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x20Status
+SF:\x20405\x20\xe2\x80\x93\x20Method\x20Not\x20Allowed</title><style\x20ty
+SF:pe=\"text/css\">h1\x20{font-family:Tahoma,Arial,sans-serif;color:white;
+SF:background-color:#525D76;font-size:22px;}\x20h2\x20{font-family:Tahoma,
+SF:Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;}\
+SF:x20h3\x20{font-family:Tahoma,Arial,sans-serif;color:white;background-co
+SF:lor:#525D76;font-size:14px;}\x20body\x20{font-family:Tahoma,Arial,sans-
+SF:serif;color:black;background-color:white;}\x20b\x20{font-family:Tahoma,
+SF:Arial,sans-serif;color:white;background-color:#525D76;}\x20p\x20{font-f
+SF:amily:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12
+SF:px;}\x20a\x20{color:black;}\x20a\.name\x20{color:black;}\x20\.line\x20{
+SF:height:1px;background-color:#525D76;border:none;}</style></he")%r(RTSPR
+SF:equest,95B,"HTTP/1\.1\x20400\x20\r\nContent-Type:\x20text/html;charset=
+SF:utf-8\r\nContent-Language:\x20en\r\nContent-Length:\x202239\r\nDate:\x2
+SF:0Fri,\x2023\x20Oct\x202020\x2000:42:15\x20GMT\r\nConnection:\x20close\r
+SF:\n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x20Statu
+SF:s\x20400\x20\xe2\x80\x93\x20Bad\x20Request</title><style\x20type=\"text
+SF:/css\">h1\x20{font-family:Tahoma,Arial,sans-serif;color:white;backgroun
+SF:d-color:#525D76;font-size:22px;}\x20h2\x20{font-family:Tahoma,Arial,san
+SF:s-serif;color:white;background-color:#525D76;font-size:16px;}\x20h3\x20
+SF:{font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D
+SF:76;font-size:14px;}\x20body\x20{font-family:Tahoma,Arial,sans-serif;col
+SF:or:black;background-color:white;}\x20b\x20{font-family:Tahoma,Arial,san
+SF:s-serif;color:white;background-color:#525D76;}\x20p\x20{font-family:Tah
+SF:oma,Arial,sans-serif;background:white;color:black;font-size:12px;}\x20a
+SF:\x20{color:black;}\x20a\.name\x20{color:black;}\x20\.line\x20{height:1p
+SF:x;background-color:#525D76;border:none;}</style></head><bod");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8002-TCP:V=7.40%I=7%D=10/23%Time=5F922838%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,10C,"HTTP/1\.1\x20302\x20\r\nSet-Cookie:\x20JSESSIONID=FC3EAD
+SF:0F0D6A24D25B0ED2C7103BCEBB;\x20Path=/;\x20HttpOnly\r\nLocation:\x20http
+SF:://localhost:8080/apt/login/login_form\.do\r\nContent-Type:\x20text/htm
+SF:l;charset=ISO-8859-1\r\nContent-Length:\x200\r\nDate:\x20Fri,\x2023\x20
+SF:Oct\x202020\x2000:47:52\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(Four
+SF:OhFourRequest,4FE,"HTTP/1\.1\x20404\x20\r\nContent-Type:\x20text/html;c
+SF:harset=utf-8\r\nContent-Language:\x20en\r\nContent-Length:\x201122\r\nD
+SF:ate:\x20Fri,\x2023\x20Oct\x202020\x2000:47:52\x20GMT\r\nConnection:\x20
+SF:close\r\n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x
+SF:20Status\x20404\x20\xe2\x80\x93\x20Not\x20Found</title><style\x20type=\
+SF:"text/css\">h1\x20{font-family:Tahoma,Arial,sans-serif;color:white;back
+SF:ground-color:#525D76;font-size:22px;}\x20h2\x20{font-family:Tahoma,Aria
+SF:l,sans-serif;color:white;background-color:#525D76;font-size:16px;}\x20h
+SF:3\x20{font-family:Tahoma,Arial,sans-serif;color:white;background-color:
+SF:#525D76;font-size:14px;}\x20body\x20{font-family:Tahoma,Arial,sans-seri
+SF:f;color:black;background-color:white;}\x20b\x20{font-family:Tahoma,Aria
+SF:l,sans-serif;color:white;background-color:#525D76;}\x20p\x20{font-famil
+SF:y:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}
+SF:\x20a\x20{color:black;}\x20a\.name\x20{color:black;}\x20\.line\x20{heig
+SF:ht:1px;background-color:#525D76;border:none;}</style></head><body>")%r(
+SF:HTTPOptions,4F6,"HTTP/1\.1\x20405\x20\r\nContent-Type:\x20text/html;cha
+SF:rset=utf-8\r\nContent-Language:\x20en\r\nContent-Length:\x201114\r\nDat
+SF:e:\x20Fri,\x2023\x20Oct\x202020\x2000:47:59\x20GMT\r\nConnection:\x20cl
+SF:ose\r\n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x20
+SF:Status\x20405\x20\xe2\x80\x93\x20Method\x20Not\x20Allowed</title><style
+SF:\x20type=\"text/css\">h1\x20{font-family:Tahoma,Arial,sans-serif;color:
+SF:white;background-color:#525D76;font-size:22px;}\x20h2\x20{font-family:T
+SF:ahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:1
+SF:6px;}\x20h3\x20{font-family:Tahoma,Arial,sans-serif;color:white;backgro
+SF:und-color:#525D76;font-size:14px;}\x20body\x20{font-family:Tahoma,Arial
+SF:,sans-serif;color:black;background-color:white;}\x20b\x20{font-family:T
+SF:ahoma,Arial,sans-serif;color:white;background-color:#525D76;}\x20p\x20{
+SF:font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-s
+SF:ize:12px;}\x20a\x20{color:black;}\x20a\.name\x20{color:black;}\x20\.lin
+SF:e\x20{height:1px;background-color:#525D76;border:none;}</style></he");
+Service Info: Host: local; Device: webcam; CPE: cpe:/h:pelco:ide10dn
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 23 02:48:33 2020 -- 1 IP address (1 host up) scanned in 16871.96 seconds

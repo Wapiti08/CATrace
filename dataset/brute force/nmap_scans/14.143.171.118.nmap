@@ -1,0 +1,70 @@
+# Nmap 7.40 scan initiated Mon Apr 20 13:30:49 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/14.143.171.118.nmap 14.143.171.118
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 14.143.171.118
+Host is up (4.3s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+22/tcp   open  ssh            Cyberoam firewall sshd (protocol 2.0)
+23/tcp   open  telnet         D-Link Boxee Box or Cyberoam CR25ia telnetd
+80/tcp   open  http-proxy     Cyberoam captive portal
+443/tcp  open  ssl/http-proxy Cyberoam captive portal
+8443/tcp open  ssl/https-alt  xxxx
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8443-TCP:V=7.40%T=SSL%I=7%D=4/20%Time=5E9DC30C%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,1000,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Mon,\x2020\x20A
+SF:pr\x202020\x2015:57:17\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\x2
+SF:0SAMEORIGIN\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nExpires:
+SF:\x20Thu,\x2001\x20Jan\x201970\x2000:00:00\x20GMT\r\nContent-Length:\x20
+SF:6442\r\nSet-Cookie:\x20JSESSIONID=fg3433qk1gfavf1wyiz7vzj9;Path=/corpor
+SF:ate;HttpOnly;Secure\r\nConnection:\x20close\r\n\r\n\n\n\n\n\n\n\n\n\n\n
+SF:\n\n\n<html>\n<head>\n\n<link\x20href=\"/graycss/common_min\.css\"\x20r
+SF:el=\"stylesheet\"\x20type=\"text/css\">\n\n\t<title>Cyberoam\x20SSL\x20
+SF:VPN\x20Portal</title>\n\t<meta\x20http-equiv=\"Content-Type\"\x20conten
+SF:t=\"text/html;\x20charset=UTF-8\">\n\t<style\x20type=\"text/css\">\n\tb
+SF:ody\x20{\n\t\tmargin-left:\x200px;\n\t\tmargin-top:\x200px;\n\t\tmargin
+SF:-right:\x200px;\n\t\tmargin-bottom:\x200px;\n\t\tbackground-color:\x20#
+SF:FFFFFF;\n\t}\n\t\.arial12whitebold\x20{\n\t\tfont-family:\x20Arial,\x20
+SF:Helvetica,\x20sans-serif;\n\t\tfont-size:\x2012px;\n\t\tfont-style:\x20
+SF:normal;\n\t\tfont-weight:\x20bold;\n\t\tcolor:\x20#FFFFFF;\n\t}\n\t\.bu
+SF:ttonstyle{\n\t\theight:20px;\n\t\tfont-family:tahoma,arial,san-serif;\n
+SF:\t\tfont-size:10px;\n\t\tfont-w")%r(HTTPOptions,1000,"HTTP/1\.1\x20200\
+SF:x20OK\r\nDate:\x20Mon,\x2020\x20Apr\x202020\x2015:57:18\x20GMT\r\nServe
+SF:r:\x20xxxx\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Type:\x20text/h
+SF:tml;\x20charset=UTF-8\r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:00
+SF::00\x20GMT\r\nContent-Length:\x206442\r\nSet-Cookie:\x20JSESSIONID=160u
+SF:pyu6w0u511qnvnnw9szbcr;Path=/corporate;HttpOnly;Secure\r\nConnection:\x
+SF:20close\r\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html>\n<head>\n\n<link\x20hre
+SF:f=\"/graycss/common_min\.css\"\x20rel=\"stylesheet\"\x20type=\"text/css
+SF:\">\n\n\t<title>Cyberoam\x20SSL\x20VPN\x20Portal</title>\n\t<meta\x20ht
+SF:tp-equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=UTF-8\">\n
+SF:\t<style\x20type=\"text/css\">\n\tbody\x20{\n\t\tmargin-left:\x200px;\n
+SF:\t\tmargin-top:\x200px;\n\t\tmargin-right:\x200px;\n\t\tmargin-bottom:\
+SF:x200px;\n\t\tbackground-color:\x20#FFFFFF;\n\t}\n\t\.arial12whitebold\x
+SF:20{\n\t\tfont-family:\x20Arial,\x20Helvetica,\x20sans-serif;\n\t\tfont-
+SF:size:\x2012px;\n\t\tfont-style:\x20normal;\n\t\tfont-weight:\x20bold;\n
+SF:\t\tcolor:\x20#FFFFFF;\n\t}\n\t\.buttonstyle{\n\t\theight:20px;\n\t\tfo
+SF:nt-family:tahoma,arial,san-serif;\n\t\tfont-size:10px;\n\t\tfont");
+Service Info: Device: firewall
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr 20 17:45:11 2020 -- 1 IP address (1 host up) scanned in 15261.73 seconds

@@ -1,0 +1,94 @@
+# Nmap 7.40 scan initiated Sat Apr 18 14:07:12 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/85.66.80.80.nmap 85.66.80.80
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 85.66.80.80
+Host is up (6.4s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE           VERSION
+80/tcp    open  http              Boa httpd
+554/tcp   open  rtsp
+800/tcp   open  mdbs_daemon?
+8291/tcp  open  unknown
+10000/tcp open  snet-sensor-mgmt?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port554-TCP:V=7.40%I=7%D=4/18%Time=5E9B2CA2%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,59,"RTSP/1\.0\x20505\x20RTSP\x20Version\x20not\x20supported\r\n
+SF:CSeq:\x200\r\nDate:\x20Sat,\x2018\x20Apr\x202020\x2016:36:47\x20GMT\r\n
+SF:\r\n")%r(RTSPRequest,73,"RTSP/1\.0\x20200\x20OK\r\nCSeq:\x200\r\nPublic
+SF::\x20OPTIONS,\x20DESCRIBE,\x20SETUP,\x20TEARDOWN,\x20PLAY,\x20PAUSE,\x2
+SF:0GET_PARAMETER,\x20SET_PARAMETER\r\n\r\n")%r(GenericLines,59,"RTSP/1\.0
+SF:\x20505\x20RTSP\x20Version\x20not\x20supported\r\nCSeq:\x200\r\nDate:\x
+SF:20Sat,\x2018\x20Apr\x202020\x2016:36:58\x20GMT\r\n\r\n")%r(HTTPOptions,
+SF:59,"RTSP/1\.0\x20505\x20RTSP\x20Version\x20not\x20supported\r\nCSeq:\x2
+SF:00\r\nDate:\x20Sat,\x2018\x20Apr\x202020\x2016:37:04\x20GMT\r\n\r\n")%r
+SF:(FourOhFourRequest,59,"RTSP/1\.0\x20505\x20RTSP\x20Version\x20not\x20su
+SF:pported\r\nCSeq:\x200\r\nDate:\x20Sat,\x2018\x20Apr\x202020\x2016:37:10
+SF:\x20GMT\r\n\r\n")%r(SIPOptions,59,"RTSP/1\.0\x20505\x20RTSP\x20Version\
+SF:x20not\x20supported\r\nCSeq:\x200\r\nDate:\x20Sat,\x2018\x20Apr\x202020
+SF:\x2016:37:15\x20GMT\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port800-TCP:V=7.40%I=7%D=4/18%Time=5E9B2CC6%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,254,"HTTP/1\.0\x20200\x20OK\r\nServer:\x20lwIP/1\.4\.0\x20\(htt
+SF:p://savannah\.nongnu\.org/projects/lwip\)\r\nContent-type:\x20text/html
+SF:\r\nCache-control:\x20no-cache\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20'-
+SF://W3C//DTD\x20HTML\x204\.01\x20Transitional//EN'\x20'http://www\.w3\.or
+SF:g/TR/html4/loose\.dtd'>\r\n<html>\r\n<head>\r\n\t<meta\x20http-equiv='c
+SF:ontent-type'\x20content='text/html;\x20charset=UTF-8'\x20/>\r\n\t<link\
+SF:x20rel='stylesheet'\x20type='text/css'\x20href='webstyles\.css'\x20/>\r
+SF:\n\t<title></title>\r\n<script\x20type='text/javascript'>top\.location\
+SF:.href='login_page\.html';</script></head><body>Az\x20IP\x20modul\x20web
+SF:-fel\xc3\xbclet\xc3\xa9nek\x20haszn\xc3\xa1lat\xc3\xa1hoz\x20a\x20JavaS
+SF:cript\x20aktiv\xc3\xa1l\xc3\xa1sa\x20sz\xc3\xbcks\xc3\xa9ges\.\.\.</bod
+SF:y></html>")%r(FourOhFourRequest,AD,"HTTP/1\.0\x20404\x20File\x20not\x20
+SF:found\r\nServer:\x20lwIP/1\.4\.0\x20\(http://savannah\.nongnu\.org/proj
+SF:ects/lwip\)\r\n\r\n<html><body><h2>404:\x20The\x20requested\x20file\x20
+SF:cannot\x20be\x20found\.</h2></body></html>\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Apr 18 18:44:09 2020 -- 1 IP address (1 host up) scanned in 16617.20 seconds

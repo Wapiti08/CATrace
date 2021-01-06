@@ -1,0 +1,78 @@
+# Nmap 7.40 scan initiated Wed Feb 19 15:30:22 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/121.156.203.3.nmap 121.156.203.3
+Nmap scan report for 121.156.203.3
+Host is up (0.39s latency).
+Not shown: 979 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp
+22/tcp   open  ssh          OpenSSH 7.4 (protocol 2.0)
+25/tcp   open  smtp         Postfix smtpd
+53/tcp   open  domain       ISC BIND DNSServer
+80/tcp   open  http         nginx
+88/tcp   open  kerberos-sec Heimdal Kerberos (server time: 2020-02-19 19:05:56Z)
+110/tcp  open  pop3         Dovecot pop3d
+111/tcp  open  rpcbind      2-4 (RPC #100000)
+389/tcp  open  ldap         (Anonymous bind OK)
+443/tcp  open  ssl/http     nginx
+464/tcp  open  kpasswd5?
+548/tcp  open  afp          Netatalk 3.1.8 (name: SMC-SERVER; protocol 3.4)
+636/tcp  open  ssl/ldap     (Anonymous bind OK)
+995/tcp  open  ssl/pop3     Dovecot pop3d
+1024/tcp open  kdm?
+2049/tcp open  nfs          2-3 (RPC #100003)
+3261/tcp open  winshadow?
+3268/tcp open  ldap         (Anonymous bind OK)
+3269/tcp open  ssl/ldap     (Anonymous bind OK)
+5000/tcp open  http         nginx
+5001/tcp open  ssl/http     nginx
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port21-TCP:V=7.40%I=7%D=2/19%Time=5E4D86EB%P=x86_64-pc-linux-gnu%r(NULL
+SF:,22,"220\x20SMC-SERVER\x20FTP\x20server\x20ready\.\r\n")%r(GenericLines
+SF:,60,"220\x20SMC-SERVER\x20FTP\x20server\x20ready\.\r\n500\x20:\x20comma
+SF:nd\x20not\x20understood\.\r\n500\x20:\x20command\x20not\x20understood\.
+SF:\r\n")%r(Help,280,"220\x20SMC-SERVER\x20FTP\x20server\x20ready\.\r\n214
+SF:-\x20The\x20following\x20commands\x20are\x20recognized\x20\(\*\x20=>'s\
+SF:x20unimplemented\)\.\r\n\x20\x20\x20USER\x20\x20\x20\x20LPRT\x20\x20\x2
+SF:0\x20MODE\x20\x20\x20\x20MSOM\*\x20\x20\x20RNTO\x20\x20\x20\x20SITE\x20
+SF:\x20\x20\x20RMD\x20\x20\x20\x20\x20SIZE\x20\x20\x20\x20AUTH\x20\r\n\x20
+SF:\x20\x20PASS\x20\x20\x20\x20EPRT\x20\x20\x20\x20RETR\x20\x20\x20\x20MSA
+SF:M\*\x20\x20\x20ABOR\x20\x20\x20\x20SYST\x20\x20\x20\x20XRMD\x20\x20\x20
+SF:\x20MDTM\x20\x20\x20\x20PBSZ\x20\r\n\x20\x20\x20ACCT\*\x20\x20\x20PASV\
+SF:x20\x20\x20\x20STOR\x20\x20\x20\x20MRSQ\*\x20\x20\x20DELE\x20\x20\x20\x
+SF:20STAT\x20\x20\x20\x20PWD\x20\x20\x20\x20\x20MLST\x20\x20\x20\x20PROT\x
+SF:20\r\n\x20\x20\x20SMNT\*\x20\x20\x20LPSV\x20\x20\x20\x20APPE\x20\x20\x2
+SF:0\x20MRCP\*\x20\x20\x20CWD\x20\x20\x20\x20\x20HELP\x20\x20\x20\x20XPWD\
+SF:x20\x20\x20\x20MLSD\x20\x20\x20\x20CCC\x20\r\n\x20\x20\x20REIN\*\x20\x2
+SF:0\x20EPSV\x20\x20\x20\x20MLFL\*\x20\x20\x20ALLO\x20\x20\x20\x20XCWD\x20
+SF:\x20\x20\x20NOOP\x20\x20\x20\x20CDUP\x20\x20\x20\x20MFMT\x20\r\n\x20\x2
+SF:0\x20QUIT\x20\x20\x20\x20TYPE\x20\x20\x20\x20MAIL\*\x20\x20\x20REST\x20
+SF:\x20\x20\x20LIST\x20\x20\x20\x20MKD\x20\x20\x20\x20\x20XCUP\x20\x20\x20
+SF:\x20FEAT\x20\r\n\x20\x20\x20PORT\x20\x20\x20\x20STRU\x20\x20\x20\x20MSN
+SF:D\*\x20\x20\x20RNFR\x20\x20\x20\x20NLST\x20\x20\x20\x20XMKD\x20\x20\x20
+SF:\x20STOU\x20\x20\x20\x20OPTS\x20\r\n214\x20Direct\x20comments\x20to\x20
+SF:ftp-bugs@SMC-SERVER\.\r\n")%r(SMBProgNeg,22,"220\x20SMC-SERVER\x20FTP\x
+SF:20server\x20ready\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port3261-TCP:V=7.40%I=7%D=2/19%Time=5E4D8843%P=x86_64-pc-linux-gnu%r(RP
+SF:CCheck,20,"\x80\0\0\x02\0\0\0\x01\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0")%r(DNSVersionBindReq,20,"\0\x1e\0\x02\0\0\0\x01\x01\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(SSLSessionReq,20,"\x16\x03
+SF:\0\x02\0\0\0\x01\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(
+SF:TLSSessionReq,20,"\x16\x03\0\x02\0\0\0\x01\x01\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0")%r(Kerberos,20,"\0\0\0\x02\0\0\0\x01\x01\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(SMBProgNeg,20,"\0\0\0\x02\0\
+SF:0\0\x01\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(FourOhFou
+SF:rRequest,20,"GE\0\x02\0\0\0\x01\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0")%r(LDAPSearchReq,20,"0\x84\0\x02\0\0\0\x01\x01\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(SIPOptions,20,"OP\0\x02\0\0\0\x01
+SF:\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(NotesRPC,20,":\0
+SF:\0\x02\0\0\0\x01\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(
+SF:WMSRequest,20,"\x01\0\0\x02\0\0\0y\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0")%r(oracle-tns,20,"\0Z\0\x02\0\0\0\x01\x01\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(giop,20,"GI\0\x02\0\0\0\x01\x01\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0");
+Service Info: Host:  smc12.co.kr; OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 19 20:13:23 2020 -- 1 IP address (1 host up) scanned in 16981.94 seconds

@@ -1,0 +1,15 @@
+# Nmap 7.40 scan initiated Wed Feb  5 09:39:13 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/45.6.80.165.nmap 45.6.80.165
+Nmap scan report for 45.6.80.165
+Host is up (0.43s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE    VERSION
+21/tcp  open  ftp        Bftpd 2.2
+23/tcp  open  telnet     utelnetd
+53/tcp  open  domain     dnsmasq 2.67
+80/tcp  open  http       Boa HTTPd 0.94.13
+443/tcp open  tcpwrapped
+Service Info: Hosts: 45.6.80.165, PMG2005-T20B; OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb  5 14:14:42 2020 -- 1 IP address (1 host up) scanned in 16528.27 seconds

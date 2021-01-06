@@ -1,0 +1,92 @@
+# Nmap 7.40 scan initiated Fri Apr 17 02:34:02 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/115.254.63.52.nmap 115.254.63.52
+Nmap scan report for 115.254.63.52
+Host is up (0.37s latency).
+Not shown: 991 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           Pure-FTPd
+22/tcp   open  ssh           OpenSSH 5.1 (protocol 2.0)
+80/tcp   open  ssl/http
+111/tcp  open  rpcbind       2 (RPC #100000)
+901/tcp  open  http          Samba SWAT administration server
+1234/tcp open  hotline?
+2049/tcp open  nfs           2-4 (RPC #100003)
+8080/tcp open  http-proxy
+8443/tcp open  ssl/https-alt
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1234-TCP:V=7.40%I=7%D=4/17%Time=5E993A3B%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,1C,"Please\x20enter\x20your\x20nickname\.\n")%r(GetRequest,38,"Pleas
+SF:e\x20enter\x20your\x20nickname\.\nPlease\x20enter\x20your\x20password\.
+SF:\n")%r(GenericLines,1C,"Please\x20enter\x20your\x20nickname\.\n")%r(RPC
+SF:Check,1C,"Please\x20enter\x20your\x20nickname\.\n")%r(SSLSessionReq,1C,
+SF:"Please\x20enter\x20your\x20nickname\.\n")%r(LDAPSearchReq,1C,"Please\x
+SF:20enter\x20your\x20nickname\.\n")%r(LANDesk-RC,1C,"Please\x20enter\x20y
+SF:our\x20nickname\.\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.40%I=7%D=4/17%Time=5E993A78%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,16D0,"HTTP/1\.1\x20200\x20OK\r\nExpires:\x20-1\r\nCache-Contro
+SF:l:\x20no-cache\r\nCache-Control:\x20no-store\r\nSet-Cookie:\x20JSESSION
+SF:ID=HKE0KsIjqj7zCOefjUbt_atebS7XretZ80k-xAYN\.localhost;\x20path=/\r\nPr
+SF:agma:\x20no-cache\r\nDate:\x20Fri,\x2017\x20Apr\x202020\x2005:22:40\x20
+SF:GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html;charset=UTF-8
+SF:\r\nContent-Length:\x2033775\r\nContent-Language:\x20en-IN\r\n\r\n\n<!D
+SF:OCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitio
+SF:nal//EN\"\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.d
+SF:td\">\n\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\">\n<head>\n<m
+SF:eta\x20http-equiv=\"Pragma\"\x20content=\"no-cache\"\x20/>\n<meta\x20ht
+SF:tp-equiv=\"Expires\"\x20content=\"-1\"\x20/>\n<title>Express\x20Cheque\
+SF:x20Clearing\x20System\x20-\x20Cheque\x20Clearing\x20and\x20Settlement\x
+SF:20\|\x20Cheque\x20Processing\x20Software\x20\|\x20Cheque\x20Processing\
+SF:x20\|\x20Cheque\x20Truncation\x20System</title>\n\n\n\n\n\n\n\n\n\n\n<l
+SF:ink\x20rel=\"stylesheet\"\x20type=\"text/css\"\x20href=\"/zkau/web/660e
+SF:7a2d/zul/css/normmoz\.css\.dsp;jsessionid=HKE0KsIjqj7zCOefjUbt_atebS7Xr
+SF:etZ80k-xAYN\.loc")%r(HTTPOptions,86,"HTTP/1\.1\x20200\x20OK\r\nAllow:\x
+SF:20GET,\x20HEAD,\x20POST,\x20TRACE,\x20OPTIONS\r\nConnection:\x20close\r
+SF:\nContent-Length:\x200\r\nDate:\x20Fri,\x2017\x20Apr\x202020\x2005:22:4
+SF:1\x20GMT\r\n\r\n")%r(RTSPRequest,42,"HTTP/1\.1\x20400\x20Bad\x20Request
+SF:\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r(FourOhFour
+SF:Request,D1,"HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x20close\r\
+SF:nContent-Type:\x20text/html;charset=UTF-8\r\nContent-Length:\x2068\r\nD
+SF:ate:\x20Fri,\x2017\x20Apr\x202020\x2005:22:42\x20GMT\r\n\r\n<html><head
+SF:><title>Error</title></head><body>Not\x20Found</body></html>")%r(Socks5
+SF:,42,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConn
+SF:ection:\x20close\r\n\r\n")%r(GenericLines,42,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r(H
+SF:elp,42,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nC
+SF:onnection:\x20close\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8443-TCP:V=7.40%T=SSL%I=7%D=4/17%Time=5E993ACF%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,4000,"HTTP/1\.1\x20200\x20OK\r\nExpires:\x20-1\r\nCache-
+SF:Control:\x20no-cache\r\nCache-Control:\x20no-store\r\nSet-Cookie:\x20JS
+SF:ESSIONID=mWci42SRwTseKBVuQyJepEP10tI9f4gJNaFnlsiA\.localhost;\x20path=/
+SF:\r\nPragma:\x20no-cache\r\nDate:\x20Fri,\x2017\x20Apr\x202020\x2005:24:
+SF:07\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html;charset
+SF:=UTF-8\r\nContent-Length:\x2033774\r\nContent-Language:\x20en-IN\r\n\r\
+SF:n\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Tra
+SF:nsitional//EN\"\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitio
+SF:nal\.dtd\">\n\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\">\n<hea
+SF:d>\n<meta\x20http-equiv=\"Pragma\"\x20content=\"no-cache\"\x20/>\n<meta
+SF:\x20http-equiv=\"Expires\"\x20content=\"-1\"\x20/>\n<title>Express\x20C
+SF:heque\x20Clearing\x20System\x20-\x20Cheque\x20Clearing\x20and\x20Settle
+SF:ment\x20\|\x20Cheque\x20Processing\x20Software\x20\|\x20Cheque\x20Proce
+SF:ssing\x20\|\x20Cheque\x20Truncation\x20System</title>\n\n\n\n\n\n\n\n\n
+SF:\n\n<link\x20rel=\"stylesheet\"\x20type=\"text/css\"\x20href=\"/zkau/we
+SF:b/660e7a2d/zul/css/normmoz\.css\.dsp;jsessionid=mWci42SRwTseKBVuQyJepEP
+SF:10tI9f4gJNaFnlsiA\.loc")%r(HTTPOptions,86,"HTTP/1\.1\x20200\x20OK\r\nAl
+SF:low:\x20GET,\x20HEAD,\x20POST,\x20TRACE,\x20OPTIONS\r\nConnection:\x20c
+SF:lose\r\nContent-Length:\x200\r\nDate:\x20Fri,\x2017\x20Apr\x202020\x200
+SF:5:24:09\x20GMT\r\n\r\n")%r(FourOhFourRequest,D1,"HTTP/1\.1\x20404\x20No
+SF:t\x20Found\r\nConnection:\x20close\r\nContent-Type:\x20text/html;charse
+SF:t=UTF-8\r\nContent-Length:\x2068\r\nDate:\x20Fri,\x2017\x20Apr\x202020\
+SF:x2005:24:10\x20GMT\r\n\r\n<html><head><title>Error</title></head><body>
+SF:Not\x20Found</body></html>")%r(GenericLines,42,"HTTP/1\.1\x20400\x20Bad
+SF:\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r
+SF:(RTSPRequest,42,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\
+SF:x200\r\nConnection:\x20close\r\n\r\n")%r(Help,42,"HTTP/1\.1\x20400\x20B
+SF:ad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n")
+SF:%r(SSLSessionReq,42,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Leng
+SF:th:\x200\r\nConnection:\x20close\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 17 07:14:38 2020 -- 1 IP address (1 host up) scanned in 16835.58 seconds

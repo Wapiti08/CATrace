@@ -1,0 +1,13 @@
+# Nmap 7.40 scan initiated Wed Nov 25 03:44:01 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/120.29.125.240.nmap 120.29.125.240
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 120.29.125.240
+Host is up (13s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 6.6.1 (protocol 2.0; HPN-SSH patch 13v11)
+443/tcp open  ssl/http lighttpd 1.4.35
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 25 07:55:21 2020 -- 1 IP address (1 host up) scanned in 15080.78 seconds

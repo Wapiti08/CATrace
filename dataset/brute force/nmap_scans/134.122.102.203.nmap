@@ -1,0 +1,44 @@
+# Nmap 7.40 scan initiated Sat Jun 13 18:39:11 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/134.122.102.203.nmap 134.122.102.203
+Nmap scan report for 134.122.102.203
+Host is up (0.42s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE         VERSION
+22/tcp   open  ssh             OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+8002/tcp open  teradataordbms?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8002-TCP:V=7.40%I=7%D=6/13%Time=5EE5419C%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,15E,"HTTP/1\.1\x20502\x20Bad\x20Gateway\r\ncontent-type:\x20te
+SF:xt/html\r\nX-Luminati-Error:\x20Could\x20not\x20resolve\x20host\x20unde
+SF:fined\r\nDate:\x20Sat,\x2013\x20Jun\x202020\x2021:14:04\x20GMT\r\nx-any
+SF:proxy-origin-connection:\x20close\r\nContent-Length:\x20131\r\nConnecti
+SF:on:\x20close\r\n\r\n<!doctype\x20html><h1>Webpage\x20not\x20available</
+SF:h1><p>The\x20webpage\x20could\x20not\x20be\x20loaded\x20because:</p><p>
+SF:Could\x20not\x20resolve\x20host\x20undefined</p>")%r(FourOhFourRequest,
+SF:15E,"HTTP/1\.1\x20502\x20Bad\x20Gateway\r\ncontent-type:\x20text/html\r
+SF:\nX-Luminati-Error:\x20Could\x20not\x20resolve\x20host\x20undefined\r\n
+SF:Date:\x20Sat,\x2013\x20Jun\x202020\x2021:14:05\x20GMT\r\nx-anyproxy-ori
+SF:gin-connection:\x20close\r\nContent-Length:\x20131\r\nConnection:\x20cl
+SF:ose\r\n\r\n<!doctype\x20html><h1>Webpage\x20not\x20available</h1><p>The
+SF:\x20webpage\x20could\x20not\x20be\x20loaded\x20because:</p><p>Could\x20
+SF:not\x20resolve\x20host\x20undefined</p>")%r(HTTPOptions,15E,"HTTP/1\.1\
+SF:x20502\x20Bad\x20Gateway\r\ncontent-type:\x20text/html\r\nX-Luminati-Er
+SF:ror:\x20Could\x20not\x20resolve\x20host\x20undefined\r\nDate:\x20Sat,\x
+SF:2013\x20Jun\x202020\x2021:14:11\x20GMT\r\nx-anyproxy-origin-connection:
+SF:\x20close\r\nContent-Length:\x20131\r\nConnection:\x20close\r\n\r\n<!do
+SF:ctype\x20html><h1>Webpage\x20not\x20available</h1><p>The\x20webpage\x20
+SF:could\x20not\x20be\x20loaded\x20because:</p><p>Could\x20not\x20resolve\
+SF:x20host\x20undefined</p>")%r(RTSPRequest,2F,"HTTP/1\.1\x20400\x20Bad\x2
+SF:0Request\r\nConnection:\x20close\r\n\r\n")%r(RPCCheck,2F,"HTTP/1\.1\x20
+SF:400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(DNSVersionBin
+SF:dReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n
+SF:\r\n")%r(DNSStatusRequest,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:nection:\x20close\r\n\r\n")%r(Help,2F,"HTTP/1\.1\x20400\x20Bad\x20Reque
+SF:st\r\nConnection:\x20close\r\n\r\n")%r(SSLSessionReq,2F,"HTTP/1\.1\x204
+SF:00\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(TLSSessionReq,
+SF:2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n"
+SF:);
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jun 13 23:14:29 2020 -- 1 IP address (1 host up) scanned in 16518.79 seconds

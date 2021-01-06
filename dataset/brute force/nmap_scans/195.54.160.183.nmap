@@ -1,0 +1,18 @@
+# Nmap 7.40 scan initiated Sat Jun  6 05:31:13 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/195.54.160.183.nmap 195.54.160.183
+Nmap scan report for 195.54.160.183
+Host is up (0.13s latency).
+Not shown: 992 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE            VERSION
+1025/tcp open  msrpc              Microsoft Windows RPC
+1026/tcp open  msrpc              Microsoft Windows RPC
+1027/tcp open  msrpc              Microsoft Windows RPC
+1028/tcp open  msrpc              Microsoft Windows RPC
+1029/tcp open  msrpc              Microsoft Windows RPC
+1030/tcp open  msrpc              Microsoft Windows RPC
+1033/tcp open  msrpc              Microsoft Windows RPC
+3389/tcp open  ssl/ms-wbt-server?
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jun  6 10:13:04 2020 -- 1 IP address (1 host up) scanned in 16911.31 seconds

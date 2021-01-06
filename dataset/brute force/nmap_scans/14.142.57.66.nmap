@@ -1,0 +1,50 @@
+# Nmap 7.40 scan initiated Wed Oct 21 08:45:38 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/14.142.57.66.nmap 14.142.57.66
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 14.142.57.66
+Host is up (8.9s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+4444/tcp open  ssl/krb524?
+8443/tcp open  https-alt?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port4444-TCP:V=7.40%T=SSL%I=7%D=10/21%Time=5F9013FB%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,261,"HTTP/1\.1\x20302\x20Found\r\nDate:\x20Wed,\x2021\x
+SF:20Oct\x202020\x2010:56:58\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:
+SF:\x20SAMEORIGIN\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-C
+SF:ontent-Type-Options:\x20nosniff\r\nLocation:\x20https:///webconsole/web
+SF:pages/login\.jsp\r\nCache-Control:\x20max-age=2592000\r\nExpires:\x20Fr
+SF:i,\x2020\x20Nov\x202020\x2010:56:58\x20GMT\r\nContent-Length:\x20222\r\
+SF:nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-885
+SF:9-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.
+SF:0//EN\">\n<html><head>\n<title>302\x20Found</title>\n</head><body>\n<h1
+SF:>Found</h1>\n<p>The\x20document\x20has\x20moved\x20<a\x20href=\"https:/
+SF://webconsole/webpages/login\.jsp\">here</a>\.</p>\n</body></html>\n")%r
+SF:(HTTPOptions,1DE,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Wed,\x2021\
+SF:x20Oct\x202020\x2010:57:00\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options
+SF::\x20SAMEORIGIN\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-
+SF:Content-Type-Options:\x20nosniff\r\nContent-Length:\x20209\r\nConnectio
+SF:n:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\
+SF:n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n
+SF:<html><head>\n<title>403\x20Forbidden</title>\n</head><body>\n<h1>Forbi
+SF:dden</h1>\n<p>You\x20don't\x20have\x20permission\x20to\x20access\x20/\n
+SF:on\x20this\x20server\.<br\x20/>\n</p>\n</body></html>\n")%r(RTSPRequest
+SF:,1DE,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Wed,\x2021\x20Oct\x2020
+SF:20\x2010:57:01\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\x20SAMEORI
+SF:GIN\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type
+SF:-Options:\x20nosniff\r\nContent-Length:\x20209\r\nConnection:\x20close\
+SF:r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x
+SF:20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>
+SF:\n<title>403\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<
+SF:p>You\x20don't\x20have\x20permission\x20to\x20access\x20/\non\x20this\x
+SF:20server\.<br\x20/>\n</p>\n</body></html>\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 21 12:59:31 2020 -- 1 IP address (1 host up) scanned in 15233.55 seconds

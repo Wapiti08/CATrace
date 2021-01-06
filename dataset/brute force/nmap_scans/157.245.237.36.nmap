@@ -1,0 +1,49 @@
+# Nmap 7.40 scan initiated Sun Nov  1 21:20:52 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/157.245.237.36.nmap 157.245.237.36
+Nmap scan report for 157.245.237.36
+Host is up (0.86s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE    VERSION
+22/tcp open  tcpwrapped
+80/tcp open  http
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.40%I=7%D=11/2%Time=5F9F5911%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,19FD,"HTTP/1\.1\x20200\x20\r\nSet-Cookie:\x20JSESSIONID=3F195990
+SF:7B82023EB1401CF869A08103;\x20Path=/;\x20HttpOnly\r\nContent-Type:\x20te
+SF:xt/html;charset=UTF-8\r\nDate:\x20Mon,\x2002\x20Nov\x202020\x2000:55:45
+SF:\x20GMT\r\nConnection:\x20close\r\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+SF:\n\n<!DOCTYPE\x20html>\n<html>\n\x20\x20\x20\x20<head>\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20<title>DSpace\x20Casa\x20de\x20la\x20literatura:\x20Ho
+SF:me</title>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Conte
+SF:nt-Type\"\x20content=\"text/html;\x20charset=UTF-8\"\x20/>\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20<meta\x20name=\"Generator\"\x20content=\"DSpace\x2
+SF:06\.3\"\x20/>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=\"viewport
+SF:\"\x20content=\"width=device-width,\x20initial-scale=1\.0\">\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20href=\"/fav
+SF:icon\.ico\"\x20type=\"image/x-icon\"/>\n\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0<link\x20rel=\"stylesheet\"\x20href=\"/static/css/jquery-ui-1\.10\.3\.
+SF:custom/redmond/jquery-ui-1\.10\.3\.custom\.css\"\x20type=\"text/css\"\x
+SF:20/>\n\x20\x20\x20\x20\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20hr
+SF:ef=\"/static/css/bootstrap/bootstrap\.min\.css\"\x20type=\"text/css\"\x
+SF:20/>\n\x20\x20\x20\x20\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20hr
+SF:ef=\"/static/css/bootstrap/bootstrap-theme\.min\.css\"\x20type=")%r(HTT
+SF:POptions,3E8,"HTTP/1\.1\x20405\x20\r\nSet-Cookie:\x20JSESSIONID=6FB8BD1
+SF:FEEAA932538DD11B1CBC92720;\x20Path=/;\x20HttpOnly\r\nContent-Type:\x20t
+SF:ext/html;charset=utf-8\r\nContent-Language:\x20en\r\nContent-Length:\x2
+SF:0770\r\nDate:\x20Mon,\x2002\x20Nov\x202020\x2000:55:45\x20GMT\r\nConnec
+SF:tion:\x20close\r\n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><tit
+SF:le>HTTP\x20Status\x20405\x20\xe2\x80\x93\x20Method\x20Not\x20Allowed</t
+SF:itle><style\x20type=\"text/css\">body\x20{font-family:Tahoma,Arial,sans
+SF:-serif;}\x20h1,\x20h2,\x20h3,\x20b\x20{color:white;background-color:#52
+SF:5D76;}\x20h1\x20{font-size:22px;}\x20h2\x20{font-size:16px;}\x20h3\x20{
+SF:font-size:14px;}\x20p\x20{font-size:12px;}\x20a\x20{color:black;}\x20\.
+SF:line\x20{height:1px;background-color:#525D76;border:none;}</style></hea
+SF:d><body><h1>HTTP\x20Status\x20405\x20\xe2\x80\x93\x20Method\x20Not\x20A
+SF:llowed</h1><hr\x20class=\"line\"\x20/><p><b>Type</b>\x20Status\x20Repor
+SF:t</p><p><b>Message</b>\x20JSPs\x20only\x20permit\x20GET,\x20POST\x20or\
+SF:x20HEAD\.\x20Jasper\x20also\x20permits\x20OPTIONS</p><p><b>Description<
+SF:/b>\x20The\x20method\x20received\x20in\x20the\x20request-line\x20is\x20
+SF:known\x20by\x20the\x20origin\x20server\x20but\x20not");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  2 01:56:05 2020 -- 1 IP address (1 host up) scanned in 16512.61 seconds

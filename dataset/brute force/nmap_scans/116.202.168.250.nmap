@@ -1,0 +1,151 @@
+# Nmap 7.40 scan initiated Thu May 28 23:08:46 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/116.202.168.250.nmap 116.202.168.250
+Nmap scan report for 116.202.168.250
+Host is up (0.42s latency).
+Not shown: 992 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE          VERSION
+22/tcp   open  ssh              OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+5901/tcp open  vnc              VNC (protocol 3.8)
+6001/tcp open  X11              (access denied)
+8080/tcp open  http             Jetty 7.x.y-SNAPSHOT
+8081/tcp open  blackice-icecap?
+8082/tcp open  blackice-alerts?
+8083/tcp open  us-srv?
+8084/tcp open  unknown
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8081-TCP:V=7.40%I=7%D=5/29%Time=5ED068DE%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x202
+SF:1\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20br
+SF:owsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:43:54\x20GMT\
+SF:r\n\r\nBad\x20Request\x20to\x20URI:\x20/")%r(FourOhFourRequest,CF,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2056\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\n
+SF:date:\x20Fri,\x2029\x20May\x202020\x2001:43:59\x20GMT\r\n\r\nBad\x20Req
+SF:uest\x20to\x20URI:\x20/nice%20ports%2C/Tri%6Eity\.txt%2ebak")%r(SIPOpti
+SF:ons,B1,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2026\r\n
+SF:Content-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browser
+SF:mobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:44:05\x20GMT\r\n\r
+SF:\nBad\x20Request\x20to\x20URI:\x20sip:nm")%r(WWWOFFLEctrlstat,B7,"HTTP/
+SF:1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nContent-Type:
+SF:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\nd
+SF:ate:\x20Fri,\x2029\x20May\x202020\x2001:44:13\x20GMT\r\n\r\nBad\x20Requ
+SF:est\x20to\x20URI:\x20/bad-request")%r(HTTPOptions,AC,"HTTP/1\.1\x20400\
+SF:x20Bad\x20Request\r\nContent-Length:\x2021\r\nContent-Type:\x20text/htm
+SF:l;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\ndate:\x20Fri,
+SF:\x2029\x20May\x202020\x2001:44:24\x20GMT\r\n\r\nBad\x20Request\x20to\x2
+SF:0URI:\x20/")%r(RTSPRequest,AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCo
+SF:ntent-Length:\x2021\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n
+SF:Via:\x201\.1\x20browsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x
+SF:2001:44:30\x20GMT\r\n\r\nBad\x20Request\x20to\x20URI:\x20/")%r(Help,B7,
+SF:"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nContent
+SF:-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobprox
+SF:y\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:44:52\x20GMT\r\n\r\nBad\x
+SF:20Request\x20to\x20URI:\x20/bad-request")%r(SSLSessionReq,B7,"HTTP/1\.1
+SF:\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nContent-Type:\x20
+SF:text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\ndate:
+SF:\x20Fri,\x2029\x20May\x202020\x2001:45:00\x20GMT\r\n\r\nBad\x20Request\
+SF:x20to\x20URI:\x20/bad-request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8082-TCP:V=7.40%I=7%D=5/29%Time=5ED06980%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x202
+SF:1\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20br
+SF:owsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:46:35\x20GMT\
+SF:r\n\r\nBad\x20Request\x20to\x20URI:\x20/")%r(FourOhFourRequest,CF,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2056\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\n
+SF:date:\x20Fri,\x2029\x20May\x202020\x2001:46:40\x20GMT\r\n\r\nBad\x20Req
+SF:uest\x20to\x20URI:\x20/nice%20ports%2C/Tri%6Eity\.txt%2ebak")%r(HTTPOpt
+SF:ions,AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2021\r\
+SF:nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browse
+SF:rmobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:46:51\x20GMT\r\n\
+SF:r\nBad\x20Request\x20to\x20URI:\x20/")%r(RTSPRequest,AC,"HTTP/1\.1\x204
+SF:00\x20Bad\x20Request\r\nContent-Length:\x2021\r\nContent-Type:\x20text/
+SF:html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\ndate:\x20F
+SF:ri,\x2029\x20May\x202020\x2001:46:56\x20GMT\r\n\r\nBad\x20Request\x20to
+SF:\x20URI:\x20/")%r(Help,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConten
+SF:t-Length:\x2032\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:
+SF:\x201\.1\x20browsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001
+SF::47:17\x20GMT\r\n\r\nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(S
+SF:SLSessionReq,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\
+SF:x2032\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x
+SF:20browsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:47:24\x20
+SF:GMT\r\n\r\nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(TLSSessionR
+SF:eq,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nC
+SF:ontent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browserm
+SF:obproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:47:29\x20GMT\r\n\r\
+SF:nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(Kerberos,B7,"HTTP/1\.
+SF:1\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nContent-Type:\x2
+SF:0text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\ndate
+SF::\x20Fri,\x2029\x20May\x202020\x2001:47:35\x20GMT\r\n\r\nBad\x20Request
+SF:\x20to\x20URI:\x20/bad-request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8083-TCP:V=7.40%I=7%D=5/29%Time=5ED06A12%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x202
+SF:1\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20br
+SF:owsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:49:01\x20GMT\
+SF:r\n\r\nBad\x20Request\x20to\x20URI:\x20/")%r(FourOhFourRequest,CF,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2056\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\n
+SF:date:\x20Fri,\x2029\x20May\x202020\x2001:49:06\x20GMT\r\n\r\nBad\x20Req
+SF:uest\x20to\x20URI:\x20/nice%20ports%2C/Tri%6Eity\.txt%2ebak")%r(HTTPOpt
+SF:ions,AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2021\r\
+SF:nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browse
+SF:rmobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:49:17\x20GMT\r\n\
+SF:r\nBad\x20Request\x20to\x20URI:\x20/")%r(RTSPRequest,AC,"HTTP/1\.1\x204
+SF:00\x20Bad\x20Request\r\nContent-Length:\x2021\r\nContent-Type:\x20text/
+SF:html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\ndate:\x20F
+SF:ri,\x2029\x20May\x202020\x2001:49:22\x20GMT\r\n\r\nBad\x20Request\x20to
+SF:\x20URI:\x20/")%r(Help,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConten
+SF:t-Length:\x2032\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:
+SF:\x201\.1\x20browsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001
+SF::49:43\x20GMT\r\n\r\nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(S
+SF:SLSessionReq,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\
+SF:x2032\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x
+SF:20browsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:49:50\x20
+SF:GMT\r\n\r\nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(TLSSessionR
+SF:eq,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nC
+SF:ontent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browserm
+SF:obproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:49:56\x20GMT\r\n\r\
+SF:nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(Kerberos,B7,"HTTP/1\.
+SF:1\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nContent-Type:\x2
+SF:0text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\ndate
+SF::\x20Fri,\x2029\x20May\x202020\x2001:50:01\x20GMT\r\n\r\nBad\x20Request
+SF:\x20to\x20URI:\x20/bad-request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8084-TCP:V=7.40%I=7%D=5/29%Time=5ED06AA5%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x202
+SF:1\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20br
+SF:owsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:51:28\x20GMT\
+SF:r\n\r\nBad\x20Request\x20to\x20URI:\x20/")%r(FourOhFourRequest,CF,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2056\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\n
+SF:date:\x20Fri,\x2029\x20May\x202020\x2001:51:34\x20GMT\r\n\r\nBad\x20Req
+SF:uest\x20to\x20URI:\x20/nice%20ports%2C/Tri%6Eity\.txt%2ebak")%r(HTTPOpt
+SF:ions,AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2021\r\
+SF:nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browse
+SF:rmobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:51:44\x20GMT\r\n\
+SF:r\nBad\x20Request\x20to\x20URI:\x20/")%r(RTSPRequest,AC,"HTTP/1\.1\x204
+SF:00\x20Bad\x20Request\r\nContent-Length:\x2021\r\nContent-Type:\x20text/
+SF:html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\ndate:\x20F
+SF:ri,\x2029\x20May\x202020\x2001:51:49\x20GMT\r\n\r\nBad\x20Request\x20to
+SF:\x20URI:\x20/")%r(Help,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConten
+SF:t-Length:\x2032\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:
+SF:\x201\.1\x20browsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001
+SF::52:10\x20GMT\r\n\r\nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(S
+SF:SLSessionReq,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\
+SF:x2032\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x
+SF:20browsermobproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:52:18\x20
+SF:GMT\r\n\r\nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(TLSSessionR
+SF:eq,B7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nC
+SF:ontent-Type:\x20text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browserm
+SF:obproxy\r\ndate:\x20Fri,\x2029\x20May\x202020\x2001:52:23\x20GMT\r\n\r\
+SF:nBad\x20Request\x20to\x20URI:\x20/bad-request")%r(Kerberos,B7,"HTTP/1\.
+SF:1\x20400\x20Bad\x20Request\r\nContent-Length:\x2032\r\nContent-Type:\x2
+SF:0text/html;\x20charset=utf-8\r\nVia:\x201\.1\x20browsermobproxy\r\ndate
+SF::\x20Fri,\x2029\x20May\x202020\x2001:52:28\x20GMT\r\n\r\nBad\x20Request
+SF:\x20to\x20URI:\x20/bad-request");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 29 03:54:10 2020 -- 1 IP address (1 host up) scanned in 17123.61 seconds

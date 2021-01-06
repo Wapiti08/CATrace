@@ -1,0 +1,14 @@
+# Nmap 7.40 scan initiated Tue Mar 24 09:26:10 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/51.68.230.54.nmap 51.68.230.54
+Nmap scan report for 51.68.230.54
+Host is up (0.31s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 7.4p1 Debian 10+deb9u4 (protocol 2.0)
+25/tcp  open  smtp     Postfix smtpd
+80/tcp  open  http     Apache httpd
+443/tcp open  ssl/http Apache httpd
+Service Info: Host:  codepermis.net; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 24 14:01:29 2020 -- 1 IP address (1 host up) scanned in 16518.54 seconds

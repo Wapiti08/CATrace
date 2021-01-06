@@ -1,0 +1,17 @@
+# Nmap 7.40 scan initiated Tue Feb 18 22:20:21 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/119.42.175.200.nmap 119.42.175.200
+Nmap scan report for 119.42.175.200
+Host is up (0.41s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 5.3 (protocol 2.0)
+80/tcp   open  http     Apache httpd 2.2.15 ((CentOS))
+111/tcp  open  rpcbind  2-4 (RPC #100000)
+443/tcp  open  ssl/http Apache httpd 2.2.15
+3306/tcp open  mysql    MySQL (unauthorized)
+5000/tcp open  http     Apache httpd 2.2.15 ((CentOS))
+8443/tcp open  ssl/http Apache httpd 2.2.15
+Service Info: Host: 119.42.175.200
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 19 02:56:14 2020 -- 1 IP address (1 host up) scanned in 16552.88 seconds

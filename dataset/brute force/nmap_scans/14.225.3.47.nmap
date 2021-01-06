@@ -1,0 +1,17 @@
+# Nmap 7.40 scan initiated Mon Feb 24 18:33:05 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/14.225.3.47.nmap 14.225.3.47
+Nmap scan report for 14.225.3.47
+Host is up (0.37s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+25/tcp   open  smtp     Exim smtpd 4.92
+80/tcp   open  http     nginx
+443/tcp  open  ssl/http nginx
+465/tcp  open  ssl/smtp Exim smtpd 4.92
+587/tcp  open  smtp     Exim smtpd 4.92
+2222/tcp open  ssh      OpenSSH 5.3 (protocol 2.0)
+8088/tcp open  http     nginx
+Service Info: Host: INET
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Feb 24 23:08:39 2020 -- 1 IP address (1 host up) scanned in 16533.96 seconds

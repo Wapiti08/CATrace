@@ -1,0 +1,59 @@
+# Nmap 7.40 scan initiated Tue Mar 31 06:40:33 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/87.81.169.74.nmap 87.81.169.74
+Nmap scan report for 87.81.169.74
+Host is up (0.17s latency).
+Not shown: 984 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE          VERSION
+21/tcp    open  ftp              ProFTPD 1.3.5e
+22/tcp    open  ssh              OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+53/tcp    open  domain
+80/tcp    open  http             Apache httpd 2.4.29
+110/tcp   open  pop3             Dovecot pop3d
+139/tcp   open  netbios-ssn      Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+143/tcp   open  imap             Dovecot imapd (Ubuntu)
+443/tcp   open  ssl/http         Apache httpd 2.4.29 ((Ubuntu))
+445/tcp   open  netbios-ssn      Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+993/tcp   open  ssl/imap         Dovecot imapd (Ubuntu)
+995/tcp   open  ssl/pop3         Dovecot pop3d
+5000/tcp  open  upnp?
+8082/tcp  open  blackice-alerts?
+8085/tcp  open  http             Mono-HTTPAPI 1.0
+8087/tcp  open  http             Mono-HTTPAPI 1.0
+10000/tcp open  http             MiniServ 1.941 (Webmin httpd)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8082-TCP:V=7.40%I=7%D=3/31%Time=5E830A91%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,130,"HTTP/1\.1\x20302\x20Document\x20Moved\r\nLocation:\x20/Se
+SF:rverAdmin/\r\nServer:\x20UnrealEngine\x20IpDrv\x20Web\x20Server\x20Buil
+SF:d\x2010897\r\nContent-Type:\x20text/html\r\nConnection:\x20Close\r\n\r\
+SF:n<html><head><title>Document\x20Moved</title></head>\r\n<body><h1>Objec
+SF:t\x20Moved</h1>This\x20document\x20may\x20be\x20found\x20<a\x20HREF=\"/
+SF:ServerAdmin/\">here</a>\.</body></html>\r\n")%r(FourOhFourRequest,130,"
+SF:HTTP/1\.1\x20302\x20Document\x20Moved\r\nLocation:\x20/ServerAdmin/\r\n
+SF:Server:\x20UnrealEngine\x20IpDrv\x20Web\x20Server\x20Build\x2010897\r\n
+SF:Content-Type:\x20text/html\r\nConnection:\x20Close\r\n\r\n<html><head><
+SF:title>Document\x20Moved</title></head>\r\n<body><h1>Object\x20Moved</h1
+SF:>This\x20document\x20may\x20be\x20found\x20<a\x20HREF=\"/ServerAdmin/\"
+SF:>here</a>\.</body></html>\r\n")%r(GenericLines,13F,"HTTP/1\.1\x20400\x2
+SF:0Bad\x20Request\r\nServer:\x20UnrealEngine\x20IpDrv\x20Web\x20Server\x2
+SF:0Build\x2010897\r\nContent-Type:\x20text/html\r\nConnection:\x20Close\r
+SF:\n\r\n<HTML><HEAD><TITLE>400\x20Bad\x20Request</TITLE></HEAD><BODY><H1>
+SF:400\x20Bad\x20Request</H1>If\x20you\x20got\x20this\x20error\x20from\x20
+SF:a\x20standard\x20web\x20browser,\x20please\x20mail\x20epicgames\.com\x2
+SF:0and\x20submit\x20a\x20bug\x20report\.</BODY></HTML>\r\n")%r(HTTPOption
+SF:s,13F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20UnrealEngine\x2
+SF:0IpDrv\x20Web\x20Server\x20Build\x2010897\r\nContent-Type:\x20text/html
+SF:\r\nConnection:\x20Close\r\n\r\n<HTML><HEAD><TITLE>400\x20Bad\x20Reques
+SF:t</TITLE></HEAD><BODY><H1>400\x20Bad\x20Request</H1>If\x20you\x20got\x2
+SF:0this\x20error\x20from\x20a\x20standard\x20web\x20browser,\x20please\x2
+SF:0mail\x20epicgames\.com\x20and\x20submit\x20a\x20bug\x20report\.</BODY>
+SF:</HTML>\r\n")%r(RTSPRequest,13F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Server:\x20UnrealEngine\x20IpDrv\x20Web\x20Server\x20Build\x2010897\r\n
+SF:Content-Type:\x20text/html\r\nConnection:\x20Close\r\n\r\n<HTML><HEAD><
+SF:TITLE>400\x20Bad\x20Request</TITLE></HEAD><BODY><H1>400\x20Bad\x20Reque
+SF:st</H1>If\x20you\x20got\x20this\x20error\x20from\x20a\x20standard\x20we
+SF:b\x20browser,\x20please\x20mail\x20epicgames\.com\x20and\x20submit\x20a
+SF:\x20bug\x20report\.</BODY></HTML>\r\n");
+Service Info: Hosts: mgcgaming.net, GSERVER; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 31 11:20:02 2020 -- 1 IP address (1 host up) scanned in 16769.26 seconds

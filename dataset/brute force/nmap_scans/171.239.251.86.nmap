@@ -1,0 +1,29 @@
+# Nmap 7.40 scan initiated Tue Nov 24 06:46:28 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/171.239.251.86.nmap 171.239.251.86
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 171.239.251.86
+Host is up (7.0s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE VERSION
+88/tcp   open  http    Network Video Recorder http admin
+1024/tcp open  rtsp    Apple AirTunes rtspd
+8008/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8008-TCP:V=7.40%I=7%D=11/24%Time=5FBCD953%P=x86_64-pc-linux-gnu%r(K
+SF:erberos,10,"\0\0\0\x10\0\0\0\r\0\0\0\r\0\0\0\0")%r(SMBProgNeg,10,"\0\0\
+SF:0\x10\0\0\0\r\0\0\0\r\0\0\0\0");
+Service Info: OS: Mac OS X; Device: webcam; CPE: cpe:/o:apple:mac_os_x
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 24 10:59:12 2020 -- 1 IP address (1 host up) scanned in 15163.59 seconds

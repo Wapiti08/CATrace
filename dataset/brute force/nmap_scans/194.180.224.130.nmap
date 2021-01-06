@@ -1,0 +1,11 @@
+# Nmap 7.40 scan initiated Fri Jun 19 05:00:01 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/194.180.224.130.nmap 194.180.224.130
+Nmap scan report for 194.180.224.130
+Host is up (0.43s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE    VERSION
+22/tcp open  tcpwrapped
+80/tcp open  http       Apache httpd 2.4.6 ((CentOS))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jun 19 09:34:58 2020 -- 1 IP address (1 host up) scanned in 16496.13 seconds

@@ -1,0 +1,14 @@
+# Nmap 7.40 scan initiated Fri May  8 02:12:47 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/118.107.243.37.nmap 118.107.243.37
+Nmap scan report for 118.107.243.37
+Host is up (0.62s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE            VERSION
+21/tcp   open  ftp                vsftpd 3.0.3
+22/tcp   open  ssh                OpenSSH 7.2p2 Ubuntu 4ubuntu2.4 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http               Apache httpd 2.4.18 ((Ubuntu))
+4001/tcp open  libp2p-multistream libp2p multistream protocol 1.0.0
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May  8 06:47:47 2020 -- 1 IP address (1 host up) scanned in 16499.88 seconds

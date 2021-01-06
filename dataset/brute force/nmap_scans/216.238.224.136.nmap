@@ -1,0 +1,5 @@
+# Nmap 7.40 scan initiated Sat Dec 19 17:32:10 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/216.238.224.136.nmap 216.238.224.136
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec 19 21:42:39 2020 -- 1 IP address (1 host up) scanned in 15028.88 seconds

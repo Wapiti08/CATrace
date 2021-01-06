@@ -1,0 +1,12 @@
+# Nmap 7.40 scan initiated Mon Apr 20 04:38:15 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/137.74.119.120.nmap 137.74.119.120
+Nmap scan report for 137.74.119.120
+Host is up (0.19s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.25 ((Debian))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr 20 09:13:08 2020 -- 1 IP address (1 host up) scanned in 16492.83 seconds

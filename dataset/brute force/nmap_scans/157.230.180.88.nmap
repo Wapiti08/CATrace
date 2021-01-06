@@ -1,0 +1,23 @@
+# Nmap 7.40 scan initiated Sat May 23 21:29:44 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/157.230.180.88.nmap 157.230.180.88
+Nmap scan report for 157.230.180.88
+Host is up (0.34s latency).
+Not shown: 987 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE  VERSION
+22/tcp    open  ssh      OpenSSH 7.4 (protocol 2.0)
+25/tcp    open  smtp     Postfix smtpd
+80/tcp    open  http     nginx
+110/tcp   open  pop3     Zimbra pop3d
+143/tcp   open  imap     Zimbra imapd
+389/tcp   open  ldap     OpenLDAP 2.2.X - 2.3.X
+443/tcp   open  ssl/http nginx
+465/tcp   open  ssl/smtp Postfix smtpd
+587/tcp   open  smtp     Postfix smtpd
+993/tcp   open  ssl/imap Zimbra imapd
+995/tcp   open  ssl/pop3 Zimbra pop3d
+7025/tcp  open  lmtp     Zimbra lmtpd
+10000/tcp open  http     MiniServ 1.941 (Webmin httpd)
+Service Info: Hosts:  mail.veritas.edu.ng, mail.veritas.edu.ng
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 24 02:06:27 2020 -- 1 IP address (1 host up) scanned in 16602.94 seconds

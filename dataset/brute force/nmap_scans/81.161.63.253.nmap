@@ -1,0 +1,13 @@
+# Nmap 7.40 scan initiated Mon Nov 30 06:15:34 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/81.161.63.253.nmap 81.161.63.253
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 81.161.63.253
+Host is up (0.80s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+1100/tcp open  ssh     OpenSSH 7.4 (protocol 2.0)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov 30 10:50:43 2020 -- 1 IP address (1 host up) scanned in 16508.93 seconds

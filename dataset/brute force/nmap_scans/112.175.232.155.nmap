@@ -1,0 +1,16 @@
+# Nmap 7.40 scan initiated Sun Feb 16 01:58:33 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/112.175.232.155.nmap 112.175.232.155
+Nmap scan report for 112.175.232.155
+Host is up (0.39s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE VERSION
+21/tcp   open  ftp     vsftpd 2.2.2
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+25/tcp   open  smtp    Sendmail 8.14.4/8.14.4
+80/tcp   open  http    Apache httpd 2.2.22 ((Unix) mod_ssl/2.2.22 OpenSSL/1.0.1e-fips DAV/2 PHP/5.3.21)
+873/tcp  open  rsync   (protocol version 30)
+3306/tcp open  mysql   MySQL (unauthorized)
+Service Info: Host: localhost.localdomain; OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb 16 06:33:33 2020 -- 1 IP address (1 host up) scanned in 16499.96 seconds

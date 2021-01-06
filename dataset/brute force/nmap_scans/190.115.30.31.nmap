@@ -1,0 +1,14 @@
+# Nmap 7.40 scan initiated Sun Jun  7 20:44:22 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/190.115.30.31.nmap 190.115.30.31
+Nmap scan report for 190.115.30.31
+Host is up (0.16s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.2p2 (protocol 2.0)
+80/tcp   open  http     nginx 1.17.1
+443/tcp  open  ssl/http nginx
+5000/tcp open  http     Jetty 9.4.18.v20190429
+8081/tcp open  http     Jetty 9.4.18.v20190429
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun  8 01:19:48 2020 -- 1 IP address (1 host up) scanned in 16526.54 seconds

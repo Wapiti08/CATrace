@@ -1,0 +1,15 @@
+# Nmap 7.40 scan initiated Sun Feb 23 02:17:40 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/139.59.180.53.nmap 139.59.180.53
+Nmap scan report for 139.59.180.53
+Host is up (0.21s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.2p2 Ubuntu 4ubuntu2.1 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http     Apache httpd 2.4.18 ((Ubuntu))
+443/tcp  open  ssl/http Apache httpd 2.4.18
+3306/tcp open  mysql    MySQL 5.7.17-0ubuntu0.16.04.1
+8088/tcp open  http     nginx 1.10.3 (Ubuntu)
+Service Info: Host: icq.global; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb 23 06:52:58 2020 -- 1 IP address (1 host up) scanned in 16517.62 seconds

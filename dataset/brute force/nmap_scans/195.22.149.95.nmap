@@ -1,0 +1,12 @@
+# Nmap 7.40 scan initiated Wed Aug 26 02:39:27 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/195.22.149.95.nmap 195.22.149.95
+Nmap scan report for 195.22.149.95
+Host is up (1.6s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+Service Info: OSs: Linux, Windows; CPE: cpe:/o:linux:linux_kernel, cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 26 07:14:24 2020 -- 1 IP address (1 host up) scanned in 16497.05 seconds

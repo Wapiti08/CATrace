@@ -1,0 +1,54 @@
+# Nmap 7.40 scan initiated Sat Mar  7 22:09:40 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/202.39.70.5.nmap 202.39.70.5
+Nmap scan report for 202.39.70.5
+Host is up (0.42s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE         VERSION
+21/tcp   open  ftp             vsftpd 3.0.2
+22/tcp   open  ssh             OpenSSH 7.4 (protocol 2.0)
+111/tcp  open  rpcbind         2-4 (RPC #100000)
+5432/tcp open  postgresql      PostgreSQL DB
+8888/tcp open  sun-answerbook?
+9999/tcp open  http            Jetty
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5432-TCP:V=7.40%I=7%D=3/8%Time=5E644E22%P=x86_64-pc-linux-gnu%r(SMB
+SF:ProgNeg,85,"E\0\0\0\x84SFATAL\0C0A000\0Munsupported\x20frontend\x20prot
+SF:ocol\x2065363\.19778:\x20server\x20supports\x201\.0\x20to\x203\.0\0Fpos
+SF:tmaster\.c\0L2014\0RProcessStartupPacket\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8888-TCP:V=7.40%I=7%D=3/8%Time=5E644E29%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,50,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20http://202\.39\.7
+SF:0\.5:8888/ns/\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,50,"HTTP/
+SF:1\.1\x20302\x20Found\r\nLocation:\x20http://202\.39\.70\.5:8888/ns/\r\n
+SF:Content-Length:\x200\r\n\r\n")%r(FourOhFourRequest,1AB,"HTTP/1\.1\x2040
+SF:4\x20Not\x20Found\r\nSet-Cookie:\x20JSESSIONID=tuukaucsfvlpmu03laee8if8
+SF:;Path=/;HttpOnly\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1\r
+SF:\nCache-Control:\x20must-revalidate,no-cache,no-store\r\nContent-Length
+SF::\x20220\r\n\r\n<html>\n<head>\n<meta\x20http-equiv=\"Content-Type\"\x2
+SF:0content=\"text/html;\x20charset=UTF-8\"/>\n<title>Error\x20404</title>
+SF:\n</head>\n<body><h2>HTTP\x20ERROR\x20404</h2>\n<p>Problem\x20accessing
+SF:\x20/nice%20ports%2C/Tri%6Eity\.txt%2ebak\n</body>\n</html>\n")%r(JavaR
+SF:MI,4C,"HTTP/1\.1\x20400\x20Illegal\x20character\x200x0\r\nContent-Lengt
+SF:h:\x200\r\nConnection:\x20close\r\n\r\n")%r(RTSPRequest,46,"HTTP/1\.1\x
+SF:20400\x20Unknown\x20Version\r\nContent-Length:\x200\r\nConnection:\x20c
+SF:lose\r\n\r\n")%r(RPCCheck,42,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:tent-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r(DNSVersionBindReq
+SF:,4C,"HTTP/1\.1\x20400\x20Illegal\x20character\x200x0\r\nContent-Length:
+SF:\x200\r\nConnection:\x20close\r\n\r\n")%r(DNSStatusRequest,4C,"HTTP/1\.
+SF:1\x20400\x20Illegal\x20character\x200x0\r\nContent-Length:\x200\r\nConn
+SF:ection:\x20close\r\n\r\n")%r(Help,3D,"HTTP/1\.1\x20400\x20No\x20URI\r\n
+SF:Content-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r(SSLSessionReq,
+SF:4D,"HTTP/1\.1\x20400\x20Illegal\x20character\x200x16\r\nContent-Length:
+SF:\x200\r\nConnection:\x20close\r\n\r\n")%r(TLSSessionReq,4D,"HTTP/1\.1\x
+SF:20400\x20Illegal\x20character\x200x16\r\nContent-Length:\x200\r\nConnec
+SF:tion:\x20close\r\n\r\n")%r(Kerberos,4C,"HTTP/1\.1\x20400\x20Illegal\x20
+SF:character\x200x0\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\
+SF:n")%r(SMBProgNeg,4C,"HTTP/1\.1\x20400\x20Illegal\x20character\x200x0\r\
+SF:nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r(X11Probe,4C,"
+SF:HTTP/1\.1\x20400\x20Illegal\x20character\x200x0\r\nContent-Length:\x200
+SF:\r\nConnection:\x20close\r\n\r\n");
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar  8 02:45:49 2020 -- 1 IP address (1 host up) scanned in 16569.00 seconds

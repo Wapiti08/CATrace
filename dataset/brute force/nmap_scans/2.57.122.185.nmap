@@ -1,0 +1,10 @@
+# Nmap 7.40 scan initiated Thu Aug 27 00:24:40 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/2.57.122.185.nmap 2.57.122.185
+Nmap scan report for 2.57.122.185
+Host is up (0.47s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.4 (protocol 2.0)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 27 04:59:27 2020 -- 1 IP address (1 host up) scanned in 16487.04 seconds

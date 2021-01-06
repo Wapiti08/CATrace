@@ -1,0 +1,45 @@
+# Nmap 7.40 scan initiated Thu Jun  4 03:51:04 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/164.68.107.118.nmap 164.68.107.118
+Nmap scan report for 164.68.107.118
+Host is up (0.67s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE   VERSION
+22/tcp   open  ssh       OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http      nginx 1.10.3 (Ubuntu)
+443/tcp  open  ssl/https nginx/1.10.3 (Ubuntu)
+8090/tcp open  unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8090-TCP:V=7.40%I=7%D=6/4%Time=5ED89426%P=x86_64-pc-linux-gnu%r(RTS
+SF:PRequest,6A,"HTTP/1\.1\x20400\x20\r\nTransfer-Encoding:\x20chunked\r\nD
+SF:ate:\x20Thu,\x2004\x20Jun\x202020\x2006:26:45\x20GMT\r\nConnection:\x20
+SF:close\r\n\r\n0\r\n\r\n")%r(RPCCheck,6A,"HTTP/1\.1\x20400\x20\r\nTransfe
+SF:r-Encoding:\x20chunked\r\nDate:\x20Thu,\x2004\x20Jun\x202020\x2006:26:4
+SF:7\x20GMT\r\nConnection:\x20close\r\n\r\n0\r\n\r\n")%r(DNSVersionBindReq
+SF:,6A,"HTTP/1\.1\x20400\x20\r\nTransfer-Encoding:\x20chunked\r\nDate:\x20
+SF:Thu,\x2004\x20Jun\x202020\x2006:26:49\x20GMT\r\nConnection:\x20close\r\
+SF:n\r\n0\r\n\r\n")%r(DNSStatusRequest,6A,"HTTP/1\.1\x20400\x20\r\nTransfe
+SF:r-Encoding:\x20chunked\r\nDate:\x20Thu,\x2004\x20Jun\x202020\x2006:26:5
+SF:0\x20GMT\r\nConnection:\x20close\r\n\r\n0\r\n\r\n")%r(Help,6A,"HTTP/1\.
+SF:1\x20400\x20\r\nTransfer-Encoding:\x20chunked\r\nDate:\x20Thu,\x2004\x2
+SF:0Jun\x202020\x2006:26:51\x20GMT\r\nConnection:\x20close\r\n\r\n0\r\n\r\
+SF:n")%r(SSLSessionReq,6A,"HTTP/1\.1\x20400\x20\r\nTransfer-Encoding:\x20c
+SF:hunked\r\nDate:\x20Thu,\x2004\x20Jun\x202020\x2006:26:52\x20GMT\r\nConn
+SF:ection:\x20close\r\n\r\n0\r\n\r\n")%r(TLSSessionReq,6A,"HTTP/1\.1\x2040
+SF:0\x20\r\nTransfer-Encoding:\x20chunked\r\nDate:\x20Thu,\x2004\x20Jun\x2
+SF:02020\x2006:26:54\x20GMT\r\nConnection:\x20close\r\n\r\n0\r\n\r\n")%r(K
+SF:erberos,49,"HTTP/1\.1\x20400\x20\r\nDate:\x20Thu,\x2004\x20Jun\x202020\
+SF:x2006:26:56\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(SMBProgNeg,49,"H
+SF:TTP/1\.1\x20400\x20\r\nDate:\x20Thu,\x2004\x20Jun\x202020\x2006:26:58\x
+SF:20GMT\r\nConnection:\x20close\r\n\r\n")%r(X11Probe,49,"HTTP/1\.1\x20400
+SF:\x20\r\nDate:\x20Thu,\x2004\x20Jun\x202020\x2006:26:59\x20GMT\r\nConnec
+SF:tion:\x20close\r\n\r\n")%r(FourOhFourRequest,15D,"HTTP/1\.1\x20404\x20\
+SF:r\nX-Application-Context:\x20application:production:8090\r\nContent-Typ
+SF:e:\x20application/xml;charset=UTF-8\r\nDate:\x20Thu,\x2004\x20Jun\x2020
+SF:20\x2006:27:00\x20GMT\r\nConnection:\x20close\r\n\r\n<Map><timestamp>15
+SF:91252020988</timestamp><status>404</status><error>Not\x20Found</error><
+SF:message>No\x20message\x20available</message><path>/nice%20ports%2C/Tri%
+SF:6Eity\.txt%2ebak</path></Map>");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun  4 08:27:27 2020 -- 1 IP address (1 host up) scanned in 16582.85 seconds

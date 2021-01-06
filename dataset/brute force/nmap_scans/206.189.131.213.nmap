@@ -1,0 +1,17 @@
+# Nmap 7.40 scan initiated Sun Mar  8 16:34:26 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/206.189.131.213.nmap 206.189.131.213
+Nmap scan report for 206.189.131.213
+Host is up (0.31s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 3.0.3
+22/tcp   open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+25/tcp   open  smtp        Postfix smtpd
+80/tcp   open  http        Apache httpd 2.4.18 ((Ubuntu))
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+3306/tcp open  mysql       MySQL 5.7.29-0ubuntu0.16.04.1
+Service Info: Hosts:  Vconservmain, VCONSERVMAIN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar  8 21:11:00 2020 -- 1 IP address (1 host up) scanned in 16593.45 seconds

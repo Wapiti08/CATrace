@@ -1,0 +1,17 @@
+# Nmap 7.40 scan initiated Sun Dec 27 01:19:54 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/46.101.203.227.nmap 46.101.203.227
+Nmap scan report for 46.101.203.227
+Host is up (0.14s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+80/tcp  open  ssh     Dropbear sshd 2016.74 (protocol 2.0)
+109/tcp open  ssh     OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+110/tcp open  ssh     OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+143/tcp open  ssh     Dropbear sshd 2016.74 (protocol 2.0)
+443/tcp open  ssl/ssh Dropbear sshd 2016.74 (protocol 2.0)
+444/tcp open  ssh     Dropbear sshd 2016.74 (protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Dec 27 05:54:50 2020 -- 1 IP address (1 host up) scanned in 16496.27 seconds

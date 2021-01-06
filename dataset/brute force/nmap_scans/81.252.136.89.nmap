@@ -1,0 +1,114 @@
+# Nmap 7.40 scan initiated Mon Mar 30 00:22:54 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/81.252.136.89.nmap 81.252.136.89
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 81.252.136.89
+Host is up (1.2s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE          VERSION
+2121/tcp  open  ccproxy-ftp?
+8000/tcp  open  http-alt?
+8001/tcp  open  vcom-tunnel?
+8080/tcp  open  http             Network Video Recorder http admin
+8081/tcp  open  blackice-icecap?
+8082/tcp  open  http             Hikvision IP camera httpd
+17988/tcp open  ilo-vm           HP Integrated Lights-Out Virtual Media
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port2121-TCP:V=7.40%I=7%D=3/30%Time=5E815B01%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,21,"220\x20Serveur\x20de\x20Transmission\x20SCJ\r\n")%r(GenericLines
+SF:,65,"220\x20Serveur\x20de\x20Transmission\x20SCJ\r\n500\x20'\r':\x20com
+SF:mand\x20not\x20understood\.\r\n500\x20'\r':\x20command\x20not\x20unders
+SF:tood\.\r\n")%r(GetRequest,67,"220\x20Serveur\x20de\x20Transmission\x20S
+SF:CJ\r\n500\x20'GET':\x20command\x20not\x20understood\.\r\n500\x20'\r':\x
+SF:20command\x20not\x20understood\.\r\n")%r(HTTPOptions,6B,"220\x20Serveur
+SF:\x20de\x20Transmission\x20SCJ\r\n500\x20'OPTIONS':\x20command\x20not\x2
+SF:0understood\.\r\n500\x20'\r':\x20command\x20not\x20understood\.\r\n")%r
+SF:(RTSPRequest,6B,"220\x20Serveur\x20de\x20Transmission\x20SCJ\r\n500\x20
+SF:'OPTIONS':\x20command\x20not\x20understood\.\r\n500\x20'\r':\x20command
+SF:\x20not\x20understood\.\r\n")%r(RPCCheck,21,"220\x20Serveur\x20de\x20Tr
+SF:ansmission\x20SCJ\r\n")%r(DNSVersionBindReq,21,"220\x20Serveur\x20de\x2
+SF:0Transmission\x20SCJ\r\n")%r(DNSStatusRequest,21,"220\x20Serveur\x20de\
+SF:x20Transmission\x20SCJ\r\n")%r(Help,46,"220\x20Serveur\x20de\x20Transmi
+SF:ssion\x20SCJ\r\n500\x20'HELP':\x20command\x20not\x20understood\.\r\n")%
+SF:r(SSLSessionReq,75,"220\x20Serveur\x20de\x20Transmission\x20SCJ\r\n500\
+SF:x20'\x16\x03\0\0S\x01\0\0O\x03\0\?G\xd7\xf7\xba,\xee\xea\xb2`~\xf3\0\xf
+SF:d\x82{\xb9\xd5\x96\xc8w\x9b\xe6\xc4\xdb<=\xdbo\xef\x10n\0\0\(\0\x16\0\x
+SF:13\0':\x20command\x20not\x20understood\.\r\n")%r(TLSSessionReq,73,"220\
+SF:x20Serveur\x20de\x20Transmission\x20SCJ\r\n500\x20'\x16\x03\0\0i\x01\0\
+SF:0e\x03\x03U\x1c\xa7\xe4random1random2random3random4\0\0\x0c\0/\0':\x20c
+SF:ommand\x20not\x20understood\.\r\n")%r(Kerberos,55,"220\x20Serveur\x20de
+SF:\x20Transmission\x20SCJ\r\n500\x20'\0\0\0qj\x81n0\x81k\xa1\x03\x02\x01\
+SF:x05\xa2\x03\x02\x01':\x20command\x20not\x20understood\.\r\n")%r(SMBProg
+SF:Neg,21,"220\x20Serveur\x20de\x20Transmission\x20SCJ\r\n")%r(X11Probe,21
+SF:,"220\x20Serveur\x20de\x20Transmission\x20SCJ\r\n")%r(FourOhFourRequest
+SF:,67,"220\x20Serveur\x20de\x20Transmission\x20SCJ\r\n500\x20'GET':\x20co
+SF:mmand\x20not\x20understood\.\r\n500\x20'\r':\x20command\x20not\x20under
+SF:stood\.\r\n")%r(LPDString,4A,"220\x20Serveur\x20de\x20Transmission\x20S
+SF:CJ\r\n500\x20'\x01default':\x20command\x20not\x20understood\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8000-TCP:V=7.40%I=7%D=3/30%Time=5E815BB6%P=x86_64-pc-linux-gnu%r(Ke
+SF:rberos,10,"\0\0\0\x10\0\0\0\x1e\0\0\0\x1e\0\0\0\0")%r(SMBProgNeg,10,"\0
+SF:\0\0\x10\0\0\0\x1e\0\0\0\x1e\0\0\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8001-TCP:V=7.40%I=7%D=3/30%Time=5E815BD8%P=x86_64-pc-linux-gnu%r(Ke
+SF:rberos,10,"\0\0\0\x10\0\0\0\r\0\0\0\r\0\0\0\0")%r(SMBProgNeg,10,"\0\0\0
+SF:\x10\0\0\0\r\0\0\0\r\0\0\0\0")%r(NotesRPC,7F,"\x7f\0\0\0\x07\x04\x2003:
+SF:41:43\]\[pid:372\]\[SDKCMD\]\[DEBUG\]MULTICAST\x20network\x20connection
+SF:\.\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8081-TCP:V=7.40%I=7%D=3/30%Time=5E815BF1%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,273,"HTTP/1\.1\x20301\x20Redirection\r\nServer:\x20\r\nDate:\x
+SF:20Mon,\x2030\x20Mar\x202020\x2002:39:44\x20GMT\r\nContent-type:\x20text
+SF:/html\r\nContent-length:\x20457\r\nLocation:\x20http://cwas\.fusalp\.co
+SF:m:8081/index\.htm\r\n\r\n<html><head><title>Error\x20301</title>\r\n<me
+SF:ta\x20name=\"robots\"\x20content=\"noindex\">\r\n<META\x20HTTP-EQUIV=\"
+SF:Content-Type\"\x20CONTENT=\"text/html;\x20charset=iso-8859-1\"></head>\
+SF:r\n<body>\r\n<h2>HTTP\x20Error\x20301</h2>\r\n<p><strong>301\x20Redirec
+SF:tion</strong></p>\r\n<p><font\x20face=verdana,helvetica,arial\x20size=2
+SF:>Vous\x20allez\x20\xeatre\x20redirig\xe9\x20vers\x20</font></p>\r\n<p><
+SF:font\x20face=verdana,helvetica,arial\x20size=2>Contactez\x20l'administr
+SF:ateur\x20du\x20serveur\x20si\x20ce\x20probl\xe8me\x20persiste\.</font><
+SF:/p>\r\n</body></html>\r\n")%r(FourOhFourRequest,29D,"HTTP/1\.1\x20404\x
+SF:20Not\x20Found\r\nServer:\x20\r\nDate:\x20Mon,\x2030\x20Mar\x202020\x20
+SF:02:39:45\x20GMT\r\nContent-type:\x20text/html\r\nContent-length:\x20550
+SF:\r\n\r\n<html><head><title>Error\x20404</title>\r\n<meta\x20name=\"robo
+SF:ts\"\x20content=\"noindex\">\r\n<META\x20HTTP-EQUIV=\"Content-Type\"\x2
+SF:0CONTENT=\"text/html;\x20charset=iso-8859-1\"></head>\r\n<body>\r\n<h2>
+SF:HTTP\x20Error\x20404</h2>\r\n<p><strong>404\x20Not\x20Found</strong></p
+SF:>\r\n<p><font\x20face=verdana,helvetica,arial\x20size=2>Le\x20serveur\x
+SF:20eAGL\x20n'a\x20pas\x20pu\x20trouver\x20le\x20fichier\x20ou\x20le\x20s
+SF:cript\x20que\x20vous\x20avez\x20demand\xe9\.\x20<br>Veuillez\x20v\xe9ri
+SF:fer\x20que\x20l'URL\x20est\x20correct\.</font></p>\r\n<p><font\x20face=
+SF:verdana,helvetica,arial\x20size=2>Contactez\x20l'administrateur\x20du\x
+SF:20serveur\x20si\x20ce\x20probl\xe8me\x20persiste\.</font></p>\r\n</body
+SF:></html>\r\n");
+Service Info: Device: webcam; CPE: cpe:/h:hp:integrated_lights-out
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 30 04:41:55 2020 -- 1 IP address (1 host up) scanned in 15540.57 seconds

@@ -1,0 +1,19 @@
+# Nmap 7.40 scan initiated Fri May 22 00:53:22 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/157.100.77.206.nmap 157.100.77.206
+Nmap scan report for 157.100.77.206
+Host is up (0.40s latency).
+Not shown: 991 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+25/tcp   open  smtp     Postfix smtpd
+53/tcp   open  domain   dnsmasq 2.78
+80/tcp   open  http     Apache httpd
+443/tcp  open  ssl/http nginx
+465/tcp  open  ssl/smtp Postfix smtpd
+587/tcp  open  smtp     Postfix smtpd
+995/tcp  open  ssl/pop3 Zimbra Collabration Suite pop3d
+3000/tcp open  http     Mongoose httpd
+8443/tcp open  ssl/http Zimbra http config
+Service Info: Hosts: -mail.euroquimica.net,  mail.euroquimica.net
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 22 05:29:30 2020 -- 1 IP address (1 host up) scanned in 16568.49 seconds

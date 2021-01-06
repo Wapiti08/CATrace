@@ -1,0 +1,17 @@
+# Nmap 7.40 scan initiated Thu Aug 13 06:34:18 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/13.67.42.239.nmap 13.67.42.239
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 13.67.42.239
+Host is up (10s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE            VERSION
+3306/tcp open  mysql              MySQL (unauthorized)
+3389/tcp open  ssl/ms-wbt-server?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 13 10:46:25 2020 -- 1 IP address (1 host up) scanned in 15126.73 seconds

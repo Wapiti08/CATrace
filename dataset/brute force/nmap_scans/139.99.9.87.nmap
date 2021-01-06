@@ -1,0 +1,105 @@
+# Nmap 7.40 scan initiated Wed Nov 18 17:31:09 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/139.99.9.87.nmap 139.99.9.87
+Nmap scan report for 139.99.9.87
+Host is up (0.55s latency).
+Not shown: 991 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+22/tcp   open  ssh            OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+80/tcp   open  http           nginx
+443/tcp  open  ssl/http       nginx
+2022/tcp open  ssh            (protocol 2.0)
+3306/tcp open  mysql?
+5901/tcp open  vnc            VNC (protocol 3.8)
+5902/tcp open  vnc            VNC (protocol 3.8)
+8080/tcp open  ssl/http-proxy
+8100/tcp open  xprint-server?
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port2022-TCP:V=7.40%I=7%D=11/18%Time=5FB587EF%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,18,"SSH-2\.0-ssh2js0\.2\.1srv\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port3306-TCP:V=7.40%I=7%D=11/18%Time=5FB587F5%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,74,"p\0\0\0\n5\.5\.5-10\.4\.12-MariaDB-1:10\.4\.12\+maria~buster\0\
+SF:xacB\x13\0\?F\"tGD\]\(\0\xfe\xf7\x08\x02\0\xff\x81\x15\0\0\0\0\0\0\x07\
+SF:0\0\0O5\[KF\\{v_Y#=\0mysql_native_password\0")%r(GenericLines,B2,"p\0\0
+SF:\0\n5\.5\.5-10\.4\.12-MariaDB-1:10\.4\.12\+maria~buster\0\xacB\x13\0\?F
+SF:\"tGD\]\(\0\xfe\xf7\x08\x02\0\xff\x81\x15\0\0\0\0\0\0\x07\0\0\0O5\[KF\\
+SF:{v_Y#=\0mysql_native_password\0:\0\0\x01\xffj\x04#HY000Proxy\x20header\
+SF:x20is\x20not\x20accepted\x20from\x20185\.220\.101\.203")%r(GetRequest,7
+SF:4,"p\0\0\0\n5\.5\.5-10\.4\.12-MariaDB-1:10\.4\.12\+maria~buster\0\xadB\
+SF:x13\0\)s\.%n~ME\0\xfe\xf7\x08\x02\0\xff\x81\x15\0\0\0\0\0\0\x07\0\0\0QH
+SF:TMc/Z\\>`H\)\0mysql_native_password\0")%r(HTTPOptions,74,"p\0\0\0\n5\.5
+SF:\.5-10\.4\.12-MariaDB-1:10\.4\.12\+maria~buster\0\xaeB\x13\0,0LpnWJJ\0\
+SF:xfe\xf7\x08\x02\0\xff\x81\x15\0\0\0\0\0\0\x07\0\0\0t\*q{9ICQOx2-\0mysql
+SF:_native_password\0")%r(RTSPRequest,74,"p\0\0\0\n5\.5\.5-10\.4\.12-Maria
+SF:DB-1:10\.4\.12\+maria~buster\0\xafB\x13\0j/Ia-Z_M\0\xfe\xf7\x08\x02\0\x
+SF:ff\x81\x15\0\0\0\0\0\0\x07\0\0\0EO\?/lR4OoawV\0mysql_native_password\0"
+SF:)%r(RPCCheck,74,"p\0\0\0\n5\.5\.5-10\.4\.12-MariaDB-1:10\.4\.12\+maria~
+SF:buster\0\xb0B\x13\0OYRlJniE\0\xfe\xf7\x08\x02\0\xff\x81\x15\0\0\0\0\0\0
+SF:\x07\0\0\0\\}\",UIL#ga/e\0mysql_native_password\0")%r(DNSVersionBindReq
+SF:,74,"p\0\0\0\n5\.5\.5-10\.4\.12-MariaDB-1:10\.4\.12\+maria~buster\0\xb1
+SF:B\x13\0\[m1J_#\+M\0\xfe\xf7\x08\x02\0\xff\x81\x15\0\0\0\0\0\0\x07\0\0\0
+SF:#fZpEGr-\$jnj\0mysql_native_password\0")%r(DNSStatusRequest,74,"p\0\0\0
+SF:\n5\.5\.5-10\.4\.12-MariaDB-1:10\.4\.12\+maria~buster\0\xb2B\x13\0iQ6\\
+SF:LIiS\0\xfe\xf7\x08\x02\0\xff\x81\x15\0\0\0\0\0\0\x07\0\0\0C5!Dp\*~_@\^=
+SF:S\0mysql_native_password\0")%r(Help,74,"p\0\0\0\n5\.5\.5-10\.4\.12-Mari
+SF:aDB-1:10\.4\.12\+maria~buster\0\xb3B\x13\0LDQIYep%\0\xfe\xf7\x08\x02\0\
+SF:xff\x81\x15\0\0\0\0\0\0\x07\0\0\0cCeUY\?n-2U7R\0mysql_native_password\0
+SF:")%r(SSLSessionReq,74,"p\0\0\0\n5\.5\.5-10\.4\.12-MariaDB-1:10\.4\.12\+
+SF:maria~buster\0\xb4B\x13\x003bvKQ6X<\0\xfe\xf7\x08\x02\0\xff\x81\x15\0\0
+SF:\0\0\0\0\x07\0\0\0\^I0T7V-zD!wV\0mysql_native_password\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.40%T=SSL%I=7%D=11/18%Time=5FB58828%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,AE,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:
+SF:\x20application/json\r\nDate:\x20Wed,\x2018\x20Nov\x202020\x2020:46:31\
+SF:x20GMT\r\nConnection:\x20close\r\n\r\n{\n\x20\x20\x20\x20\"error\":\x20
+SF:\"Missing\x20required\x20X-Access-Token\x20header\.\"\n}")%r(HTTPOption
+SF:s,6B,"HTTP/1\.1\x20200\x20OK\r\nAccess-Control-Allow-Origin:\x20\*\r\nD
+SF:ate:\x20Wed,\x2018\x20Nov\x202020\x2020:46:32\x20GMT\r\nConnection:\x20
+SF:close\r\n\r\n")%r(FourOhFourRequest,16D,"HTTP/1\.1\x20405\x20Method\x20
+SF:Not\x20Allowed\r\nAllow:\x20OPTIONS\r\nContent-Type:\x20application/jso
+SF:n\r\nDate:\x20Wed,\x2018\x20Nov\x202020\x2020:47:29\x20GMT\r\nConnectio
+SF:n:\x20close\r\n\r\n{\n\x20\x20\x20\x20\"jse_shortmsg\":\x20\"GET\x20is\
+SF:x20not\x20allowed\",\n\x20\x20\x20\x20\"jse_info\":\x20{},\n\x20\x20\x2
+SF:0\x20\"message\":\x20\"GET\x20is\x20not\x20allowed\",\n\x20\x20\x20\x20
+SF:\"statusCode\":\x20405,\n\x20\x20\x20\x20\"body\":\x20{\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\"code\":\x20\"MethodNotAllowedError\",\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\"message\":\x20\"GET\x20is\x20not\x20allowed\"\n\x
+SF:20\x20\x20\x20}\n}");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8100-TCP:V=7.40%I=7%D=11/18%Time=5FB588C1%P=x86_64-pc-linux-gnu%r(R
+SF:PCCheck,9C,"\x9a\x01\x1b\x97\x01{\"translate\":\"disconnect\.genericRea
+SF:son\",\"with\":\[\"Internal\x20Exception:\x20io\.netty\.handler\.codec\
+SF:.DecoderException:\x20java\.io\.IOException:\x20Bad\x20packet\x20id\x20
+SF:114\"\]}")%r(DNSVersionBindReq,100,"\xfe\x01\x1b\xfb\x01{\"translate\":
+SF:\"disconnect\.genericReason\",\"with\":\[\"Internal\x20Exception:\x20io
+SF:\.netty\.handler\.codec\.DecoderException:\x20java\.io\.IOException:\x2
+SF:0Packet\x20-1/0\x20\(PacketHandshakingInSetProtocol\)\x20was\x20larger\
+SF:x20than\x20I\x20expected,\x20found\x2023\x20bytes\x20extra\x20whilst\x2
+SF:0reading\x20packet\x200\"\]}")%r(DNSStatusRequest,1DD,"\xdb\x03\x1b\xd8
+SF:\x03{\"translate\":\"disconnect\.genericReason\",\"with\":\[\"Internal\
+SF:x20Exception:\x20io\.netty\.handler\.codec\.DecoderException:\x20us\.my
+SF:les\.ViaVersion\.exception\.InformativeException:\x20Please\x20post\x20
+SF:this\x20error\x20to\x20https://github\.com/ViaVersion/ViaVersion/issues
+SF:\\n{Type:\x20String,\x20Data:\x20\[Pair{Type\|VarInt,\x200}\],\x20Sourc
+SF:e\x200:\x20us\.myles\.ViaVersion\.protocols\.base\.BaseProtocol\$1\$\$L
+SF:ambda\$2056/1379046432,\x20Packet\x20ID:\x200,\x20Source\x201:\x20us\.m
+SF:yles\.ViaVersion\.protocols\.base\.BaseProtocol\$1\x20\(Anonymous\)}\\n
+SF:Actual\x20Error:\x20\"\]}")%r(SSLSessionReq,9A,"\x98\x01\x1b\x95\x01{\"
+SF:translate\":\"disconnect\.genericReason\",\"with\":\[\"Internal\x20Exce
+SF:ption:\x20io\.netty\.handler\.codec\.DecoderException:\x20java\.io\.IOE
+SF:xception:\x20Bad\x20packet\x20id\x203\"\]}")%r(TLSSessionReq,9A,"\x98\x
+SF:01\x1b\x95\x01{\"translate\":\"disconnect\.genericReason\",\"with\":\[\
+SF:"Internal\x20Exception:\x20io\.netty\.handler\.codec\.DecoderException:
+SF:\x20java\.io\.IOException:\x20Bad\x20packet\x20id\x203\"\]}")%r(Kerbero
+SF:s,9C,"\x9a\x01\x1b\x97\x01{\"translate\":\"disconnect\.genericReason\",
+SF:\"with\":\[\"Internal\x20Exception:\x20io\.netty\.handler\.codec\.Decod
+SF:erException:\x20java\.io\.IOException:\x20Bad\x20packet\x20id\x20106\"\
+SF:]}")%r(LPDString,9C,"\x9a\x01\x1b\x97\x01{\"translate\":\"disconnect\.g
+SF:enericReason\",\"with\":\[\"Internal\x20Exception:\x20io\.netty\.handle
+SF:r\.codec\.DecoderException:\x20java\.io\.IOException:\x20Bad\x20packet\
+SF:x20id\x20100\"\]}");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 18 21:50:06 2020 -- 1 IP address (1 host up) scanned in 15537.38 seconds

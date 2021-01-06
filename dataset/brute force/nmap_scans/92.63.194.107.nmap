@@ -1,0 +1,28 @@
+# Nmap 7.40 scan initiated Wed Apr  1 18:20:27 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/92.63.194.107.nmap 92.63.194.107
+Nmap scan report for 92.63.194.107
+Host is up (0.30s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+3389/tcp open  ssh         OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+8088/tcp open  radan-http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8088-TCP:V=7.40%I=7%D=4/1%Time=5E84FFB8%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,B,"{\"Rep\":\"\"}\n")%r(Socks5,B,"{\"Rep\":\"\"}\n")%r(Socks4,B
+SF:,"{\"Rep\":\"\"}\n")%r(GenericLines,B,"{\"Rep\":\"\"}\n")%r(HTTPOptions
+SF:,B,"{\"Rep\":\"\"}\n")%r(RTSPRequest,B,"{\"Rep\":\"\"}\n")%r(RPCCheck,B
+SF:,"{\"Rep\":\"\"}\n")%r(DNSVersionBindReq,B,"{\"Rep\":\"\"}\n")%r(DNSSta
+SF:tusRequest,B,"{\"Rep\":\"\"}\n")%r(Help,B,"{\"Rep\":\"\"}\n")%r(SSLSess
+SF:ionReq,B,"{\"Rep\":\"\"}\n")%r(TLSSessionReq,B,"{\"Rep\":\"\"}\n")%r(Ke
+SF:rberos,B,"{\"Rep\":\"\"}\n")%r(SMBProgNeg,B,"{\"Rep\":\"\"}\n")%r(X11Pr
+SF:obe,B,"{\"Rep\":\"\"}\n")%r(FourOhFourRequest,B,"{\"Rep\":\"\"}\n")%r(L
+SF:PDString,B,"{\"Rep\":\"\"}\n")%r(LDAPSearchReq,B,"{\"Rep\":\"\"}\n")%r(
+SF:LDAPBindReq,B,"{\"Rep\":\"\"}\n")%r(SIPOptions,B,"{\"Rep\":\"\"}\n")%r(
+SF:LANDesk-RC,B,"{\"Rep\":\"\"}\n")%r(TerminalServer,B,"{\"Rep\":\"\"}\n")
+SF:%r(NCP,B,"{\"Rep\":\"\"}\n")%r(NotesRPC,B,"{\"Rep\":\"\"}\n")%r(WMSRequ
+SF:est,B,"{\"Rep\":\"\"}\n")%r(oracle-tns,B,"{\"Rep\":\"\"}\n")%r(afp,B,"{
+SF:\"Rep\":\"\"}\n")%r(giop,B,"{\"Rep\":\"\"}\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr  1 22:55:37 2020 -- 1 IP address (1 host up) scanned in 16510.99 seconds

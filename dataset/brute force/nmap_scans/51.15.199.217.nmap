@@ -1,0 +1,13 @@
+# Nmap 7.40 scan initiated Wed Apr 29 11:25:06 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/51.15.199.217.nmap 51.15.199.217
+Nmap scan report for 51.15.199.217
+Host is up (0.16s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+25/tcp  open  smtp    Postfix smtpd
+111/tcp open  rpcbind 2-4 (RPC #100000)
+Service Info: Host:  TEST-SERVER.cloud.online.net; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr 29 16:00:15 2020 -- 1 IP address (1 host up) scanned in 16509.27 seconds

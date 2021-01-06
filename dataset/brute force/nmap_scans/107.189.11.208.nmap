@@ -1,0 +1,12 @@
+# Nmap 7.40 scan initiated Fri Oct 30 05:35:43 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/107.189.11.208.nmap 107.189.11.208
+Nmap scan report for 107.189.11.208
+Host is up (0.10s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+222/tcp  open  ssh     OpenSSH 7.4 (protocol 2.0)
+3306/tcp open  mysql   MySQL 5.7.32
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 30 10:10:37 2020 -- 1 IP address (1 host up) scanned in 16493.49 seconds

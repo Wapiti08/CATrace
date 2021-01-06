@@ -1,0 +1,10 @@
+# Nmap 7.40 scan initiated Sun Dec 27 18:28:55 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/161.97.116.25.nmap 161.97.116.25
+Nmap scan report for 161.97.116.25
+Host is up (0.27s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Dec 27 23:03:34 2020 -- 1 IP address (1 host up) scanned in 16478.35 seconds

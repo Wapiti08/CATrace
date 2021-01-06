@@ -1,0 +1,63 @@
+# Nmap 7.40 scan initiated Wed Feb 19 20:14:04 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/121.174.240.194.nmap 121.174.240.194
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 121.174.240.194
+Host is up (9.0s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+53/tcp   open  tcpwrapped
+1122/tcp open  ssh        OpenSSH 5.3 (protocol 2.0)
+1123/tcp open  telnet     Linux telnetd
+1521/tcp open  oracle-tns Oracle TNS Listener 10.2.0.1.0 (for Linux)
+8080/tcp open  http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.40%I=7%D=2/20%Time=5E4DC3FC%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,1BB,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Wed,\x2019\x20Feb\x202
+SF:020\x2023:46:07\x20GMT\r\nContent-Type:\x20text/html;charset=UTF-8\r\nC
+SF:onnection:\x20close\r\nLast-Modified:\x20Fri,\x2013\x20Nov\x202015\x200
+SF:5:30:24\x20GMT\r\nContent-Length:\x20262\r\n\r\n<!DOCTYPE\x20html>\r\n<
+SF:html>\r\n<HEAD>\r\n<meta\x20http-equiv=\"Content-Type\"\x20content=\"te
+SF:xt/html;\x20charset=utf-8\">\r\n<meta\x20charset=\"utf-8\">\r\n<meta\x2
+SF:0http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrome=1\">\r\n</H
+SF:EAD>\r\n<script>\r\ndocument\.location=\"/index\.jsp\";\r\n</script>\r\
+SF:n</html>\r\n")%r(HTTPOptions,1BB,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20We
+SF:d,\x2019\x20Feb\x202020\x2023:46:07\x20GMT\r\nContent-Type:\x20text/htm
+SF:l;charset=UTF-8\r\nConnection:\x20close\r\nLast-Modified:\x20Fri,\x2013
+SF:\x20Nov\x202015\x2005:30:24\x20GMT\r\nContent-Length:\x20262\r\n\r\n<!D
+SF:OCTYPE\x20html>\r\n<html>\r\n<HEAD>\r\n<meta\x20http-equiv=\"Content-Ty
+SF:pe\"\x20content=\"text/html;\x20charset=utf-8\">\r\n<meta\x20charset=\"
+SF:utf-8\">\r\n<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edg
+SF:e,chrome=1\">\r\n</HEAD>\r\n<script>\r\ndocument\.location=\"/index\.js
+SF:p\";\r\n</script>\r\n</html>\r\n")%r(RTSPRequest,11A,"HTTP/1\.1\x20400\
+SF:x20Bad\x20Request\r\nDate:\x20Wed,\x2019\x20Feb\x202020\x2023:46:08\x20
+SF:GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Le
+SF:ngth:\x20152\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HT
+SF:ML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>\x20400\x20Bad\x20Request\x20</
+SF:TITLE>\n</HEAD><BODY>\n<H1>Bad\x20Request</H1>\n<HR>\n</BODY></HTML>\n"
+SF:)%r(FourOhFourRequest,84A,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x2
+SF:0Wed,\x2019\x20Feb\x202020\x2023:46:09\x20GMT\r\nContent-Type:\x20text/
+SF:html;charset=UTF-8\r\nConnection:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x20
+SF:PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\r\n<HTML>\r\n\t<HEAD>\r
+SF:\n\t\t<TITLE>404\x20Not\x20Found</TITLE>\r\n<!--style>\x20<H1\x20{font-
+SF:family:Courier,Tahoma,Arial,sans-serif;color:white;background-color:#52
+SF:5D76;font-size:22px;}\x20H2\x20{font-family:Courier,Tahoma,Arial,sans-s
+SF:erif;color:white;background-color:#525D76;font-size:16px;}\x20H3\x20{fo
+SF:nt-family:Courier,Tahoma,Arial,sans-serif;color:white;background-color:
+SF:#525D76;font-size:14px;}\x20BODY\x20{font-family:Courier,Tahoma,Arial,s
+SF:ans-serif;color:black;background-color:white;}\x20B\x20{font-family:Cou
+SF:rier,Tahoma,Arial,sans-serif;color:white;background-color:#525D76;}\x20
+SF:P\x20{font-family:Courier,Tahoma,Arial,sans-serif;background:white;colo
+SF:r:black;font-size:12px;}A\x20{color\x20:\x20black;}A\.name\x20{color\x2
+SF:0:\x20black;}HR\x20{color\x20:\x20#525D76;}></style-->\r\n\t</HEAD>\r\n
+SF:\t<BODY>\r\n\t");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 20 00:27:40 2020 -- 1 IP address (1 host up) scanned in 15216.67 seconds

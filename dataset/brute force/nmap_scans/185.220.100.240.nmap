@@ -1,0 +1,16 @@
+# Nmap 7.40 scan initiated Sun Apr 26 00:03:47 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/185.220.100.240.nmap 185.220.100.240
+Nmap scan report for 185.220.100.240
+Host is up (0.26s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE         VERSION
+22/tcp   open  ssh             OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+80/tcp   open  http            mini_httpd 1.30 26Oct2018
+9000/tcp open  ssl/cslistener?
+9001/tcp open  http            Tor directory
+9100/tcp open  jetdirect?
+9101/tcp open  jetdirect?
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr 26 04:41:39 2020 -- 1 IP address (1 host up) scanned in 16672.61 seconds

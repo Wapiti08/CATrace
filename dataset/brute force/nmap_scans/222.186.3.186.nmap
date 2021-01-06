@@ -1,0 +1,53 @@
+# Nmap 7.40 scan initiated Mon Mar 16 16:40:25 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/222.186.3.186.nmap 222.186.3.186
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 222.186.3.186
+Host is up (2.8s latency).
+Not shown: 982 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE     VERSION
+53/tcp    open  tcpwrapped
+85/tcp    open  mit-ml-dev?
+443/tcp   open  ssl/http    nginx
+993/tcp   open  tcpwrapped
+1065/tcp  open  tcpwrapped
+1102/tcp  open  tcpwrapped
+1812/tcp  open  radius?
+2000/tcp  open  tcpwrapped
+2602/tcp  open  tcpwrapped
+2910/tcp  open  tcpwrapped
+3007/tcp  open  lotusmtap?
+5060/tcp  open  tcpwrapped
+5405/tcp  open  tcpwrapped
+6788/tcp  open  tcpwrapped
+7004/tcp  open  tcpwrapped
+7625/tcp  open  tcpwrapped
+8888/tcp  open  tcpwrapped
+14238/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 16 21:02:41 2020 -- 1 IP address (1 host up) scanned in 15736.48 seconds

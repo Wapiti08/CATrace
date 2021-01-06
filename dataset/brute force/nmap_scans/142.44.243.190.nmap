@@ -1,0 +1,97 @@
+# Nmap 7.40 scan initiated Fri May  8 23:58:54 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/142.44.243.190.nmap 142.44.243.190
+Nmap scan report for 142.44.243.190
+Host is up (0.73s latency).
+Not shown: 991 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE      VERSION
+21/tcp    open  ftp          vsftpd 3.0.3
+25/tcp    open  smtp         Postfix smtpd
+80/tcp    open  http         nginx 1.10.3 (Ubuntu)
+443/tcp   open  ssl/http     nginx 1.10.3 (Ubuntu)
+5000/tcp  open  tcpwrapped
+5222/tcp  open  xmpp-client?
+5269/tcp  open  xmpp-server?
+5280/tcp  open  xmpp-bosh?
+10000/tcp open  http         MiniServ 1.920 (Webmin httpd)
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5222-TCP:V=7.40%I=7%D=5/9%Time=5EB616A3%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,15E,"<\?xml\x20version='1\.0'\?><stream:stream\x20id='151226247
+SF:06020598374'\x20version='1\.0'\x20xml:lang='en'\x20xmlns:stream='http:/
+SF:/etherx\.jabber\.org/streams'\x20xmlns='jabber:client'><stream:error><n
+SF:ot-well-formed\x20xmlns='urn:ietf:params:xml:ns:xmpp-streams'/><text\x2
+SF:0xml:lang='en'\x20xmlns='urn:ietf:params:xml:ns:xmpp-streams'>syntax\x2
+SF:0error</text></stream:error></stream:stream>")%r(HTTPOptions,15D,"<\?xm
+SF:l\x20version='1\.0'\?><stream:stream\x20id='9348589817201746559'\x20ver
+SF:sion='1\.0'\x20xml:lang='en'\x20xmlns:stream='http://etherx\.jabber\.or
+SF:g/streams'\x20xmlns='jabber:client'><stream:error><not-well-formed\x20x
+SF:mlns='urn:ietf:params:xml:ns:xmpp-streams'/><text\x20xml:lang='en'\x20x
+SF:mlns='urn:ietf:params:xml:ns:xmpp-streams'>syntax\x20error</text></stre
+SF:am:error></stream:stream>")%r(RTSPRequest,15D,"<\?xml\x20version='1\.0'
+SF:\?><stream:stream\x20id='8542523347371351568'\x20version='1\.0'\x20xml:
+SF:lang='en'\x20xmlns:stream='http://etherx\.jabber\.org/streams'\x20xmlns
+SF:='jabber:client'><stream:error><not-well-formed\x20xmlns='urn:ietf:para
+SF:ms:xml:ns:xmpp-streams'/><text\x20xml:lang='en'\x20xmlns='urn:ietf:para
+SF:ms:xml:ns:xmpp-streams'>syntax\x20error</text></stream:error></stream:s
+SF:tream>")%r(RPCCheck,170,"<\?xml\x20version='1\.0'\?><stream:stream\x20i
+SF:d='3469764065077543829'\x20version='1\.0'\x20xml:lang='en'\x20xmlns:str
+SF:eam='http://etherx\.jabber\.org/streams'\x20xmlns='jabber:client'><stre
+SF:am:error><not-well-formed\x20xmlns='urn:ietf:params:xml:ns:xmpp-streams
+SF:'/><text\x20xml:lang='en'\x20xmlns='urn:ietf:params:xml:ns:xmpp-streams
+SF:'>not\x20well-formed\x20\(invalid\x20token\)</text></stream:error></str
+SF:eam:stream>")%r(DNSVersionBindReq,171,"<\?xml\x20version='1\.0'\?><stre
+SF:am:stream\x20id='15693266199588934291'\x20version='1\.0'\x20xml:lang='e
+SF:n'\x20xmlns:stream='http://etherx\.jabber\.org/streams'\x20xmlns='jabbe
+SF:r:client'><stream:error><not-well-formed\x20xmlns='urn:ietf:params:xml:
+SF:ns:xmpp-streams'/><text\x20xml:lang='en'\x20xmlns='urn:ietf:params:xml:
+SF:ns:xmpp-streams'>not\x20well-formed\x20\(invalid\x20token\)</text></str
+SF:eam:error></stream:stream>");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5269-TCP:V=7.40%I=7%D=5/9%Time=5EB616BC%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,17F,"<\?xml\x20version='1\.0'\?><stream:stream\x20id='461169334
+SF:7301957273'\x20version='1\.0'\x20xml:lang='en'\x20xmlns:db='jabber:serv
+SF:er:dialback'\x20xmlns:stream='http://etherx\.jabber\.org/streams'\x20xm
+SF:lns='jabber:server'><stream:error><not-well-formed\x20xmlns='urn:ietf:p
+SF:arams:xml:ns:xmpp-streams'/><text\x20xml:lang='en'\x20xmlns='urn:ietf:p
+SF:arams:xml:ns:xmpp-streams'>syntax\x20error</text></stream:error></strea
+SF:m:stream>")%r(HTTPOptions,180,"<\?xml\x20version='1\.0'\?><stream:strea
+SF:m\x20id='15961694356206625489'\x20version='1\.0'\x20xml:lang='en'\x20xm
+SF:lns:db='jabber:server:dialback'\x20xmlns:stream='http://etherx\.jabber\
+SF:.org/streams'\x20xmlns='jabber:server'><stream:error><not-well-formed\x
+SF:20xmlns='urn:ietf:params:xml:ns:xmpp-streams'/><text\x20xml:lang='en'\x
+SF:20xmlns='urn:ietf:params:xml:ns:xmpp-streams'>syntax\x20error</text></s
+SF:tream:error></stream:stream>")%r(RTSPRequest,180,"<\?xml\x20version='1\
+SF:.0'\?><stream:stream\x20id='16296649385447399928'\x20version='1\.0'\x20
+SF:xml:lang='en'\x20xmlns:db='jabber:server:dialback'\x20xmlns:stream='htt
+SF:p://etherx\.jabber\.org/streams'\x20xmlns='jabber:server'><stream:error
+SF:><not-well-formed\x20xmlns='urn:ietf:params:xml:ns:xmpp-streams'/><text
+SF:\x20xml:lang='en'\x20xmlns='urn:ietf:params:xml:ns:xmpp-streams'>syntax
+SF:\x20error</text></stream:error></stream:stream>")%r(RPCCheck,192,"<\?xm
+SF:l\x20version='1\.0'\?><stream:stream\x20id='1938424304982933877'\x20ver
+SF:sion='1\.0'\x20xml:lang='en'\x20xmlns:db='jabber:server:dialback'\x20xm
+SF:lns:stream='http://etherx\.jabber\.org/streams'\x20xmlns='jabber:server
+SF:'><stream:error><not-well-formed\x20xmlns='urn:ietf:params:xml:ns:xmpp-
+SF:streams'/><text\x20xml:lang='en'\x20xmlns='urn:ietf:params:xml:ns:xmpp-
+SF:streams'>not\x20well-formed\x20\(invalid\x20token\)</text></stream:erro
+SF:r></stream:stream>")%r(DNSVersionBindReq,193,"<\?xml\x20version='1\.0'\
+SF:?><stream:stream\x20id='11754656468556857517'\x20version='1\.0'\x20xml:
+SF:lang='en'\x20xmlns:db='jabber:server:dialback'\x20xmlns:stream='http://
+SF:etherx\.jabber\.org/streams'\x20xmlns='jabber:server'><stream:error><no
+SF:t-well-formed\x20xmlns='urn:ietf:params:xml:ns:xmpp-streams'/><text\x20
+SF:xml:lang='en'\x20xmlns='urn:ietf:params:xml:ns:xmpp-streams'>not\x20wel
+SF:l-formed\x20\(invalid\x20token\)</text></stream:error></stream:stream>"
+SF:);
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5280-TCP:V=7.40%I=7%D=5/9%Time=5EB616DB%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,7E,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\
+SF:r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x201
+SF:9\r\n\r\nMissing\x20Host\x20header")%r(HTTPOptions,7E,"HTTP/1\.0\x20400
+SF:\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Type:\x20text/htm
+SF:l;\x20charset=utf-8\r\nContent-Length:\x2019\r\n\r\nMissing\x20Host\x20
+SF:header")%r(FourOhFourRequest,7E,"HTTP/1\.0\x20400\x20Bad\x20Request\r\n
+SF:Connection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\
+SF:nContent-Length:\x2019\r\n\r\nMissing\x20Host\x20header");
+Service Info: Host:  acs.agrraj.com; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May  9 04:37:24 2020 -- 1 IP address (1 host up) scanned in 16710.64 seconds

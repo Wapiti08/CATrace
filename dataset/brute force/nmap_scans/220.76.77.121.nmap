@@ -1,0 +1,36 @@
+# Nmap 7.40 scan initiated Thu Mar 12 02:51:40 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/220.76.77.121.nmap 220.76.77.121
+Nmap scan report for 220.76.77.121
+Host is up (0.35s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+21/tcp   open  ftp            ProFTPD 1.2.10
+111/tcp  open  rpcbind        2 (RPC #100000)
+443/tcp  open  ssl/http       Apache httpd 2.2.14 ((Unix) mod_ssl/2.2.14 OpenSSL/0.9.8g DAV/2 PHP/5.2.11 with Suhosin-Patch)
+548/tcp  open  afp
+8000/tcp open  http           Apache httpd 2.2.14 ((Unix) mod_ssl/2.2.14 OpenSSL/0.9.8g DAV/2 PHP/5.2.11 with Suhosin-Patch)
+8080/tcp open  ssl/http-proxy http server 1.0
+9091/tcp open  http           Apache httpd 2.2.14 ((Unix) mod_ssl/2.2.14 OpenSSL/0.9.8g DAV/2 PHP/5.2.11 with Suhosin-Patch)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port548-TCP:V=7.40%I=7%D=3/12%Time=5E69D640%P=x86_64-pc-linux-gnu%r(afp
+SF:,1BF,"\x01\x03\0\x01\0\0\0\0\0\0\x01\xaf\0\0\0\0\0\x1a\0#\0m\0\x89\x83y
+SF:\x06LG-NAS\0\x01\x89\x01\x99\x01\xa6\x01\xa7\x08Netatalk\x07\x0eAFPVers
+SF:ion\x201\.1\x0eAFPVersion\x202\.0\x0eAFPVersion\x202\.1\x06AFP2\.2\x06A
+SF:FPX03\x06AFP3\.1\x06AFP3\.2\x02\x10Cleartxt\x20Passwrd\tDHCAST1280\0\x8
+SF:f\xf8\xcc\x01H\x0c\xb32\(\n\x8c\xcc\|\x0f\x83\x02\xff\x01\x80\xc3\xc3\x
+SF:81\x803\xe3\xc1\x80\x0b\xd3\xc1\x80\x0b\xb1a\x80\x0b\xe0\xe1\x80\x0b\xe
+SF:1\xe1\x80\x0b\xd1\xe1\xc0\n\xc0\xe1p\x0bx\xc1\x1c\x0by\xc1\x17\x0b3\xff
+SF:!\xcb\xff\xc4@\x7f\xff\x02\x80\x1e\0\x01\xff\xff\xff\xff\x80\0\0\x01\xf
+SF:f\xff\xff\xff\0\x02\x80\0\0\x02\x80\0\0\x07\xc0\0\0\x04@\0\0\x04@\0\0\x
+SF:07\xc0\0\0\x05@\0\x0f\xf9\?\xfc\0\x02\x80\0\x0f\xfc\x7f\xfc0\0\x8f\xf8\
+SF:xfc\x01\xcf\xfc\xff3\xef\xfe\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf
+SF:f\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x
+SF:ff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x7f\xff\xff\xff\x1f\xff\
+SF:xff\xff\x1f\xff\xff\xff\?\xff\xff\xfc\x7f\xff\xff\xfe\xff\xff\xff\xff\x
+SF:ff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\0\x03\x80\0\0\x03\x80\0\
+SF:0\x07\xc0\0\0\x07\xc0\0\0\x07\xc0\0\0\x07\xc0\0\0\x07\xc0\0\xff\xff\xff
+SF:\xff\?\xfe\xff\xff\xff\xfc\x7f\xff\0-\xc0\xa8\0-\xc0\xa8\0-\xc0\xa8\0-\
+SF:xc0\xa8\x02\x06\x01\xc0\xa8\0-\x06\x03\xff\0\x89\x80\0\0\x06LG-NAS");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar 12 07:28:29 2020 -- 1 IP address (1 host up) scanned in 16609.58 seconds

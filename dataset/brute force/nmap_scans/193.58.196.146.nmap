@@ -1,0 +1,94 @@
+# Nmap 7.40 scan initiated Fri Apr 17 16:16:13 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/193.58.196.146.nmap 193.58.196.146
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 193.58.196.146
+Host is up (6.8s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    nginx 1.10.3 (Phusion Passenger 6.0.4)
+808/tcp  open  http    Apache httpd 2.4.25 ((Debian))
+3306/tcp open  mysql?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.40%I=7%D=4/17%Time=5E99F9DD%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,4E,"J\0\0\0\n8\.0\.19\0\xc0\x16\0\0C'\x0f0y\x1e\.\.\0\xff\xff\xff\x0
+SF:2\0\xff\xc7\x15\0\0\0\0\0\0\0\0\0\0e24\x04\x04e`\x11D\.sC\0caching_sha2
+SF:_password\0")%r(GenericLines,4E,"J\0\0\0\n8\.0\.19\0\xc0\x16\0\0C'\x0f0
+SF:y\x1e\.\.\0\xff\xff\xff\x02\0\xff\xc7\x15\0\0\0\0\0\0\0\0\0\0e24\x04\x0
+SF:4e`\x11D\.sC\0caching_sha2_password\0")%r(GetRequest,6D,"J\0\0\0\n8\.0\
+SF:.19\0\xc1\x16\0\0YI\x0b\|U\t&O\0\xff\xff\xff\x02\0\xff\xc7\x15\0\0\0\0\
+SF:0\0\0\0\0\x002S\x16Qps\"\x0f#\x12S%\0caching_sha2_password\0\x1b\0\0\x0
+SF:1\xff\x84\x04Got\x20packets\x20out\x20of\x20order")%r(HTTPOptions,6D,"J
+SF:\0\0\0\n8\.0\.19\0\xc2\x16\0\0Q\x01s\rd/i3\0\xff\xff\xff\x02\0\xff\xc7\
+SF:x15\0\0\0\0\0\0\0\0\0\0l=\x029Xc\]\x16X\x1dgH\0caching_sha2_password\0\
+SF:x1b\0\0\x01\xff\x84\x04Got\x20packets\x20out\x20of\x20order")%r(RTSPReq
+SF:uest,6D,"J\0\0\0\n8\.0\.19\0\xc3\x16\0\0>a76\x0b\x10\x0c\x0c\0\xff\xff\
+SF:xff\x02\0\xff\xc7\x15\0\0\0\0\0\0\0\0\0\0C\nC%I\x0c_X\x011`h\0caching_s
+SF:ha2_password\0\x1b\0\0\x01\xff\x84\x04Got\x20packets\x20out\x20of\x20or
+SF:der")%r(RPCCheck,6D,"J\0\0\0\n8\.0\.19\0\xc4\x16\0\0Yu\x07\x191\?d\*\0\
+SF:xff\xff\xff\x02\0\xff\xc7\x15\0\0\0\0\0\0\0\0\0\0S\|r\x1eB\x1f;\x16yupS
+SF:\0caching_sha2_password\0\x1b\0\0\x01\xff\x84\x04Got\x20packets\x20out\
+SF:x20of\x20order")%r(DNSVersionBindReq,73,"J\0\0\0\n8\.0\.19\0\xc5\x16\0\
+SF:x006\x18WK\?n%Z\0\xff\xff\xff\x02\0\xff\xc7\x15\0\0\0\0\0\0\0\0\0\0y4tk
+SF:K58v\x05P>l\0caching_sha2_password\0!\0\0\x01\xff\x84\x04#08S01Got\x20p
+SF:ackets\x20out\x20of\x20order")%r(DNSStatusRequest,6D,"J\0\0\0\n8\.0\.19
+SF:\0\xc6\x16\0\0T\n\|f~\x08&\n\0\xff\xff\xff\x02\0\xff\xc7\x15\0\0\0\0\0\
+SF:0\0\0\0\0lB{h\[\x1e_cM&P\+\0caching_sha2_password\0\x1b\0\0\x01\xff\x84
+SF:\x04Got\x20packets\x20out\x20of\x20order")%r(Help,6D,"J\0\0\0\n8\.0\.19
+SF:\0\xc7\x16\0\0lW7R/t8k\0\xff\xff\xff\x02\0\xff\xc7\x15\0\0\0\0\0\0\0\0\
+SF:0\0\x0e\x01gFd'9Z\x18\x1eX\]\0caching_sha2_password\0\x1b\0\0\x01\xff\x
+SF:84\x04Got\x20packets\x20out\x20of\x20order")%r(SSLSessionReq,73,"J\0\0\
+SF:0\n8\.0\.19\0\xc8\x16\0\0Y\x11\x0f:nptu\0\xff\xff\xff\x02\0\xff\xc7\x15
+SF:\0\0\0\0\0\0\0\0\0\0c<>BDsL\x1c\+!hk\0caching_sha2_password\0!\0\0\x01\
+SF:xff\x84\x04#08S01Got\x20packets\x20out\x20of\x20order");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 17 20:48:34 2020 -- 1 IP address (1 host up) scanned in 16341.80 seconds

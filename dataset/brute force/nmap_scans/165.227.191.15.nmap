@@ -1,0 +1,56 @@
+# Nmap 7.40 scan initiated Wed Oct  7 02:49:50 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/165.227.191.15.nmap 165.227.191.15
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 165.227.191.15
+Host is up (8.9s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.40%I=7%D=10/7%Time=5F7D4B78%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,2942,"HTTP/1\.0\x20200\x20OK\r\nContent-Type:\x20text/html;\x20c
+SF:harset=UTF-8\r\nSet-Cookie:\x20lang=en-US;\x20Path=/;\x20Max-Age=214748
+SF:3647\r\nSet-Cookie:\x20i_like_gitea=96dddd161f858be9;\x20Path=/;\x20Htt
+SF:pOnly\r\nSet-Cookie:\x20_csrf=BLOBi61B-S1IixJ-DDmIRc2dsrc6MTYwMjA0Njg0M
+SF:DI1MTEyMTM2Mg%3D%3D;\x20Path=/;\x20Expires=Thu,\x2008\x20Oct\x202020\x2
+SF:005:00:40\x20GMT;\x20HttpOnly\r\nX-Frame-Options:\x20SAMEORIGIN\r\nDate
+SF::\x20Wed,\x2007\x20Oct\x202020\x2005:00:40\x20GMT\r\n\r\n<!DOCTYPE\x20h
+SF:tml>\n<html\x20lang=\"en-US\">\n<head\x20data-suburl=\"\">\n\t<meta\x20
+SF:charset=\"utf-8\">\n\t<meta\x20name=\"viewport\"\x20content=\"width=dev
+SF:ice-width,\x20initial-scale=1\">\n\t<meta\x20http-equiv=\"x-ua-compatib
+SF:le\"\x20content=\"ie=edge\">\n\t<title>Gitea:\x20Git\x20with\x20a\x20cu
+SF:p\x20of\x20tea</title>\n\t<link\x20rel=\"manifest\"\x20href=\"/manifest
+SF:\.json\"\x20crossorigin=\"use-credentials\">\n\n\t<script>\n\t\tif\x20\
+SF:('serviceWorker'\x20in\x20navigator\)\x20{\n\x20\x20\t\t\twindow\.addEv
+SF:entListener\('load',\x20function\(\)\x20{\n\x20\x20\x20\x20\t\t\tnaviga
+SF:tor\.serviceWorker\.register\('/serviceworker\.js'\)\.then\(function\(r
+SF:egistration\)\x20{\n\x20\x20\x20\x20\x20\x20\t\t")%r(HTTPOptions,20ED,"
+SF:HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20text/html;\x20char
+SF:set=UTF-8\r\nSet-Cookie:\x20lang=en-US;\x20Path=/;\x20Max-Age=214748364
+SF:7\r\nSet-Cookie:\x20i_like_gitea=5d35c4be0d32b682;\x20Path=/;\x20HttpOn
+SF:ly\r\nSet-Cookie:\x20_csrf=GORjOlmXiUPCNKZcPH6UISnT0DY6MTYwMjA0Njg0MTAw
+SF:NTI0Nzk5OQ%3D%3D;\x20Path=/;\x20Expires=Thu,\x2008\x20Oct\x202020\x2005
+SF::00:41\x20GMT;\x20HttpOnly\r\nX-Frame-Options:\x20SAMEORIGIN\r\nDate:\x
+SF:20Wed,\x2007\x20Oct\x202020\x2005:00:41\x20GMT\r\n\r\n<!DOCTYPE\x20html
+SF:>\n<html\x20lang=\"en-US\">\n<head\x20data-suburl=\"\">\n\t<meta\x20cha
+SF:rset=\"utf-8\">\n\t<meta\x20name=\"viewport\"\x20content=\"width=device
+SF:-width,\x20initial-scale=1\">\n\t<meta\x20http-equiv=\"x-ua-compatible\
+SF:"\x20content=\"ie=edge\">\n\t<title>Page\x20Not\x20Found\x20-\x20Gitea:
+SF:\x20Git\x20with\x20a\x20cup\x20of\x20tea</title>\n\t<link\x20rel=\"mani
+SF:fest\"\x20href=\"/manifest\.json\"\x20crossorigin=\"use-credentials\">\
+SF:n\n\t<script>\n\t\tif\x20\('serviceWorker'\x20in\x20navigator\)\x20{\n\
+SF:x20\x20\t\t\twindow\.addEventListener\('load',\x20function\(\)\x20{\n\x
+SF:20\x20\x20\x20\t\t\tnavigator\.serviceWorker\.register\('/serviceworker
+SF:\.js'\)\.then\(function\(");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct  7 07:01:58 2020 -- 1 IP address (1 host up) scanned in 15128.47 seconds

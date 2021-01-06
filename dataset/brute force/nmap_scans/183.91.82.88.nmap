@@ -1,0 +1,69 @@
+# Nmap 7.40 scan initiated Tue Mar  3 07:33:35 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/183.91.82.88.nmap 183.91.82.88
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 183.91.82.88
+Host is up (2.7s latency).
+Not shown: 990 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp?
+22/tcp   open  ssh         OpenSSH 7.3 (protocol 2.0)
+25/tcp   open  smtp?
+80/tcp   open  http?
+110/tcp  open  pop3?
+143/tcp  open  imap?
+443/tcp  open  ssl/https   Apache
+2000/tcp open  cisco-sccp?
+5060/tcp open  sip?
+8008/tcp open  http
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8008-TCP:V=7.40%I=7%D=3/3%Time=5E5E399F%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,CC,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:8010/\r\
+SF:nConnection:\x20close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protec
+SF:tion:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nCont
+SF:ent-Security-Policy:\x20frame-ancestors\r\n\r\n")%r(FourOhFourRequest,E
+SF:F,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:8010/nice%20ports
+SF:%2C/Tri%6Eity\.txt%2ebak\r\nConnection:\x20close\r\nX-Frame-Options:\x2
+SF:0SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-
+SF:Options:\x20nosniff\r\nContent-Security-Policy:\x20frame-ancestors\r\n\
+SF:r\n")%r(GenericLines,CB,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20http
+SF:s://:8010\r\nConnection:\x20close\r\nX-Frame-Options:\x20SAMEORIGIN\r\n
+SF:X-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nos
+SF:niff\r\nContent-Security-Policy:\x20frame-ancestors\r\n\r\n")%r(HTTPOpt
+SF:ions,CB,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:8010\r\nCon
+SF:nection:\x20close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection
+SF::\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nContent-
+SF:Security-Policy:\x20frame-ancestors\r\n\r\n")%r(RTSPRequest,CB,"HTTP/1\
+SF:.1\x20302\x20Found\r\nLocation:\x20https://:8010\r\nConnection:\x20clos
+SF:e\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=
+SF:block\r\nX-Content-Type-Options:\x20nosniff\r\nContent-Security-Policy:
+SF:\x20frame-ancestors\r\n\r\n")%r(SIPOptions,CB,"HTTP/1\.1\x20302\x20Foun
+SF:d\r\nLocation:\x20https://:8010\r\nConnection:\x20close\r\nX-Frame-Opti
+SF:ons:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Conten
+SF:t-Type-Options:\x20nosniff\r\nContent-Security-Policy:\x20frame-ancesto
+SF:rs\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar  3 12:07:36 2020 -- 1 IP address (1 host up) scanned in 16441.92 seconds

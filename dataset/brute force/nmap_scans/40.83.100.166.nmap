@@ -1,0 +1,12 @@
+# Nmap 7.40 scan initiated Sun Sep 13 22:48:54 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/40.83.100.166.nmap 40.83.100.166
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 40.83.100.166
+Host is up (13s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+443/tcp open  ssl/http Apache httpd
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 14 02:59:39 2020 -- 1 IP address (1 host up) scanned in 15044.97 seconds

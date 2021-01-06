@@ -1,0 +1,23 @@
+# Nmap 7.40 scan initiated Tue Jun 30 09:35:35 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/40.87.31.208.nmap 40.87.31.208
+Nmap scan report for 40.87.31.208
+Host is up (0.32s latency).
+Not shown: 987 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        Pure-FTPd
+22/tcp   open  ssh        OpenSSH 7.4 (protocol 2.0)
+25/tcp   open  smtp?
+53/tcp   open  domain     PowerDNS 4.1.10
+110/tcp  open  pop3       Dovecot pop3d
+111/tcp  open  tcpwrapped
+143/tcp  open  imap       Dovecot imapd
+465/tcp  open  ssl/smtp   Exim smtpd 4.93
+587/tcp  open  tcpwrapped
+843/tcp  open  tcpwrapped
+993/tcp  open  imaps?
+995/tcp  open  pop3s?
+3306/tcp open  mysql      MySQL 5.5.5-10.3.23-MariaDB
+Service Info: Host: server.fantasyhosting.com.br
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun 30 14:15:23 2020 -- 1 IP address (1 host up) scanned in 16788.24 seconds

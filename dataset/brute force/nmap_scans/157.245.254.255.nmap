@@ -1,0 +1,56 @@
+# Nmap 7.40 scan initiated Wed Oct 21 21:24:58 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/157.245.254.255.nmap 157.245.254.255
+Nmap scan report for 157.245.254.255
+Host is up (0.47s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE    VERSION
+22/tcp  open  ssh        OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  tcpwrapped
+443/tcp open  ssl/https
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.40%T=SSL%I=7%D=10/22%Time=5F90CB84%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,82,"HTTP/1\.1\x20302\x20Found\r\nContent-Type:\x20text/p
+SF:lain\r\nLocation:\x20\./login\?to=%2F\r\nDate:\x20Thu,\x2022\x20Oct\x20
+SF:2020\x2000:00:02\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(HTTPOptions
+SF:,66F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\
+SF:r\nDate:\x20Thu,\x2022\x20Oct\x202020\x2000:00:05\x20GMT\r\nConnection:
+SF:\x20close\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20\x20<he
+SF:ad>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"\x20/>\n\x20\x20\x20\x20
+SF:<meta\n\x20\x20\x20\x20\x20\x20name=\"viewport\"\n\x20\x20\x20\x20\x20\
+SF:x20content=\"width=device-width,\x20initial-scale=1\.0,\x20maximum-scal
+SF:e=1\.0,\x20minimum-scale=1\.0,\x20user-scalable=no\"\n\x20\x20\x20\x20/
+SF:>\n\x20\x20\x20\x20<meta\n\x20\x20\x20\x20\x20\x20http-equiv=\"Content-
+SF:Security-Policy\"\n\x20\x20\x20\x20\x20\x20content=\"style-src\x20'self
+SF:';\x20manifest-src\x20'self';\x20img-src\x20'self'\x20data:;\x20font-sr
+SF:c\x20'self'\x20data:;\"\n\x20\x20\x20\x20/>\n\x20\x20\x20\x20<title>400
+SF:\x20-\x20code-server</title>\n\x20\x20\x20\x20<link\x20rel=\"icon\"\x20
+SF:href=\"\./static/48f7c2724827e526eeaa6c2c151c520f48a61259/src/browser/m
+SF:edia/favicon\.ico\"\x20type=\"image/x-icon\"\x20/>\n\x20\x20\x20\x20<li
+SF:nk\n\x20\x20\x20\x20\x20\x20rel=\"manifest\"\n\x20\x20\x20\x20\x20\x20h
+SF:ref=\"\./static/48f7c2724827e526eeaa6c2c151c520f48a61259/src/browser/me
+SF:dia/manifest\.json\"\n\x20\x20\x20\x20\x20\x20crossorigin=\"use-credent
+SF:ials\"\n\x20\x20\x20\x20/>\n\x20\x20\x20\x20<link\x20rel=\"apple-touch-
+SF:icon\"\x20href=\"\./static/48f7c2724827e526eeaa6c2c15")%r(FourOhFourReq
+SF:uest,677,"HTTP/1\.1\x20401\x20Unauthorized\r\nContent-Type:\x20text/htm
+SF:l\r\nDate:\x20Thu,\x2022\x20Oct\x202020\x2000:00:06\x20GMT\r\nConnectio
+SF:n:\x20close\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20\x20<
+SF:head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"\x20/>\n\x20\x20\x20\x
+SF:20<meta\n\x20\x20\x20\x20\x20\x20name=\"viewport\"\n\x20\x20\x20\x20\x2
+SF:0\x20content=\"width=device-width,\x20initial-scale=1\.0,\x20maximum-sc
+SF:ale=1\.0,\x20minimum-scale=1\.0,\x20user-scalable=no\"\n\x20\x20\x20\x2
+SF:0/>\n\x20\x20\x20\x20<meta\n\x20\x20\x20\x20\x20\x20http-equiv=\"Conten
+SF:t-Security-Policy\"\n\x20\x20\x20\x20\x20\x20content=\"style-src\x20'se
+SF:lf';\x20manifest-src\x20'self';\x20img-src\x20'self'\x20data:;\x20font-
+SF:src\x20'self'\x20data:;\"\n\x20\x20\x20\x20/>\n\x20\x20\x20\x20<title>4
+SF:01\x20-\x20code-server</title>\n\x20\x20\x20\x20<link\x20rel=\"icon\"\x
+SF:20href=\"\./\.\./static/48f7c2724827e526eeaa6c2c151c520f48a61259/src/br
+SF:owser/media/favicon\.ico\"\x20type=\"image/x-icon\"\x20/>\n\x20\x20\x20
+SF:\x20<link\n\x20\x20\x20\x20\x20\x20rel=\"manifest\"\n\x20\x20\x20\x20\x
+SF:20\x20href=\"\./\.\./static/48f7c2724827e526eeaa6c2c151c520f48a61259/sr
+SF:c/browser/media/manifest\.json\"\n\x20\x20\x20\x20\x20\x20crossorigin=\
+SF:"use-credentials\"\n\x20\x20\x20\x20/>\n\x20\x20\x20\x20<link\x20rel=\"
+SF:apple-touch-icon\"\x20href=\"\./\.\./static/48f7c2724827e526");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 22 02:00:52 2020 -- 1 IP address (1 host up) scanned in 16553.82 seconds

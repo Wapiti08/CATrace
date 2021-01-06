@@ -1,0 +1,53 @@
+# Nmap 7.40 scan initiated Wed Mar  4 18:47:00 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/188.9.190.243.nmap 188.9.190.243
+Nmap scan report for 188.9.190.243
+Host is up (0.23s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+2222/tcp open  ssh        OpenSSH 7.9p1 Debian 10+deb10u1 (protocol 2.0)
+8080/tcp open  http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.40%I=7%D=3/4%Time=5E602A06%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,C26,"HTTP/1\.1\x20200\x20OK\r\nCONNECTION:\x20close\r\nDate:\x2
+SF:0Wed,\x2004\x20Mar\x202020\x2023:07:36\x20GMT\r\nLast-Modified:\x20Mon,
+SF:\x2020\x20Aug\x202018\x2012:40:11\x20GMT\r\nEtag:\x20\"1534768811:b34\"
+SF:\r\nCONTENT-LENGTH:\x202868\r\nP3P:\x20CP=CAO\x20PSA\x20OUR\r\nX-Frame-
+SF:Options:\x20SAMEORIGIN\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<!DOCTYPE\x
+SF:20HTML>\x20<html>\x20<head>\x20<meta\x20http-equiv=\"X-UA-Compatible\"\
+SF:x20content=\"IE=edge\">\x20<meta\x20charset=\"UTF-8\">\x20<title>WEB\x2
+SF:0SERVICE</title>\x20<link\x20href=\"\./baseProj/images/favicon\.ico\"\x
+SF:20type=\"image/x-icon\"\x20rel=\"shortcut\x20icon\">\x20<script\x20src=
+SF:\"ext/ext-all\.js\"></script>\x20<script\x20type=\"text/javascript\"\x2
+SF:0src=\"\./projectPath\.js\"></script>\x20<script\x20type=\"text/javascr
+SF:ipt\"\x20src=\"/app/libs/require\.js\"></script>\x20<script\x20type=\"t
+SF:ext/javascript\"\x20src=\"/app/jsCore/require-config\.js\"></script>\x2
+SF:0<script\x20type=\"text/javascript\">Ext\.onReady\(function\x20\(\)\x20
+SF:{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//\xe5\x90\xaf\xe7\x
+SF:94\xa8\xe7\xbc\x93\xe5\xad\x98\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20Ext\.Loader\.setConfig\({\n\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\"disableCaching\":\x20true,\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\"paths\":{\n\x20\x
+SF:20\x20\x20\x20\x20\x20")%r(HTTPOptions,C26,"HTTP/1\.1\x20200\x20OK\r\nC
+SF:ONNECTION:\x20close\r\nDate:\x20Wed,\x2004\x20Mar\x202020\x2023:07:40\x
+SF:20GMT\r\nLast-Modified:\x20Mon,\x2020\x20Aug\x202018\x2012:40:11\x20GMT
+SF:\r\nEtag:\x20\"1534768811:b34\"\r\nCONTENT-LENGTH:\x202868\r\nP3P:\x20C
+SF:P=CAO\x20PSA\x20OUR\r\nX-Frame-Options:\x20SAMEORIGIN\r\nCONTENT-TYPE:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML>\x20<html>\x20<head>\x20<meta\x20
+SF:http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\x20<meta\x20char
+SF:set=\"UTF-8\">\x20<title>WEB\x20SERVICE</title>\x20<link\x20href=\"\./b
+SF:aseProj/images/favicon\.ico\"\x20type=\"image/x-icon\"\x20rel=\"shortcu
+SF:t\x20icon\">\x20<script\x20src=\"ext/ext-all\.js\"></script>\x20<script
+SF:\x20type=\"text/javascript\"\x20src=\"\./projectPath\.js\"></script>\x2
+SF:0<script\x20type=\"text/javascript\"\x20src=\"/app/libs/require\.js\"><
+SF:/script>\x20<script\x20type=\"text/javascript\"\x20src=\"/app/jsCore/re
+SF:quire-config\.js\"></script>\x20<script\x20type=\"text/javascript\">Ext
+SF:\.onReady\(function\x20\(\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20//\xe5\x90\xaf\xe7\x94\xa8\xe7\xbc\x93\xe5\xad\x98\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Ext\.Loader\.setConfig\({\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\"disableCa
+SF:ching\":\x20true,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\"paths\":{\n\x20\x20\x20\x20\x20\x20\x20");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar  4 23:24:23 2020 -- 1 IP address (1 host up) scanned in 16642.22 seconds

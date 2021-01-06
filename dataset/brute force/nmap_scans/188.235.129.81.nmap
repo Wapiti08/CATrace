@@ -1,0 +1,56 @@
+# Nmap 7.40 scan initiated Mon Oct 19 05:09:14 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/188.235.129.81.nmap 188.235.129.81
+WARNING: Service 188.235.129.81:555 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+WARNING: Service 188.235.129.81:5080 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+Nmap scan report for 188.235.129.81
+Host is up (0.18s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     nginx 1.14.0 (Ubuntu)
+443/tcp  open  ssl/http nginx 1.14.0 (Ubuntu)
+555/tcp  open  rtsp
+993/tcp  open  ssl/imap Dovecot imapd (Ubuntu)
+5080/tcp open  ssl/rtsp
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port555-TCP:V=7.40%I=7%D=10/19%Time=5F8D43D9%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,2D,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Length:\x200
+SF:\r\n\r\n")%r(GetRequest,2D,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent
+SF:-Length:\x200\r\n\r\n")%r(HTTPOptions,AC,"HTTP/1\.0\x20404\x20NOT\x20FO
+SF:UND\r\nAccess-Control-Allow-Origin:\x20\*\r\nContent-Length:\x2069\r\nC
+SF:ontent-Type:\x20text/html\r\n\r\n<html><h1>404\x20Not\x20Found</h1>\n<p
+SF:>Requested\x20URL:<br/><b>/</b>\n</html>\n\n")%r(RTSPRequest,2F,"RTSP/1
+SF:\.0\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\n\r\n")%r(FourOh
+SF:FourRequest,2D,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Length:\x20
+SF:0\r\n\r\n")%r(SIPOptions,B0,"SIP/2\.0\x20404\x20NOT\x20FOUND\r\nAccess-
+SF:Control-Allow-Origin:\x20\*\r\nContent-Length:\x2074\r\nContent-Type:\x
+SF:20text/html\r\n\r\n<html><h1>404\x20Not\x20Found</h1>\n<p>Requested\x20
+SF:URL:<br/><b>sip:nm</b>\n</html>\n\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5080-TCP:V=7.40%T=SSL%I=7%D=10/19%Time=5F8D4404%P=x86_64-pc-linux-g
+SF:nu%r(GenericLines,BD,"HTTP/1\.0\x20404\x20Not\x20Found\r\nAccess-Contro
+SF:l-Allow-Origin:\x20\*\r\nConnection:\x20close\r\nContent-Length:\x200\r
+SF:\nContent-Type:\x20text/html\r\n\r\n<html><h1>404\x20Not\x20Found</h1>\
+SF:n<p>Requested\x20URL:<br/><b></b>\n</html>\n\n")%r(GetRequest,C2,"HTTP/
+SF:1\.0\x20307\x20Temporary\x20Redirect\r\nContent-Length:\x20105\r\nLocat
+SF:ion:\x20https://:5080/webgui/\r\n\r\n<html><body>Temporary\x20redirect\
+SF:x20to\x20<a\x20href=\"https://:5080/webgui/\">https://:5080/webgui/</a>
+SF:</body></html>")%r(HTTPOptions,AC,"HTTP/1\.0\x20404\x20NOT\x20FOUND\r\n
+SF:Access-Control-Allow-Origin:\x20\*\r\nContent-Length:\x2069\r\nContent-
+SF:Type:\x20text/html\r\n\r\n<html><h1>404\x20Not\x20Found</h1>\n<p>Reques
+SF:ted\x20URL:<br/><b>/</b>\n</html>\n\n")%r(RTSPRequest,AC,"RTSP/1\.0\x20
+SF:404\x20NOT\x20FOUND\r\nAccess-Control-Allow-Origin:\x20\*\r\nContent-Le
+SF:ngth:\x2069\r\nContent-Type:\x20text/html\r\n\r\n<html><h1>404\x20Not\x
+SF:20Found</h1>\n<p>Requested\x20URL:<br/><b>/</b>\n</html>\n\n")%r(FourOh
+SF:FourRequest,E1,"HTTP/1\.0\x20404\x20Not\x20Found\r\nAccess-Control-Allo
+SF:w-Origin:\x20\*\r\nConnection:\x20close\r\nContent-Length:\x200\r\nCont
+SF:ent-Type:\x20text/html\r\n\r\n<html><h1>404\x20Not\x20Found</h1>\n<p>Re
+SF:quested\x20URL:<br/><b>/nice%20ports%2C/Tri%6Eity\.txt%2ebak</b>\n</htm
+SF:l>\n\n")%r(SIPOptions,B0,"SIP/2\.0\x20404\x20NOT\x20FOUND\r\nAccess-Con
+SF:trol-Allow-Origin:\x20\*\r\nContent-Length:\x2074\r\nContent-Type:\x20t
+SF:ext/html\r\n\r\n<html><h1>404\x20Not\x20Found</h1>\n<p>Requested\x20URL
+SF::<br/><b>sip:nm</b>\n</html>\n\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 19 09:45:19 2020 -- 1 IP address (1 host up) scanned in 16564.71 seconds

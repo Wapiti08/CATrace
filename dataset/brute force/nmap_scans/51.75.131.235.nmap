@@ -1,0 +1,59 @@
+# Nmap 7.40 scan initiated Tue Jun  9 12:10:36 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/51.75.131.235.nmap 51.75.131.235
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 51.75.131.235
+Host is up (0.22s latency).
+Not shown: 980 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE     VERSION
+1/tcp     open  tcpwrapped
+21/tcp    open  ftp         Pure-FTPd
+22/tcp    open  ssh         OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+79/tcp    open  tcpwrapped
+80/tcp    open  http        Apache httpd 2.4.25 ((Debian))
+111/tcp   open  tcpwrapped
+119/tcp   open  tcpwrapped
+143/tcp   open  tcpwrapped
+443/tcp   open  ssl/http    Apache httpd 2.4.25 ((Debian))
+1080/tcp  open  tcpwrapped
+1524/tcp  open  tcpwrapped
+2000/tcp  open  tcpwrapped
+5432/tcp  open  postgresql?
+6667/tcp  open  tcpwrapped
+12345/tcp open  tcpwrapped
+31337/tcp open  tcpwrapped
+32771/tcp open  tcpwrapped
+32772/tcp open  tcpwrapped
+32773/tcp open  tcpwrapped
+32774/tcp open  tcpwrapped
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5432-TCP:V=7.40%I=7%D=6/9%Time=5EDFA0AC%P=x86_64-pc-linux-gnu%r(SMB
+SF:ProgNeg,9E,"E\0\0\0\x9dSFATAL\0VFATAL\0C0A000\0MProtocole\x20non\x20sup
+SF:port\xc3\xa9e\x20de\x20l'interface\x2065363\.19778\x20:\x20le\x20serveu
+SF:r\x20supporte\x20de\x201\.0\x20\xc3\xa0\n3\.0\0Fpostmaster\.c\0L2031\0R
+SF:ProcessStartupPacket\0\0")%r(Kerberos,9E,"E\0\0\0\x9dSFATAL\0VFATAL\0C0
+SF:A000\0MProtocole\x20non\x20support\xc3\xa9e\x20de\x20l'interface\x20272
+SF:65\.28208\x20:\x20le\x20serveur\x20supporte\x20de\x201\.0\x20\xc3\xa0\n
+SF:3\.0\0Fpostmaster\.c\0L2031\0RProcessStartupPacket\0\0");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun  9 16:46:15 2020 -- 1 IP address (1 host up) scanned in 16539.03 seconds

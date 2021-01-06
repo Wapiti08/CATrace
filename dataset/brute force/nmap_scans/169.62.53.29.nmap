@@ -1,0 +1,50 @@
+# Nmap 7.40 scan initiated Mon Jun 22 05:00:01 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/169.62.53.29.nmap 169.62.53.29
+Nmap scan report for 169.62.53.29
+Host is up (0.84s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 7.4 (protocol 2.0)
+80/tcp   open  http          nginx 1.15.12
+443/tcp  open  ssl/http      nginx 1.15.12
+808/tcp  open  ccproxy-http?
+1521/tcp open  oracle-tns    Oracle TNS Listener (unauthorized)
+8080/tcp open  http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.40%I=7%D=6/22%Time=5EF05F65%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,1758,"HTTP/1\.0\x20200\x20OK\r\nCache-Control:\x20max-age=6048
+SF:00\r\nConnection:\x20Close\r\nContent-Type:\x20text/html;\x20charset=UT
+SF:F-8\r\nContent-Length:\x2012925\r\nDate:\x20Mon,\x2022\x20Jun\x202020\x
+SF:2007:36:04\x20GMT\r\n\r\n<!DOCTYPE\x20html>\r\n<html\x20lang=\"en\"\x20
+SF:xml:lang=\"en\">\r\n<head>\r\n<meta\x20charset=\"utf-8\"\x20name=\"view
+SF:port\"\r\n\tcontent=\"width=device-width,initial-scale=1\.0\">\r\n<!--t
+SF:itle\x20data-externalizedString=\"WELCOME_TITLE\"></title-->\r\n<title>
+SF:WebSphere\x20Liberty\x2020\.0\.0\.3</title>\r\n<style>\r\n@font-face\x2
+SF:0{\r\n\tfont-family:\x20IBMPlexSans-Medium;\r\n\tsrc:\x20url\('fonts/IB
+SF:MPlexSans-Medium\.woff'\);\r\n}\r\n\r\n@font-face\x20{\r\n\tfont-family
+SF::\x20IBMPlexSans-ExtraLight;\r\n\tsrc:\x20url\('fonts/IBMPlexSans-Extra
+SF:Light\.woff'\);\r\n}\r\n\r\n@font-face\x20{\r\n\tfont-family:\x20IBMPle
+SF:xSans;\r\n\tsrc:\x20url\('fonts/IBMPlexSans-Regular\.woff'\);\r\n}\r\n\
+SF:r\nbody\x20{\r\n\tcolor:\x20white;\r\n\tdisplay:\x20block;\r\n\tbackgro
+SF:und-color:\x20#4178BE;\r\n\tfont-family:\x20IBMPlexSans,\x20Helvetica,\
+SF:x20Arial,\x20sans-serif;\r\n\tfont-size:\x201rem;\r\n\tfont-weight:\x20
+SF:100;\r\n\thei")%r(HTTPOptions,1B3C,"HTTP/1\.0\x20200\x20OK\r\nCache-Con
+SF:trol:\x20max-age=604800\r\nConnection:\x20Close\r\nContent-Type:\x20tex
+SF:t/html;\x20charset=UTF-8\r\nContent-Length:\x2012925\r\nDate:\x20Mon,\x
+SF:2022\x20Jun\x202020\x2007:36:05\x20GMT\r\n\r\n<!DOCTYPE\x20html>\r\n<ht
+SF:ml\x20lang=\"en\"\x20xml:lang=\"en\">\r\n<head>\r\n<meta\x20charset=\"u
+SF:tf-8\"\x20name=\"viewport\"\r\n\tcontent=\"width=device-width,initial-s
+SF:cale=1\.0\">\r\n<!--title\x20data-externalizedString=\"WELCOME_TITLE\">
+SF:</title-->\r\n<title>WebSphere\x20Liberty\x2020\.0\.0\.3</title>\r\n<st
+SF:yle>\r\n@font-face\x20{\r\n\tfont-family:\x20IBMPlexSans-Medium;\r\n\ts
+SF:rc:\x20url\('fonts/IBMPlexSans-Medium\.woff'\);\r\n}\r\n\r\n@font-face\
+SF:x20{\r\n\tfont-family:\x20IBMPlexSans-ExtraLight;\r\n\tsrc:\x20url\('fo
+SF:nts/IBMPlexSans-ExtraLight\.woff'\);\r\n}\r\n\r\n@font-face\x20{\r\n\tf
+SF:ont-family:\x20IBMPlexSans;\r\n\tsrc:\x20url\('fonts/IBMPlexSans-Regula
+SF:r\.woff'\);\r\n}\r\n\r\nbody\x20{\r\n\tcolor:\x20white;\r\n\tdisplay:\x
+SF:20block;\r\n\tbackground-color:\x20#4178BE;\r\n\tfont-family:\x20IBMPle
+SF:xSans,\x20Helvetica,\x20Arial,\x20sans-serif;\r\n\tfont-size:\x201rem;\
+SF:r\n\tfont-weight:\x20100;\r\n\thei");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 22 09:37:53 2020 -- 1 IP address (1 host up) scanned in 16671.45 seconds

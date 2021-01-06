@@ -1,0 +1,13 @@
+# Nmap 7.40 scan initiated Wed Apr 15 03:10:58 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/102.176.160.30.nmap 102.176.160.30
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 102.176.160.30
+Host is up (6.4s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+2046/tcp open  sdfunc?
+5901/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr 15 07:34:49 2020 -- 1 IP address (1 host up) scanned in 15830.77 seconds

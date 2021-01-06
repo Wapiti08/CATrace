@@ -1,0 +1,28 @@
+# Nmap 7.40 scan initiated Mon Aug 31 08:34:42 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/141.98.81.197.nmap 141.98.81.197
+Nmap scan report for 141.98.81.197
+Host is up (0.21s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+3389/tcp open  ssh         OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+8088/tcp open  radan-http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8088-TCP:V=7.40%I=7%D=8/31%Time=5F4CDA61%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,B,"{\"Rep\":\"\"}\n")%r(Socks5,B,"{\"Rep\":\"\"}\n")%r(Socks4,
+SF:B,"{\"Rep\":\"\"}\n")%r(GenericLines,B,"{\"Rep\":\"\"}\n")%r(HTTPOption
+SF:s,B,"{\"Rep\":\"\"}\n")%r(RTSPRequest,B,"{\"Rep\":\"\"}\n")%r(RPCCheck,
+SF:B,"{\"Rep\":\"\"}\n")%r(DNSVersionBindReq,B,"{\"Rep\":\"\"}\n")%r(DNSSt
+SF:atusRequest,B,"{\"Rep\":\"\"}\n")%r(Help,B,"{\"Rep\":\"\"}\n")%r(SSLSes
+SF:sionReq,B,"{\"Rep\":\"\"}\n")%r(TLSSessionReq,B,"{\"Rep\":\"\"}\n")%r(K
+SF:erberos,B,"{\"Rep\":\"\"}\n")%r(SMBProgNeg,B,"{\"Rep\":\"\"}\n")%r(X11P
+SF:robe,B,"{\"Rep\":\"\"}\n")%r(FourOhFourRequest,B,"{\"Rep\":\"\"}\n")%r(
+SF:LPDString,B,"{\"Rep\":\"\"}\n")%r(LDAPSearchReq,B,"{\"Rep\":\"\"}\n")%r
+SF:(LDAPBindReq,B,"{\"Rep\":\"\"}\n")%r(SIPOptions,B,"{\"Rep\":\"\"}\n")%r
+SF:(TerminalServer,B,"{\"Rep\":\"\"}\n")%r(NCP,B,"{\"Rep\":\"\"}\n")%r(Not
+SF:esRPC,B,"{\"Rep\":\"\"}\n")%r(WMSRequest,B,"{\"Rep\":\"\"}\n")%r(oracle
+SF:-tns,B,"{\"Rep\":\"\"}\n")%r(afp,B,"{\"Rep\":\"\"}\n")%r(giop,B,"{\"Rep
+SF:\":\"\"}\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug 31 13:09:54 2020 -- 1 IP address (1 host up) scanned in 16511.73 seconds

@@ -1,0 +1,58 @@
+# Nmap 7.40 scan initiated Mon Mar  9 23:42:42 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/210.212.249.228.nmap 210.212.249.228
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 210.212.249.228
+Host is up (7.0s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           Cyberoam firewall sshd (protocol 2.0)
+80/tcp   open  http          Apache httpd
+443/tcp  open  ssl/http      Apache httpd
+8443/tcp open  ssl/https-alt xxxx
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8443-TCP:V=7.40%T=SSL%I=7%D=3/10%Time=5E670159%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,275,"HTTP/1\.1\x20302\x20Found\r\nDate:\x20Tue,\x2010\x2
+SF:0Mar\x202020\x2002:54:17\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\
+SF:x20SAMEORIGIN\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Co
+SF:ntent-Type-Options:\x20nosniff\r\nLocation:\x20https:///userportal/webp
+SF:ages/myaccount/login\.jsp\r\nCache-Control:\x20max-age=2592000\r\nExpir
+SF:es:\x20Thu,\x2009\x20Apr\x202020\x2002:54:17\x20GMT\r\nContent-Length:\
+SF:x20232\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charse
+SF:t=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HT
+SF:ML\x202\.0//EN\">\n<html><head>\n<title>302\x20Found</title>\n</head><b
+SF:ody>\n<h1>Found</h1>\n<p>The\x20document\x20has\x20moved\x20<a\x20href=
+SF:\"https:///userportal/webpages/myaccount/login\.jsp\">here</a>\.</p>\n<
+SF:/body></html>\n")%r(HTTPOptions,255,"HTTP/1\.1\x20403\x20Forbidden\r\nD
+SF:ate:\x20Tue,\x2010\x20Mar\x202020\x2002:54:18\x20GMT\r\nServer:\x20xxxx
+SF:\r\nX-Frame-Options:\x20SAMEORIGIN\r\nStrict-Transport-Security:\x20max
+SF:-age=31536000\r\nX-Content-Type-Options:\x20nosniff\r\nContent-Length:\
+SF:x20328\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charse
+SF:t=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HT
+SF:ML\x202\.0//EN\">\n<html><head>\n<title>403\x20Forbidden</title>\n</hea
+SF:d><body>\n<h1>Forbidden</h1>\n<p>You\x20don't\x20have\x20permission\x20
+SF:to\x20access\x20/\non\x20this\x20server\.<br\x20/>\n</p>\n<p>Additional
+SF:ly,\x20a\x20404\x20Not\x20Found\nerror\x20was\x20encountered\x20while\x
+SF:20trying\x20to\x20use\x20an\x20ErrorDocument\x20to\x20handle\x20the\x20
+SF:request\.</p>\n</body></html>\n")%r(FourOhFourRequest,17E,"HTTP/1\.1\x2
+SF:0404\x20Not\x20Found\r\nDate:\x20Tue,\x2010\x20Mar\x202020\x2002:54:20\
+SF:x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\x20SAMEORIGIN\r\nStrict-T
+SF:ransport-Security:\x20max-age=31536000\r\nX-Content-Type-Options:\x20no
+SF:sniff\r\nAccept-Ranges:\x20bytes\r\nConnection:\x20close\r\nContent-Len
+SF:gth:\x20111\r\nContent-Type:\x20text/html\r\n\r\n<!DOCTYPE\x20html>\n<h
+SF:tml>\n<body>\n<h3>Error:404\x20Page\x20not\x20found</h3>\n<h4>Check\x20
+SF:the\x20entered\x20URL\.</h4>\n</body>\n<html>\n");
+Service Info: Device: firewall
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 10 03:56:02 2020 -- 1 IP address (1 host up) scanned in 15199.56 seconds

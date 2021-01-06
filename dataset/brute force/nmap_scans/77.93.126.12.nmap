@@ -1,0 +1,181 @@
+# Nmap 7.40 scan initiated Fri Nov  6 18:47:26 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/77.93.126.12.nmap 77.93.126.12
+Nmap scan report for 77.93.126.12
+Host is up (0.51s latency).
+Not shown: 981 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE         VERSION
+21/tcp    open  ftp
+23/tcp    open  telnet          Linux telnetd
+80/tcp    open  http            Apache httpd 2.4.38 ((Debian))
+222/tcp   open  ssh             OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+1024/tcp  open  kdm?
+1111/tcp  open  lmsocialserver?
+1112/tcp  open  msql?
+1723/tcp  open  pptp            MikroTik (Firmware: 1)
+2000/tcp  open  bandwidth-test  MikroTik bandwidth-test server
+2222/tcp  open  ssh             OpenSSH 6.0p1 Debian 4+deb7u3 (protocol 2.0)
+4444/tcp  open  http            MikroTik router config httpd
+8000/tcp  open  http            Transmission BitTorrent management httpd (unauthorized)
+8009/tcp  open  http            MikroTik router config httpd
+8010/tcp  open  http            MikroTik router config httpd
+8011/tcp  open  http            MikroTik router config httpd
+8088/tcp  open  http            MikroTik router config httpd
+8291/tcp  open  unknown
+10000/tcp open  http            MiniServ 1.955 (Webmin httpd)
+10001/tcp open  http            MiniServ 1.955 (Webmin httpd)
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port21-TCP:V=7.40%I=7%D=11/6%Time=5FA5CC9B%P=x86_64-pc-linux-gnu%r(NULL
+SF:,30,"220\x20ProFTPD\x20Server\x20\(Debian\)\x20\[::ffff:10\.10\.0\.2\]\
+SF:r\n")%r(GenericLines,FA,"220\x20ProFTPD\x20Server\x20\(Debian\)\x20\[::
+SF:ffff:10\.10\.0\.2\]\r\n500\x20\xd0\x9d\xd0\xb5\xd0\xbf\xd1\x80\xd0\xb0\
+SF:xd0\xb2\xd0\xb8\xd0\xbb\xd1\x8c\xd0\xbd\xd0\xb0\xd1\x8f\x20\xd0\xba\xd0
+SF:\xbe\xd0\xbc\xd0\xb0\xd0\xbd\xd0\xb4\xd0\xb0:\x20\xd0\xbf\xd0\xbe\xd0\x
+SF:bf\xd1\x80\xd0\xbe\xd0\xb1\xd1\x83\xd0\xb9\xd1\x82\xd0\xb5\x20\xd0\xb4\
+SF:xd0\xbe\xd0\xb1\xd0\xb0\xd0\xb2\xd0\xb8\xd1\x82\xd1\x8c\x20\xd0\xba\xd1
+SF:\x80\xd0\xb5\xd0\xb0\xd1\x82\xd0\xb8\xd0\xb2\xd0\xb0\r\n500\x20\xd0\x9d
+SF:\xd0\xb5\xd0\xbf\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb8\xd0\xbb\xd1\x8c\xd0\xb
+SF:d\xd0\xb0\xd1\x8f\x20\xd0\xba\xd0\xbe\xd0\xbc\xd0\xb0\xd0\xbd\xd0\xb4\x
+SF:d0\xb0:\x20\xd0\xbf\xd0\xbe\xd0\xbf\xd1\x80\xd0\xbe\xd0\xb1\xd1\x83\xd0
+SF:\xb9\xd1\x82\xd0\xb5\x20\xd0\xb4\xd0\xbe\xd0\xb1\xd0\xb0\xd0\xb2\xd0\xb
+SF:8\xd1\x82\xd1\x8c\x20\xd0\xba\xd1\x80\xd0\xb5\xd0\xb0\xd1\x82\xd0\xb8\x
+SF:d0\xb2\xd0\xb0\r\n")%r(Help,2B5,"220\x20ProFTPD\x20Server\x20\(Debian\)
+SF:\x20\[::ffff:10\.10\.0\.2\]\r\n214-\xd0\xa1\xd0\xbb\xd0\xb5\xd0\xb4\xd1
+SF:\x83\xd1\x8e\xd1\x89\xd0\xb8\xd0\xb5\x20\xd0\xba\xd0\xbe\xd0\xbc\xd0\xb
+SF:0\xd0\xbd\xd0\xb4\xd1\x8b\x20\xd0\xb1\xd1\x8b\xd0\xbb\xd0\xb8\x20\xd1\x
+SF:80\xd0\xb0\xd1\x81\xd0\xbf\xd0\xbe\xd0\xb7\xd0\xbd\xd0\xb0\xd0\xbd\xd1\
+SF:x8b\x20\(\*\x20=>\x20\xd0\xbd\xd0\xb5\x20\xd1\x80\xd0\xb5\xd0\xb0\xd0\x
+SF:bb\xd0\xb8\xd0\xb7\xd0\xbe\xd0\xb2\xd0\xb0\xd0\xbd\xd0\xbe\):\r\n214-CW
+SF:D\x20\x20\x20\x20\x20XCWD\x20\x20\x20\x20CDUP\x20\x20\x20\x20XCUP\x20\x
+SF:20\x20\x20SMNT\*\x20\x20\x20QUIT\x20\x20\x20\x20PORT\x20\x20\x20\x20PAS
+SF:V\x20\x20\x20\x20\r\n214-EPRT\x20\x20\x20\x20EPSV\x20\x20\x20\x20ALLO\*
+SF:\x20\x20\x20RNFR\x20\x20\x20\x20RNTO\x20\x20\x20\x20DELE\x20\x20\x20\x2
+SF:0MDTM\x20\x20\x20\x20RMD\x20\x20\x20\x20\x20\r\n214-XRMD\x20\x20\x20\x2
+SF:0MKD\x20\x20\x20\x20\x20XMKD\x20\x20\x20\x20PWD\x20\x20\x20\x20\x20XPWD
+SF:\x20\x20\x20\x20SIZE\x20\x20\x20\x20SYST\x20\x20\x20\x20HELP\x20\x20\x2
+SF:0\x20\r\n214-NOOP\x20\x20\x20\x20FEAT\x20\x20\x20\x20OPTS\x20\x20\x20\x
+SF:20HOST\x20\x20\x20\x20CLNT\x20\x20\x20\x20AUTH\*\x20\x20\x20CCC\*\x20\x
+SF:20\x20\x20CONF\*\x20\x20\x20\r\n214-ENC\*\x20\x20\x20\x20MIC\*\x20\x20\
+SF:x20\x20PBSZ\*\x20\x20\x20PROT\*\x20\x20\x20TYPE\x20\x20\x20\x20STRU\x20
+SF:\x20\x20\x20MODE\x20\x20\x20\x20RETR\x20\x20\x20\x20\r\n214-STOR\x20\x2
+SF:0\x20\x20STOU\x20\x20\x20\x20APPE\x20\x20\x20\x20REST\x20\x20\x20\x20AB
+SF:OR\x20\x20\x20\x20USER\x20\x20\x20\x20PASS\x20\x20\x20\x20ACCT\*\x20\x2
+SF:0\x20\r\n214-REIN\*\x20\x20\x20LIST\x20\x20\x20\x20NLST\x20\x20\x20\x20
+SF:STAT\x20\x20\x20\x20SITE\x20\x20\x20\x20MLSD\x20\x20\x20\x20MLST\x20\x2
+SF:0\x20\x20\r\n214\x20\xd0\x9f\xd1\x80\xd1\x8f\xd0\xbc\xd0\xbe\xd0\xb9\x2
+SF:0\xd0\xba\xd0\xbe\xd0\xbc\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd0\xb0\xd1\x
+SF:80\xd0\xb8\xd0\xb9\x20\xd0\xb4\xd0\xbb\xd1\x8f\x20root@nebo\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1024-TCP:V=7.40%I=7%D=11/6%Time=5FA5CCC5%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,562,"GET\x20/\0HTTP/1\.0\0\n\r\nHTTP/1\.0\x20h\x01\r\nConnecti
+SF:on:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nH
+SF:TTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\n
+SF:Connection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\
+SF:r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h
+SF:\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x
+SF:20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1
+SF:\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConne
+SF:ction:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r
+SF:\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\
+SF:r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20clo
+SF:se\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x
+SF:20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection
+SF::\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTT
+SF:P/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nCo
+SF:nnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\
+SF:n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x
+SF:01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20
+SF:close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n")%r(FourOhF
+SF:ourRequest,321,"GET\x20/nice%20ports%2C/Tri%6Eity\.txt%2ebak\0HTTP/1\.0
+SF:\0\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20
+SF:h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\
+SF:x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/
+SF:1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConn
+SF:ection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\
+SF:r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01
+SF:\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20cl
+SF:ose\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\
+SF:x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnectio
+SF:n:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHT
+SF:TP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nC
+SF:onnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r
+SF:\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\
+SF:x01\r\nConnection:\x20close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x2
+SF:0close\r\n\r\nHTTP/1\.0\x20h\x01\r\nConnection:\x20close\r\n\r\nHTTP/1\
+SF:.0\x20h\x01\r\nConnection:\x20close\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1111-TCP:V=7.40%I=7%D=11/6%Time=5FA5CD64%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,1F8,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Type:\x20
+SF:text/html\r\nContent-Length:\x20345\r\nConnection:\x20close\r\nDate:\x2
+SF:0Fri,\x2006\x20Nov\x202020\x2022:25:39\x20GMT\r\nServer:\x20Cambium\x20
+SF:HTTP\x20Server\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"iso-8859
+SF:-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\
+SF:x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\"http://www
+SF:\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=\"h
+SF:ttp://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n\x2
+SF:0<head>\n\x20\x20<title>400\x20Bad\x20Request</title>\n\x20</head>\n\x2
+SF:0<body>\n\x20\x20<h1>400\x20Bad\x20Request</h1>\n\x20</body>\n</html>\n
+SF:")%r(GetRequest,111C,"HTTP/1\.0\x20200\x20OK\r\nVary:\x20Accept-Encodin
+SF:g\r\nContent-Type:\x20text/html\r\nAccept-Ranges:\x20bytes\r\nETag:\x20
+SF:\"126153466\"\r\nLast-Modified:\x20Sat,\x2003\x20Oct\x202020\x2012:50:0
+SF:5\x20GMT\r\nExpires:\x20Fri,\x2013\x20Nov\x202020\x2022:25:40\x20GMT\r\
+SF:nCache-Control:\x20max-age=604800\r\nCache-Control:\x20public,\x20must-
+SF:revalidate,\x20proxy-revalidate\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-
+SF:XSS-Protection:\x201;\x20mode=block\r\nContent-Length:\x209686\r\nConne
+SF:ction:\x20close\r\nDate:\x20Fri,\x2006\x20Nov\x202020\x2022:25:40\x20GM
+SF:T\r\nServer:\x20Cambium\x20HTTP\x20Server\r\n\r\n<!DOCTYPE\x20html>\n<h
+SF:tml\x20lang=\"en\">\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x20charset=\
+SF:"utf-8\"/>\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"wid
+SF:th=device-width,\x20initial-scale=1\"/>\n\x20\x20\x20\x20<meta\x20http-
+SF:equiv=\"Pragma\"\x20content=\"no-cache\"/>\n\x20\x20\x20\x20<meta\x20ht
+SF:tp-equiv=\"Expires\"\x20content=\"-1\"/>\n\x20\x20\x20\x20<meta\x20http
+SF:-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\"/>\n\x20\x20\x20\x20<t
+SF:itle>ePMP</title>\n\x20\x20\x20\x20<link\x20rel=\"icon\"\x20type=\"imag
+SF:e/x-icon\"\x20href=\"favicon\.ico\"/>\n\x20\x20\x20\x20<link\x20rel=\"s
+SF:tylesheet\"\x20type=\"text/css\"\x20href=\"cambium\.min\.c")%r(HTTPOpti
+SF:ons,114,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20GET,\x20HEAD,\
+SF:x20POST\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x2
+SF:0mode=block\r\nCache-Control:\x20public,\x20must-revalidate,\x20proxy-r
+SF:evalidate\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20F
+SF:ri,\x2006\x20Nov\x202020\x2022:25:40\x20GMT\r\nServer:\x20Cambium\x20HT
+SF:TP\x20Server\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1112-TCP:V=7.40%I=7%D=11/6%Time=5FA5CDD3%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,1F8,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Type:\x20
+SF:text/html\r\nContent-Length:\x20345\r\nConnection:\x20close\r\nDate:\x2
+SF:0Fri,\x2006\x20Nov\x202020\x2022:27:30\x20GMT\r\nServer:\x20Cambium\x20
+SF:HTTP\x20Server\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"iso-8859
+SF:-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\
+SF:x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\"http://www
+SF:\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=\"h
+SF:ttp://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n\x2
+SF:0<head>\n\x20\x20<title>400\x20Bad\x20Request</title>\n\x20</head>\n\x2
+SF:0<body>\n\x20\x20<h1>400\x20Bad\x20Request</h1>\n\x20</body>\n</html>\n
+SF:")%r(GetRequest,111C,"HTTP/1\.0\x20200\x20OK\r\nVary:\x20Accept-Encodin
+SF:g\r\nContent-Type:\x20text/html\r\nAccept-Ranges:\x20bytes\r\nETag:\x20
+SF:\"126153466\"\r\nLast-Modified:\x20Sat,\x2003\x20Oct\x202020\x2012:50:0
+SF:5\x20GMT\r\nExpires:\x20Fri,\x2013\x20Nov\x202020\x2022:27:31\x20GMT\r\
+SF:nCache-Control:\x20max-age=604800\r\nCache-Control:\x20public,\x20must-
+SF:revalidate,\x20proxy-revalidate\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-
+SF:XSS-Protection:\x201;\x20mode=block\r\nContent-Length:\x209686\r\nConne
+SF:ction:\x20close\r\nDate:\x20Fri,\x2006\x20Nov\x202020\x2022:27:31\x20GM
+SF:T\r\nServer:\x20Cambium\x20HTTP\x20Server\r\n\r\n<!DOCTYPE\x20html>\n<h
+SF:tml\x20lang=\"en\">\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x20charset=\
+SF:"utf-8\"/>\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"wid
+SF:th=device-width,\x20initial-scale=1\"/>\n\x20\x20\x20\x20<meta\x20http-
+SF:equiv=\"Pragma\"\x20content=\"no-cache\"/>\n\x20\x20\x20\x20<meta\x20ht
+SF:tp-equiv=\"Expires\"\x20content=\"-1\"/>\n\x20\x20\x20\x20<meta\x20http
+SF:-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\"/>\n\x20\x20\x20\x20<t
+SF:itle>ePMP</title>\n\x20\x20\x20\x20<link\x20rel=\"icon\"\x20type=\"imag
+SF:e/x-icon\"\x20href=\"favicon\.ico\"/>\n\x20\x20\x20\x20<link\x20rel=\"s
+SF:tylesheet\"\x20type=\"text/css\"\x20href=\"cambium\.min\.c")%r(HTTPOpti
+SF:ons,114,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20GET,\x20HEAD,\
+SF:x20POST\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x2
+SF:0mode=block\r\nCache-Control:\x20public,\x20must-revalidate,\x20proxy-r
+SF:evalidate\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20F
+SF:ri,\x2006\x20Nov\x202020\x2022:27:31\x20GMT\r\nServer:\x20Cambium\x20HT
+SF:TP\x20Server\r\n\r\n");
+Service Info: Host: Router_inet_microtik; OSs: Linux, RouterOS; Device: router; CPE: cpe:/o:linux:linux_kernel, cpe:/o:mikrotik:routeros
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov  6 23:34:34 2020 -- 1 IP address (1 host up) scanned in 17227.20 seconds

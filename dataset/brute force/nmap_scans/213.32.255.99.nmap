@@ -1,0 +1,125 @@
+# Nmap 7.40 scan initiated Sat May 23 03:41:14 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/213.32.255.99.nmap 213.32.255.99
+Nmap scan report for 213.32.255.99
+Host is up (0.36s latency).
+Not shown: 986 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE         VERSION
+22/tcp   open  ssh             OpenSSH 5.3 (protocol 2.0)
+111/tcp  open  rpcbind         2-4 (RPC #100000)
+443/tcp  open  ssl/https
+1049/tcp open  giop            CORBA naming service
+2000/tcp open  tcpwrapped
+5060/tcp open  tcpwrapped
+5989/tcp open  ssl/http        Web-Based Enterprise Management CIM serverOpenPegasus WBEM httpd
+7001/tcp open  ldap            WebLogic application server 10.3.6.0 (T3 enabled)
+7777/tcp open  cbt?
+8888/tcp open  sun-answerbook?
+9001/tcp open  http            Oracle WebLogic admin httpd 10.3.6.0 (T3 enabled)
+9002/tcp open  http            Oracle WebLogic admin httpd 10.3.6.0 (T3 enabled)
+9003/tcp open  http            Oracle WebLogic admin httpd 10.3.6.0 (T3 enabled)
+9999/tcp open  ssl/abyss?
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.40%T=SSL%I=7%D=5/23%Time=5EC8BFB6%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,54A,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Sat,\x2
+SF:023\x20May\x202020\x2006:16:36\x20GMT\r\nServer:\x20\x20\r\nX-Frame-Opt
+SF:ions:\x20mobile\.icsfs\.com\r\nContent-Length:\x201164\r\nConnection:\x
+SF:20close\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\n\r\n<!DOCTYP
+SF:E\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.0\x20Draft//EN\">\n<
+SF:HTML>\n<HEAD>\n<TITLE>Error\x20404--Not\x20Found</TITLE>\n</HEAD>\n<BOD
+SF:Y\x20bgcolor=\"white\">\n<FONT\x20FACE=Helvetica><BR\x20CLEAR=all>\n<TA
+SF:BLE\x20border=0\x20cellspacing=5><TR><TD><BR\x20CLEAR=all>\n<FONT\x20FA
+SF:CE=\"Helvetica\"\x20COLOR=\"black\"\x20SIZE=\"3\"><H2>Error\x20404--Not
+SF:\x20Found</H2>\n</FONT></TD></TR>\n</TABLE>\n<TABLE\x20border=0\x20widt
+SF:h=100%\x20cellpadding=10><TR><TD\x20VALIGN=top\x20WIDTH=100%\x20BGCOLOR
+SF:=white><FONT\x20FACE=\"Courier\x20New\"><FONT\x20FACE=\"Helvetica\"\x20
+SF:SIZE=\"3\"><H3>From\x20RFC\x202068\x20<i>Hypertext\x20Transfer\x20Proto
+SF:col\x20--\x20HTTP/1\.1</i>:</H3>\n</FONT><FONT\x20FACE=\"Helvetica\"\x2
+SF:0SIZE=\"3\"><H4>10\.4\.5\x20404\x20Not\x20Found</H4>\n</FONT><P><FONT\x
+SF:20FACE=\"Courier\x20New\">The\x20server\x20has\x20not\x20found\x20anyth
+SF:ing\x20matching\x20the\x20Request-URI\.\x20No\x20")%r(HTTPOptions,54A,"
+SF:HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Sat,\x2023\x20May\x202020\
+SF:x2006:16:37\x20GMT\r\nServer:\x20\x20\r\nX-Frame-Options:\x20mobile\.ic
+SF:sfs\.com\r\nContent-Length:\x201164\r\nConnection:\x20close\r\nContent-
+SF:Type:\x20text/html;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC
+SF:\x20\"-//W3C//DTD\x20HTML\x204\.0\x20Draft//EN\">\n<HTML>\n<HEAD>\n<TIT
+SF:LE>Error\x20404--Not\x20Found</TITLE>\n</HEAD>\n<BODY\x20bgcolor=\"whit
+SF:e\">\n<FONT\x20FACE=Helvetica><BR\x20CLEAR=all>\n<TABLE\x20border=0\x20
+SF:cellspacing=5><TR><TD><BR\x20CLEAR=all>\n<FONT\x20FACE=\"Helvetica\"\x2
+SF:0COLOR=\"black\"\x20SIZE=\"3\"><H2>Error\x20404--Not\x20Found</H2>\n</F
+SF:ONT></TD></TR>\n</TABLE>\n<TABLE\x20border=0\x20width=100%\x20cellpaddi
+SF:ng=10><TR><TD\x20VALIGN=top\x20WIDTH=100%\x20BGCOLOR=white><FONT\x20FAC
+SF:E=\"Courier\x20New\"><FONT\x20FACE=\"Helvetica\"\x20SIZE=\"3\"><H3>From
+SF:\x20RFC\x202068\x20<i>Hypertext\x20Transfer\x20Protocol\x20--\x20HTTP/1
+SF:\.1</i>:</H3>\n</FONT><FONT\x20FACE=\"Helvetica\"\x20SIZE=\"3\"><H4>10\
+SF:.4\.5\x20404\x20Not\x20Found</H4>\n</FONT><P><FONT\x20FACE=\"Courier\x2
+SF:0New\">The\x20server\x20has\x20not\x20found\x20anything\x20matching\x20
+SF:the\x20Request-URI\.\x20No\x20");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7777-TCP:V=7.40%I=7%D=5/23%Time=5EC8C0A7%P=x86_64-pc-linux-gnu%r(So
+SF:cks5,CD,"<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0/
+SF:/EN\">\n<html><head>\n<title>403\x20Forbidden</title>\n</head><body>\n<
+SF:h1>Forbidden</h1>\n<p>You\x20are\x20not\x20authorized\x20to\x20access\x
+SF:20the\x20requested\x20resource\.</p>\n</body></html>\n")%r(GetRequest,1
+SF:8F,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Sat,\x2023\x20May\x202020
+SF:\x2006:20:48\x20GMT\r\nServer:\x20\x20\r\nX-Frame-Options:\x20mobile\.i
+SF:csfs\.com\r\nContent-Length:\x20205\r\nConnection:\x20close\r\nContent-
+SF:Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20P
+SF:UBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>40
+SF:3\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x20ar
+SF:e\x20not\x20authorized\x20to\x20access\x20the\x20requested\x20resource\
+SF:.</p>\n</body></html>\n")%r(HTTPOptions,18F,"HTTP/1\.1\x20403\x20Forbid
+SF:den\r\nDate:\x20Sat,\x2023\x20May\x202020\x2006:20:49\x20GMT\r\nServer:
+SF:\x20\x20\r\nX-Frame-Options:\x20mobile\.icsfs\.com\r\nContent-Length:\x
+SF:20205\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset
+SF:=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTM
+SF:L\x202\.0//EN\">\n<html><head>\n<title>403\x20Forbidden</title>\n</head
+SF:><body>\n<h1>Forbidden</h1>\n<p>You\x20are\x20not\x20authorized\x20to\x
+SF:20access\x20the\x20requested\x20resource\.</p>\n</body></html>\n")%r(RT
+SF:SPRequest,18F,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Sat,\x2023\x20
+SF:May\x202020\x2006:20:49\x20GMT\r\nServer:\x20\x20\r\nX-Frame-Options:\x
+SF:20mobile\.icsfs\.com\r\nContent-Length:\x20205\r\nConnection:\x20close\
+SF:r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x
+SF:20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>
+SF:\n<title>403\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<
+SF:p>You\x20are\x20not\x20authorized\x20to\x20access\x20the\x20requested\x
+SF:20resource\.</p>\n</body></html>\n")%r(Help,CD,"<!DOCTYPE\x20HTML\x20PU
+SF:BLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>403
+SF:\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x20are
+SF:\x20not\x20authorized\x20to\x20access\x20the\x20requested\x20resource\.
+SF:</p>\n</body></html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8888-TCP:V=7.40%I=7%D=5/23%Time=5EC8C102%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,2C2C,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2023\x20May\x20
+SF:2020\x2006:22:08\x20GMT\r\nServer:\x20Oracle-HTTP-Server-11g\r\nLast-Mo
+SF:dified:\x20Fri,\x2030\x20Nov\x202018\x2005:25:01\x20GMT\r\nETag:\x20\"5
+SF:0578d-2b14-57bdb05540540\"\r\nAccept-Ranges:\x20bytes\r\nContent-Length
+SF::\x2011028\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Language:\x20en\r\n\r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DT
+SF:D\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\.org/TR/xh
+SF:tml1/DTD/xhtml1-transitional\.dtd\">\r\n<html\x20xmlns=\"http://www\.w3
+SF:\.org/1999/xhtml\">\r\n<head>\r\n\t<meta\x20http-equiv=\"Content-Type\"
+SF:\x20content=\"text/html;\x20charset=utf-8\"\x20/>\r\n\t<title>Welcome\x
+SF:20to\x20Oracle\x20Fusion\x20Middleware</title>\r\n\r\n\x20\x20\x20\x20<
+SF:link\x20href=\"css/fmw\.css\"\x20rel=\"stylesheet\"\x20type=\"text/css\
+SF:">\r\n\x20\x20\x20\x20<link\x20href=\"css/fmw_top_frame_welcome_area\.c
+SF:ss\"\x20rel=\"stylesheet\"\x20type=\"text/css\">\r\n\x20\x20\x20\x20<li
+SF:nk\x20href=\"css/fmw_bottom_area\.css\"\x20rel=\"stylesheet\"\x20type=\
+SF:"text/css\">\r\n\r\n\x20\x20\x20\x20<script\x20src=\"JSLibrary/fmw_all\
+SF:.js\"\x20language=\"javascript\"></script>\r\n\t<script\x20src=\"JS")%r
+SF:(HTTPOptions,CB,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2023\x20May\x
+SF:202020\x2006:22:09\x20GMT\r\nServer:\x20Oracle-HTTP-Server-11g\r\nAllow
+SF::\x20GET,HEAD,POST,OPTIONS\r\nContent-Length:\x200\r\nConnection:\x20cl
+SF:ose\r\nContent-Type:\x20text/html\r\nContent-Language:\x20en\r\n\r\n")%
+SF:r(FourOhFourRequest,186,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20S
+SF:at,\x2023\x20May\x202020\x2006:22:09\x20GMT\r\nServer:\x20Oracle-HTTP-S
+SF:erver-11g\r\nContent-Length:\x20210\r\nConnection:\x20close\r\nContent-
+SF:Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20P
+SF:UBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>40
+SF:4\x20Not\x20Found</title>\n</head><body>\n<h1>Not\x20Found</h1>\n<p>The
+SF:\x20requested\x20URL\x20/nice\x20ports,/Trinity\.txt\.bak\x20was\x20not
+SF:\x20found\.</p>\n</body></html>\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May 23 08:24:57 2020 -- 1 IP address (1 host up) scanned in 17022.28 seconds

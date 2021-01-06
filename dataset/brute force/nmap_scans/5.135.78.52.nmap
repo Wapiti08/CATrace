@@ -1,0 +1,22 @@
+# Nmap 7.40 scan initiated Wed Jul 22 01:10:22 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/5.135.78.52.nmap 5.135.78.52
+Nmap scan report for 5.135.78.52
+Host is up (0.34s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 3.0.3
+22/tcp   open  ssh         OpenSSH 7.4p1 Debian 10+deb9u3 (protocol 2.0)
+5432/tcp open  postgresql?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5432-TCP:V=7.40%I=7%D=7/22%Time=5F17B64E%P=x86_64-pc-linux-gnu%r(SM
+SF:BProgNeg,9E,"E\0\0\0\x9dSFATAL\0VFATAL\0C0A000\0MProtocole\x20non\x20su
+SF:pport\xc3\xa9e\x20de\x20l'interface\x2065363\.19778\x20:\x20le\x20serve
+SF:ur\x20supporte\x20de\x201\.0\x20\xc3\xa0\n3\.0\0Fpostmaster\.c\0L2030\0
+SF:RProcessStartupPacket\0\0")%r(Kerberos,9E,"E\0\0\0\x9dSFATAL\0VFATAL\0C
+SF:0A000\0MProtocole\x20non\x20support\xc3\xa9e\x20de\x20l'interface\x2027
+SF:265\.28208\x20:\x20le\x20serveur\x20supporte\x20de\x201\.0\x20\xc3\xa0\
+SF:n3\.0\0Fpostmaster\.c\0L2030\0RProcessStartupPacket\0\0");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 22 05:45:37 2020 -- 1 IP address (1 host up) scanned in 16515.26 seconds

@@ -1,0 +1,12 @@
+# Nmap 7.40 scan initiated Wed May 13 19:29:43 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/14.136.204.41.nmap 14.136.204.41
+Nmap scan report for 14.136.204.41
+Host is up (0.45s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.6.1p1 Ubuntu 2ubuntu2 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 14 00:04:38 2020 -- 1 IP address (1 host up) scanned in 16494.99 seconds

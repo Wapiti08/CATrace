@@ -1,0 +1,73 @@
+# Nmap 7.40 scan initiated Mon May 11 04:02:11 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/37.187.183.89.nmap 37.187.183.89
+Nmap scan report for 37.187.183.89
+Host is up (0.34s latency).
+Not shown: 984 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           ProFTPD (requires SSL)
+22/tcp   open  ssh           OpenSSH 5.3 (protocol 2.0)
+25/tcp   open  smtp          Postfix smtpd
+80/tcp   open  http          Apache httpd
+106/tcp  open  pop3pw        poppassd
+110/tcp  open  pop3          Courier pop3d
+111/tcp  open  rpcbind       2-4 (RPC #100000)
+139/tcp  open  netbios-ssn   Samba smbd 3.X - 4.X (workgroup: MYGROUP)
+143/tcp  open  imap          Courier Imapd (released 2018)
+443/tcp  open  http          Apache httpd
+465/tcp  open  ssl/smtp      Postfix smtpd
+587/tcp  open  smtp          Postfix smtpd
+993/tcp  open  ssl/imap      Courier Imapd (released 2018)
+995/tcp  open  ssl/pop3      Courier pop3d
+3306/tcp open  mysql         MySQL 5.5.41
+8443/tcp open  ssl/https-alt sw-cp-server
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8443-TCP:V=7.40%T=SSL%I=7%D=5/11%Time=5EB8F2E0%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,1F8,"HTTP/1\.1\x20303\x20See\x20Other\r\nServer:\x20sw-c
+SF:p-server\r\nDate:\x20Mon,\x2011\x20May\x202020\x2006:38:25\x20GMT\r\nCo
+SF:ntent-Type:\x20text/html;\x20charset=UTF-8\r\nConnection:\x20close\r\nE
+SF:xpires:\x20Fri,\x2028\x20May\x201999\x2000:00:00\x20GMT\r\nLast-Modifie
+SF:d:\x20Mon,\x2011\x20May\x202020\x2006:38:25\x20GMT\r\nCache-Control:\x2
+SF:0no-store,\x20no-cache,\x20must-revalidate\r\nCache-Control:\x20post-ch
+SF:eck=0,\x20pre-check=0\r\nPragma:\x20no-cache\r\nP3P:\x20CP=\"NON\x20COR
+SF:\x20CURa\x20ADMa\x20OUR\x20NOR\x20UNI\x20COM\x20NAV\x20STA\"\r\nX-Frame
+SF:-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nLoc
+SF:ation:\x20/login\.php\?success_redirect_url=%2F\r\n\r\n")%r(HTTPOptions
+SF:,44F,"HTTP/1\.1\x20405\x20Not\x20Allowed\r\nServer:\x20sw-cp-server\r\n
+SF:Date:\x20Mon,\x2011\x20May\x202020\x2006:38:27\x20GMT\r\nContent-Type:\
+SF:x20text/html\r\nContent-Length:\x20929\r\nConnection:\x20close\r\nETag:
+SF:\x20\"5e9070a2-3a1\"\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x2
+SF:0dir=\"ltr\">\n<head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x2
+SF:0\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width
+SF:,\x20initial-scale=1,\x20shrink-to-fit=no\">\n\x20\x20\x20\x20<title>40
+SF:5\x20Method\x20Not\x20Allowed</title>\n\x20\x20\x20\x20<link\x20rel=\"s
+SF:hortcut\x20icon\"\x20href=\"/favicon\.ico\">\n\x20\x20\x20\x20<link\x20
+SF:rel=\"stylesheet\"\x20href=\"/ui-library/plesk-ui-library\.css\?3\.5\.0
+SF:\">\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"\x20src=\"/ui-l
+SF:ibrary/plesk-ui-library\.min\.js\?3\.5\.0\"></script>\n\x20\x20\x20\x20
+SF:<script\x20type=\"text/javascript\"\x20src=\"/cp/javascript/vendors\.js
+SF:\"></script>\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"\x20sr
+SF:c=\"/cp/javascript/main\.js\"></script>\n\x20\x20\x20\x20<script\x20typ
+SF:e=\"text/javascript\"\x20src=\"/error_docs/uat\.js\?v1\"></script>\n<li
+SF:nk\x20href=\"/error_docs/app\.css\"\x20rel=\"stylesheet\"></head>\n<bod
+SF:y>\n<div\x20id=\"")%r(FourOhFourRequest,445,"HTTP/1\.1\x20404\x20Not\x2
+SF:0Found\r\nServer:\x20sw-cp-server\r\nDate:\x20Mon,\x2011\x20May\x202020
+SF:\x2006:38:28\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
+SF:0921\r\nConnection:\x20close\r\nETag:\x20\"5e9070a2-399\"\r\n\r\n<!DOCT
+SF:YPE\x20html>\n<html\x20lang=\"en\"\x20dir=\"ltr\">\n<head>\n\x20\x20\x2
+SF:0\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewp
+SF:ort\"\x20content=\"width=device-width,\x20initial-scale=1,\x20shrink-to
+SF:-fit=no\">\n\x20\x20\x20\x20<title>404\x20Page\x20Not\x20Found</title>\
+SF:n\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20href=\"/favicon\.
+SF:ico\">\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"/ui-libra
+SF:ry/plesk-ui-library\.css\?3\.5\.0\">\n\x20\x20\x20\x20<script\x20type=\
+SF:"text/javascript\"\x20src=\"/ui-library/plesk-ui-library\.min\.js\?3\.5
+SF:\.0\"></script>\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"\x2
+SF:0src=\"/cp/javascript/vendors\.js\"></script>\n\x20\x20\x20\x20<script\
+SF:x20type=\"text/javascript\"\x20src=\"/cp/javascript/main\.js\"></script
+SF:>\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"\x20src=\"/error_
+SF:docs/uat\.js\?v1\"></script>\n<link\x20href=\"/error_docs/app\.css\"\x2
+SF:0rel=\"stylesheet\"></head>\n<body>\n<div\x20id=\"app\"><");
+Service Info: Hosts:  vps117113.ovh.net, localhost.localdomain, vps117113.ovh.net
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 11 08:39:05 2020 -- 1 IP address (1 host up) scanned in 16614.05 seconds

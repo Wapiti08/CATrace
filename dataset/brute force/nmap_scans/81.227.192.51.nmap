@@ -1,0 +1,11 @@
+# Nmap 7.40 scan initiated Fri Nov 27 23:17:58 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/81.227.192.51.nmap 81.227.192.51
+Nmap scan report for 81.227.192.51
+Host is up (0.28s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Dropbear sshd 2013.59 (protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov 28 03:52:44 2020 -- 1 IP address (1 host up) scanned in 16485.95 seconds

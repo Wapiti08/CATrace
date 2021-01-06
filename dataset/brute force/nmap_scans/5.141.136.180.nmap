@@ -1,0 +1,12 @@
+# Nmap 7.40 scan initiated Tue Mar 24 04:50:37 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/5.141.136.180.nmap 5.141.136.180
+Nmap scan report for 5.141.136.180
+Host is up (0.33s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE    VERSION
+21/tcp open  ftp        Kiss DP-558 PVR ftpd
+53/tcp open  tcpwrapped
+Service Info: Device: media device
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 24 09:25:30 2020 -- 1 IP address (1 host up) scanned in 16493.22 seconds

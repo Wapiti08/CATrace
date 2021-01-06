@@ -1,0 +1,118 @@
+# Nmap 7.40 scan initiated Mon Jun 29 05:00:02 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/62.210.108.139.nmap 62.210.108.139
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 62.210.108.139
+Host is up (1.7s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE         VERSION
+21/tcp   open  ftp             vsftpd 3.0.3
+22/tcp   open  ssh             OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http            nginx 1.14.0 (Ubuntu)
+3000/tcp open  ppp?
+3306/tcp open  mysql           MySQL 5.7.29-0ubuntu0.18.04.1
+8888/tcp open  sun-answerbook?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port3000-TCP:V=7.40%I=7%D=6/29%Time=5EF9947B%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(GetRequest,132,"HTTP/1\.0\x20302\x20Found\r\nCache-Contro
+SF:l:\x20no-cache\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nExpir
+SF:es:\x20-1\r\nLocation:\x20/login\r\nPragma:\x20no-cache\r\nSet-Cookie:\
+SF:x20redirect_to=%2F;\x20Path=/;\x20HttpOnly;\x20SameSite=Lax\r\nX-Frame-
+SF:Options:\x20deny\r\nDate:\x20Mon,\x2029\x20Jun\x202020\x2007:12:59\x20G
+SF:MT\r\nContent-Length:\x2029\r\n\r\n<a\x20href=\"/login\">Found</a>\.\n\
+SF:n")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(HTTPOptions,1374,"HTTP/1\.0\x20404\x20Not\x20Found\r\nCac
+SF:he-Control:\x20no-cache\r\nContent-Type:\x20text/html;\x20charset=UTF-8
+SF:\r\nExpires:\x20-1\r\nPragma:\x20no-cache\r\nX-Frame-Options:\x20deny\r
+SF:\nDate:\x20Mon,\x2029\x20Jun\x202020\x2007:13:05\x20GMT\r\n\r\n<!DOCTYP
+SF:E\x20html>\n<html\x20lang=\"en\">\n\x20\x20<head>\n\x20\x20\x20\x20<scr
+SF:ipt>\n\x20\x20\x20\x20\x20\x20\n\x20\x20\x20\x20\x20\x20!\(function\(\)
+SF:\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20if\x20\('PerformanceLongTaskTimi
+SF:ng'\x20in\x20window\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20var
+SF:\x20g\x20=\x20\(window\.__tti\x20=\x20{\x20e:\x20\[\]\x20}\);\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20g\.o\x20=\x20new\x20PerformanceObserver
+SF:\(function\(l\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20g
+SF:\.e\x20=\x20g\.e\.concat\(l\.getEntries\(\)\);\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20}\);\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20g\.o\.ob
+SF:serve\({\x20entryTypes:\x20\['longtask'\]\x20}\);\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20}\)\(\);\n\n\x20\x20\x20\x20</sc
+SF:ript>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"\x20/>\n\x20\x20\x20\x
+SF:20<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrome=1
+SF:\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width
+SF:=device-width\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"theme-color\"\x2
+SF:0content=\"#000\"\x20/>\n\n\x20\x20\x20\x20<title>Grafana</title>\n\n\x
+SF:20\x20\x20\x20<base\x20href=\"/\"\x20/>\n\n\x20\x20\x20\x20<link\n\x20\
+SF:x20\x20\x20\x20\x20rel=\"preload\"\n\x20\x20\x20\x20\x20\x20href=\"publ
+SF:ic/fonts/roboto/RxZJdnzeo3R5zSe");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8888-TCP:V=7.40%I=7%D=6/29%Time=5EF994CE%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,27E,"HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\nCach
+SF:e-Control:\x20public,\x20max-age=3600\r\nContent-Length:\x20343\r\nCont
+SF:ent-Type:\x20text/html;\x20charset=utf-8\r\nEtag:\x20\"34330194152\"\r\
+SF:nLast-Modified:\x20Thu,\x2030\x20Apr\x202020\x2017:41:52\x20GMT\r\nVary
+SF::\x20Accept-Encoding\r\nX-Chronograf-Version:\x201\.8\.4\r\nDate:\x20Mo
+SF:n,\x2029\x20Jun\x202020\x2007:14:22\x20GMT\r\n\r\n<!DOCTYPE\x20html><ht
+SF:ml>\x20<head>\x20<meta\x20http-equiv=\"Content-type\"\x20content=\"text
+SF:/html;\x20charset=utf-8\">\x20<title>Chronograf</title>\x20<link\x20rel
+SF:=\"shortcut\x20icon\"\x20href=\"/favicon\.fa749080\.ico\">\x20<link\x20
+SF:rel=\"stylesheet\"\x20href=\"/src\.35b33354\.css\"></head>\x20<body>\x2
+SF:0<div\x20id=\"react-root\"\x20data-basepath=\"\"></div>\x20<script\x20s
+SF:rc=\"/src\.bb6c33a8\.js\"></script>\x20</body>\x20</html>")%r(HTTPOptio
+SF:ns,27E,"HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\nCache-Cont
+SF:rol:\x20public,\x20max-age=3600\r\nContent-Length:\x20343\r\nContent-Ty
+SF:pe:\x20text/html;\x20charset=utf-8\r\nEtag:\x20\"34330194152\"\r\nLast-
+SF:Modified:\x20Thu,\x2030\x20Apr\x202020\x2017:41:52\x20GMT\r\nVary:\x20A
+SF:ccept-Encoding\r\nX-Chronograf-Version:\x201\.8\.4\r\nDate:\x20Mon,\x20
+SF:29\x20Jun\x202020\x2007:14:22\x20GMT\r\n\r\n<!DOCTYPE\x20html><html>\x2
+SF:0<head>\x20<meta\x20http-equiv=\"Content-type\"\x20content=\"text/html;
+SF:\x20charset=utf-8\">\x20<title>Chronograf</title>\x20<link\x20rel=\"sho
+SF:rtcut\x20icon\"\x20href=\"/favicon\.fa749080\.ico\">\x20<link\x20rel=\"
+SF:stylesheet\"\x20href=\"/src\.35b33354\.css\"></head>\x20<body>\x20<div\
+SF:x20id=\"react-root\"\x20data-basepath=\"\"></div>\x20<script\x20src=\"/
+SF:src\.bb6c33a8\.js\"></script>\x20</body>\x20</html>")%r(FourOhFourReque
+SF:st,27E,"HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\nCache-Cont
+SF:rol:\x20public,\x20max-age=3600\r\nContent-Length:\x20343\r\nContent-Ty
+SF:pe:\x20text/html;\x20charset=utf-8\r\nEtag:\x20\"34330194152\"\r\nLast-
+SF:Modified:\x20Mon,\x2004\x20May\x202020\x2015:52:11\x20GMT\r\nVary:\x20A
+SF:ccept-Encoding\r\nX-Chronograf-Version:\x201\.8\.4\r\nDate:\x20Mon,\x20
+SF:29\x20Jun\x202020\x2007:14:23\x20GMT\r\n\r\n<!DOCTYPE\x20html><html>\x2
+SF:0<head>\x20<meta\x20http-equiv=\"Content-type\"\x20content=\"text/html;
+SF:\x20charset=utf-8\">\x20<title>Chronograf</title>\x20<link\x20rel=\"sho
+SF:rtcut\x20icon\"\x20href=\"/favicon\.fa749080\.ico\">\x20<link\x20rel=\"
+SF:stylesheet\"\x20href=\"/src\.35b33354\.css\"></head>\x20<body>\x20<div\
+SF:x20id=\"react-root\"\x20data-basepath=\"\"></div>\x20<script\x20src=\"/
+SF:src\.bb6c33a8\.js\"></script>\x20</body>\x20</html>");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 29 09:15:55 2020 -- 1 IP address (1 host up) scanned in 15353.20 seconds

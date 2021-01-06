@@ -1,0 +1,16 @@
+# Nmap 7.40 scan initiated Wed Dec  9 04:35:09 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/222.127.151.230.nmap 222.127.151.230
+Nmap scan report for 222.127.151.230
+Host is up (0.48s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        Microsoft ftpd
+26/tcp   open  tcpwrapped
+80/tcp   open  http       Microsoft IIS httpd 7.0
+3000/tcp open  tcpwrapped
+8080/tcp open  http       nginx
+8082/tcp open  http       Apache httpd 2.2.22 ((Win32) PHP/5.2.9-2)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Dec  9 08:52:54 2020 -- 1 IP address (1 host up) scanned in 15464.34 seconds

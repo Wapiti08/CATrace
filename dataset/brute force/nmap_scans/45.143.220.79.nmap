@@ -1,0 +1,19 @@
+# Nmap 7.40 scan initiated Sun Jul  5 05:00:01 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/45.143.220.79.nmap 45.143.220.79
+Nmap scan report for 45.143.220.79
+Host is up (0.12s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE VERSION
+21/tcp    open  ftp     vsftpd 3.0.2
+22/tcp    open  ssh     OpenSSH 7.4 (protocol 2.0)
+80/tcp    open  http    Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+3306/tcp  open  mysql   MySQL (unauthorized)
+49152/tcp open  unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port49152-TCP:V=7.40%I=7%D=7/5%Time=5F0182BE%P=x86_64-pc-linux-gnu%r(RT
+SF:SPRequest,18,"75\.129\.59\.27,800,udp,80\n")%r(TLSSessionReq,1B,"172\.1
+SF:04\.211\.59,443,std,200\n");
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jul  5 09:37:43 2020 -- 1 IP address (1 host up) scanned in 16661.78 seconds

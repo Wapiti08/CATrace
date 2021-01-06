@@ -1,0 +1,23 @@
+# Nmap 7.40 scan initiated Sun Mar 22 22:36:59 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/46.105.122.62.nmap 46.105.122.62
+Nmap scan report for 46.105.122.62
+Host is up (0.29s latency).
+Not shown: 987 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE       VERSION
+21/tcp    open  ftp           Pure-FTPd
+22/tcp    open  ssh           OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+25/tcp    open  smtp          Postfix smtpd
+53/tcp    open  domain        ISC BIND 9.10.3-P4-Debian
+80/tcp    open  http          Apache httpd 2.4.25 ((Debian))
+110/tcp   open  pop3          Dovecot pop3d
+143/tcp   open  imap          Dovecot imapd
+443/tcp   open  ssl/http      Apache httpd 2.4.25 ((Debian))
+465/tcp   open  ssl/smtp      Postfix smtpd
+587/tcp   open  smtp          Postfix smtpd
+995/tcp   open  ssl/pop3      Dovecot pop3d
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+10000/tcp open  http          MiniServ 1.941 (Webmin httpd)
+Service Info: Host:  ns3045583.ip-46-105-122.eu; OSs: Linux, Windows; CPE: cpe:/o:linux:linux_kernel, cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 23 02:51:38 2020 -- 1 IP address (1 host up) scanned in 15279.02 seconds

@@ -1,0 +1,21 @@
+# Nmap 7.40 scan initiated Tue May 26 05:11:42 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/45.227.255.4.nmap 45.227.255.4
+Nmap scan report for 45.227.255.4
+Host is up (0.21s latency).
+Not shown: 989 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds  Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+1025/tcp open  msrpc         Microsoft Windows RPC
+1026/tcp open  msrpc         Microsoft Windows RPC
+1027/tcp open  msrpc         Microsoft Windows RPC
+1028/tcp open  msrpc         Microsoft Windows RPC
+1029/tcp open  msrpc         Microsoft Windows RPC
+1030/tcp open  msrpc         Microsoft Windows RPC
+1033/tcp open  msrpc         Microsoft Windows RPC
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue May 26 09:52:04 2020 -- 1 IP address (1 host up) scanned in 16822.56 seconds

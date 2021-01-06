@@ -1,0 +1,15 @@
+# Nmap 7.40 scan initiated Sun Aug  9 05:25:15 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/51.254.137.206.nmap 51.254.137.206
+Nmap scan report for 51.254.137.206
+Host is up (0.17s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      Pure-FTPd
+22/tcp  open  ssh      OpenSSH 6.7p1 Debian 5+deb8u3 (protocol 2.0)
+25/tcp  open  smtp     Postfix smtpd
+80/tcp  open  http     Apache httpd
+443/tcp open  ssl/http Apache httpd
+Service Info: Host:  vps279806.ovh.net; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug  9 10:00:26 2020 -- 1 IP address (1 host up) scanned in 16510.77 seconds

@@ -1,0 +1,134 @@
+# Nmap 7.40 scan initiated Wed Jul 15 15:03:09 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/173.212.219.135.nmap 173.212.219.135
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 173.212.219.135
+Host is up (0.47s latency).
+Not shown: 982 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+21/tcp   open  ftp            ProFTPD
+22/tcp   open  ssh            OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+25/tcp   open  smtp           Postfix smtpd
+53/tcp   open  domain         ISC BIND none
+80/tcp   open  http           nginx
+106/tcp  open  pop3pw         poppassd
+110/tcp  open  pop3           Dovecot pop3d
+139/tcp  open  netbios-ssn    Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+143/tcp  open  imap           Dovecot imapd
+443/tcp  open  ssl/http       nginx
+445/tcp  open  netbios-ssn    Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+465/tcp  open  ssl/smtp       Postfix smtpd
+587/tcp  open  smtp           Postfix smtpd
+993/tcp  open  ssl/imap       Dovecot imapd
+995/tcp  open  ssl/pop3       Dovecot pop3d
+3306/tcp open  mysql          MySQL 5.5.5-10.1.44-MariaDB-0ubuntu0.18.04.1
+8087/tcp open  simplifymedia?
+8443/tcp open  ssl/https-alt  sw-cp-server
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8087-TCP:V=7.40%I=7%D=7/15%Time=5F0F3BD5%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(GetRequest,1CB0,"HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:
+SF:\x20bytes\r\nContent-Length:\x2013075\r\nContent-Type:\x20text/html;\x2
+SF:0charset=utf-8\r\nLast-Modified:\x20Wed,\x2015\x20Jul\x202020\x2017:24:
+SF:37\x20GMT\r\nDate:\x20Wed,\x2015\x20Jul\x202020\x2017:24:37\x20GMT\r\n\
+SF:r\n<!DOCTYPE\x20html>\n<html\x20ng-app=\"ts3soundboard-bot\"\x20ng-cont
+SF:roller=\"base\">\n<head>\n<title>SinusBot</title>\n<meta\x20name=\"robo
+SF:ts\"\x20content=\"noindex,\x20nofollow\"/>\n<script\x20type=\"text/java
+SF:script\"\x20src=\"/api/v1/themes\.js\"></script>\n<script\x20type=\"tex
+SF:t/javascript\"\x20src=\"/js/main\.js\"></script>\n<script\x20type=\"tex
+SF:t/javascript\"\x20src=\"/js/partials\.js\"></script>\n<script\x20type=\
+SF:"text/javascript\"\x20src=\"/js/base\.js\"></script>\n<script\x20type=\
+SF:"text/javascript\"\x20src=\"/api/v1/locales\.js\"></script>\n<style>\.b
+SF:ase{display:\x20none;}</style>\n<link\x20rel=\"stylesheet\"\x20ng-href=
+SF:\"/themes/{{theme\.file\x20\|\|\x20'default'}}\.css\"\x20/>\n<base\x20h
+SF:ref=\"/\"/>\n<meta\x20name=\"viewport\"\x20content=\"width=device-width
+SF:,\x20initial-scale=1,\x20maximum-scale=1,\x20user-scalable=no\"/>\n<lin
+SF:k\x20rel=\"ico")%r(HTTPOptions,74,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20W
+SF:ed,\x2015\x20Jul\x202020\x2017:24:38\x20GMT\r\nContent-Length:\x200\r\n
+SF:Content-Type:\x20text/plain;\x20charset=utf-8\r\n\r\n")%r(RTSPRequest,6
+SF:7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x
+SF:20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%
+SF:r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/
+SF:plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Re
+SF:quest")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConte
+SF:nt-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\
+SF:n400\x20Bad\x20Request")%r(TLSSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x2
+SF:0Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection
+SF::\x20close\r\n\r\n400\x20Bad\x20Request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8443-TCP:V=7.40%T=SSL%I=7%D=7/15%Time=5F0F3C3D%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,1F8,"HTTP/1\.1\x20303\x20See\x20Other\r\nServer:\x20sw-c
+SF:p-server\r\nDate:\x20Wed,\x2015\x20Jul\x202020\x2017:26:21\x20GMT\r\nCo
+SF:ntent-Type:\x20text/html;\x20charset=UTF-8\r\nConnection:\x20close\r\nE
+SF:xpires:\x20Fri,\x2028\x20May\x201999\x2000:00:00\x20GMT\r\nLast-Modifie
+SF:d:\x20Wed,\x2015\x20Jul\x202020\x2017:26:21\x20GMT\r\nCache-Control:\x2
+SF:0no-store,\x20no-cache,\x20must-revalidate\r\nCache-Control:\x20post-ch
+SF:eck=0,\x20pre-check=0\r\nPragma:\x20no-cache\r\nP3P:\x20CP=\"NON\x20COR
+SF:\x20CURa\x20ADMa\x20OUR\x20NOR\x20UNI\x20COM\x20NAV\x20STA\"\r\nX-Frame
+SF:-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nLoc
+SF:ation:\x20/login\.php\?success_redirect_url=%2F\r\n\r\n")%r(HTTPOptions
+SF:,44F,"HTTP/1\.1\x20405\x20Not\x20Allowed\r\nServer:\x20sw-cp-server\r\n
+SF:Date:\x20Wed,\x2015\x20Jul\x202020\x2017:26:22\x20GMT\r\nContent-Type:\
+SF:x20text/html\r\nContent-Length:\x20929\r\nConnection:\x20close\r\nETag:
+SF:\x20\"5e9054b9-3a1\"\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x2
+SF:0dir=\"ltr\">\n<head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x2
+SF:0\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width
+SF:,\x20initial-scale=1,\x20shrink-to-fit=no\">\n\x20\x20\x20\x20<title>40
+SF:5\x20Method\x20Not\x20Allowed</title>\n\x20\x20\x20\x20<link\x20rel=\"s
+SF:hortcut\x20icon\"\x20href=\"/favicon\.ico\">\n\x20\x20\x20\x20<link\x20
+SF:rel=\"stylesheet\"\x20href=\"/ui-library/plesk-ui-library\.css\?3\.5\.0
+SF:\">\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"\x20src=\"/ui-l
+SF:ibrary/plesk-ui-library\.min\.js\?3\.5\.0\"></script>\n\x20\x20\x20\x20
+SF:<script\x20type=\"text/javascript\"\x20src=\"/cp/javascript/vendors\.js
+SF:\"></script>\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"\x20sr
+SF:c=\"/cp/javascript/main\.js\"></script>\n\x20\x20\x20\x20<script\x20typ
+SF:e=\"text/javascript\"\x20src=\"/error_docs/uat\.js\?v1\"></script>\n<li
+SF:nk\x20href=\"/error_docs/app\.css\"\x20rel=\"stylesheet\"></head>\n<bod
+SF:y>\n<div\x20id=\"")%r(FourOhFourRequest,445,"HTTP/1\.1\x20404\x20Not\x2
+SF:0Found\r\nServer:\x20sw-cp-server\r\nDate:\x20Wed,\x2015\x20Jul\x202020
+SF:\x2017:26:24\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
+SF:0921\r\nConnection:\x20close\r\nETag:\x20\"5e9054b9-399\"\r\n\r\n<!DOCT
+SF:YPE\x20html>\n<html\x20lang=\"en\"\x20dir=\"ltr\">\n<head>\n\x20\x20\x2
+SF:0\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewp
+SF:ort\"\x20content=\"width=device-width,\x20initial-scale=1,\x20shrink-to
+SF:-fit=no\">\n\x20\x20\x20\x20<title>404\x20Page\x20Not\x20Found</title>\
+SF:n\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20href=\"/favicon\.
+SF:ico\">\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"/ui-libra
+SF:ry/plesk-ui-library\.css\?3\.5\.0\">\n\x20\x20\x20\x20<script\x20type=\
+SF:"text/javascript\"\x20src=\"/ui-library/plesk-ui-library\.min\.js\?3\.5
+SF:\.0\"></script>\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"\x2
+SF:0src=\"/cp/javascript/vendors\.js\"></script>\n\x20\x20\x20\x20<script\
+SF:x20type=\"text/javascript\"\x20src=\"/cp/javascript/main\.js\"></script
+SF:>\n\x20\x20\x20\x20<script\x20type=\"text/javascript\"\x20src=\"/error_
+SF:docs/uat\.js\?v1\"></script>\n<link\x20href=\"/error_docs/app\.css\"\x2
+SF:0rel=\"stylesheet\"></head>\n<body>\n<div\x20id=\"app\"><");
+Service Info: Hosts:  vmi234051.contaboserver.net, byte-store.de, BYTE-STORE; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 15 19:27:11 2020 -- 1 IP address (1 host up) scanned in 15842.64 seconds

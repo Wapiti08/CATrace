@@ -1,0 +1,15 @@
+# Nmap 7.40 scan initiated Tue Feb  4 12:18:26 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/31.165.88.36.nmap 31.165.88.36
+Nmap scan report for 31.165.88.36
+Host is up (0.54s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      (protocol 2.0)
+80/tcp  open  http     lighttpd
+443/tcp open  ssl/http Jetty 9.4.11.v20180605
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port22-TCP:V=7.40%I=7%D=2/4%Time=5E39937D%P=x86_64-pc-linux-gnu%r(NULL,
+SF:29,"SSH-2\.0-OpenSSH_7\.4p1\x20Raspbian-10\+deb9u6\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb  4 16:53:56 2020 -- 1 IP address (1 host up) scanned in 16529.93 seconds

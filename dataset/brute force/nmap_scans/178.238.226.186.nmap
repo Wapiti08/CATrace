@@ -1,0 +1,54 @@
+# Nmap 7.40 scan initiated Thu Sep 24 12:38:45 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/178.238.226.186.nmap 178.238.226.186
+Nmap scan report for 178.238.226.186
+Host is up (0.32s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+5910/tcp open  cm?
+8080/tcp open  http        Apache httpd 2.4.46 ((Unix))
+9090/tcp open  zeus-admin?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9090-TCP:V=7.40%I=7%D=9/24%Time=5F6CB81A%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,21C,"HTTP/1\.0\x20403\x20Forbidden\r\nAccept-Ranges:\x20bytes\
+SF:r\nContent-Length:\x20226\r\nContent-Security-Policy:\x20block-all-mixe
+SF:d-content\r\nContent-Type:\x20application/xml\r\nServer:\x20MinIO/RELEA
+SF:SE\.2020-09-08T23-05-18Z\r\nVary:\x20Origin\r\nX-Amz-Request-Id:\x20163
+SF:7C1209DA5F25F\r\nX-Xss-Protection:\x201;\x20mode=block\r\nDate:\x20Thu,
+SF:\x2024\x20Sep\x202020\x2015:15:38\x20GMT\r\n\r\n<\?xml\x20version=\"1\.
+SF:0\"\x20encoding=\"UTF-8\"\?>\n<Error><Code>AccessDenied</Code><Message>
+SF:Access\x20Denied\.</Message><Resource>/</Resource><RequestId>1637C1209D
+SF:A5F25F</RequestId><HostId>ad28933b-b50e-4f50-88df-41e99e1e08bf</HostId>
+SF:</Error>")%r(SqueezeCenter_CLI,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r
+SF:\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close
+SF:\r\n\r\n400\x20Bad\x20Request")%r(GenericLines,67,"HTTP/1\.1\x20400\x20
+SF:Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConn
+SF:ection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(HTTPOptions,59,"HTTP/
+SF:1\.0\x20200\x20OK\r\nVary:\x20Origin\r\nDate:\x20Thu,\x2024\x20Sep\x202
+SF:020\x2015:16:08\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,
+SF:67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\
+SF:x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")
+SF:%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text
+SF:/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20R
+SF:equest")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCont
+SF:ent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r
+SF:\n400\x20Bad\x20Request")%r(TLSSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnectio
+SF:n:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Kerberos,67,"HTTP/1\.1\x20
+SF:400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\
+SF:r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(FourOhFourRequ
+SF:est,279,"HTTP/1\.0\x20403\x20Forbidden\r\nAccept-Ranges:\x20bytes\r\nCo
+SF:ntent-Length:\x20319\r\nContent-Security-Policy:\x20block-all-mixed-con
+SF:tent\r\nContent-Type:\x20application/xml\r\nServer:\x20MinIO/RELEASE\.2
+SF:020-09-08T23-05-18Z\r\nVary:\x20Origin\r\nX-Amz-Request-Id:\x201637C12F
+SF:32CB6ED5\r\nX-Xss-Protection:\x201;\x20mode=block\r\nDate:\x20Thu,\x202
+SF:4\x20Sep\x202020\x2015:16:41\x20GMT\r\n\r\n<\?xml\x20version=\"1\.0\"\x
+SF:20encoding=\"UTF-8\"\?>\n<Error><Code>AccessDenied</Code><Message>Acces
+SF:s\x20Denied\.</Message><Key>Trinity\.txt\.bak</Key><BucketName>nice%20p
+SF:orts%2C</BucketName><Resource>/nice\x20ports,/Trinity\.txt\.bak</Resour
+SF:ce><RequestId>1637C12F32CB6ED5</RequestId><HostId>ad28933b-b50e-4f50-88
+SF:df-41e99e1e08bf</HostId></Error>");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Sep 24 17:18:24 2020 -- 1 IP address (1 host up) scanned in 16778.76 seconds

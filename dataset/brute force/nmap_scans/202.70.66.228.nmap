@@ -1,0 +1,22 @@
+# Nmap 7.40 scan initiated Sun Mar  8 02:46:29 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/202.70.66.228.nmap 202.70.66.228
+Nmap scan report for 202.70.66.228
+Host is up (0.27s latency).
+Not shown: 988 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 6.6p1 Ubuntu 2ubuntu1 (Ubuntu Linux; protocol 2.0)
+53/tcp  open  domain   ISC BIND 9.9.5-3-Ubuntu
+80/tcp  open  http     Apache httpd 2.4.7 ((Ubuntu))
+81/tcp  open  http     nginx 1.6.1
+82/tcp  open  http     nginx 1.6.1 (Phusion Passenger 4.0.50)
+83/tcp  open  http     nginx 1.6.1 (Phusion Passenger 4.0.50)
+84/tcp  open  http     nginx 1.6.1
+85/tcp  open  http     nginx 1.6.1
+110/tcp open  pop3     Dovecot pop3d
+143/tcp open  imap     Dovecot imapd (Ubuntu)
+993/tcp open  ssl/imap Dovecot imapd (Ubuntu)
+995/tcp open  ssl/pop3 Dovecot pop3d
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar  8 07:22:43 2020 -- 1 IP address (1 host up) scanned in 16574.65 seconds

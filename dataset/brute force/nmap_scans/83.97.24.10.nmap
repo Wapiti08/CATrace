@@ -1,0 +1,20 @@
+# Nmap 7.40 scan initiated Fri Feb  7 01:00:29 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/83.97.24.10.nmap 83.97.24.10
+Nmap scan report for 83.97.24.10
+Host is up (0.17s latency).
+Not shown: 990 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    VERSION
+22/tcp    open  ssh        OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp    open  http       Apache httpd 2.4.29
+110/tcp   open  pop3       Dovecot pop3d
+143/tcp   open  imap       Dovecot imapd (Ubuntu)
+443/tcp   open  ssl/http   Apache httpd 2.4.29 ((Ubuntu))
+993/tcp   open  ssl/imap   Dovecot imapd (Ubuntu)
+995/tcp   open  ssl/pop3   Dovecot pop3d
+2000/tcp  open  tcpwrapped
+5060/tcp  open  tcpwrapped
+10000/tcp open  http       MiniServ 1.941 (Webmin httpd)
+Service Info: Host: kulinski.bg; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb  7 05:36:38 2020 -- 1 IP address (1 host up) scanned in 16569.30 seconds

@@ -1,0 +1,38 @@
+# Nmap 7.40 scan initiated Thu Sep  3 09:36:15 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/159.65.118.205.nmap 159.65.118.205
+Nmap scan report for 159.65.118.205
+Host is up (0.20s latency).
+Not shown: 979 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+22/tcp   open  ssh            OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http           Jetty 9.4.20.v20190813
+5001/tcp open  commplex-link?
+5002/tcp open  rfe?
+5003/tcp open  filemaker?
+5004/tcp open  avt-profile-1?
+5009/tcp open  airport-admin?
+5030/tcp open  surfpass?
+5033/tcp open  jtnetd-server?
+5050/tcp open  mmcc?
+5051/tcp open  ida-agent?
+5054/tcp open  rlm-admin?
+5060/tcp open  sip?
+5061/tcp open  sip-tls?
+5080/tcp open  onscreen?
+5087/tcp open  biotic?
+5100/tcp open  admd?
+5101/tcp open  admdog?
+5102/tcp open  admeng?
+5120/tcp open  barracuda-bbs?
+8080/tcp open  http           Apache httpd 2.4.29 ((Ubuntu))
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5001-TCP:V=7.40%I=7%D=9/3%Time=5F50D8DC%P=x86_64-pc-linux-gnu%r(LDA
+SF:PSearchReq,2,"ON");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5101-TCP:V=7.40%I=7%D=9/3%Time=5F50E0F0%P=x86_64-pc-linux-gnu%r(DNS
+SF:VersionBindReq,4,"NO01");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Sep  3 14:34:20 2020 -- 1 IP address (1 host up) scanned in 17885.09 seconds

@@ -1,0 +1,34 @@
+# Nmap 7.40 scan initiated Tue May 26 18:39:49 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/62.171.141.252.nmap 62.171.141.252
+Nmap scan report for 62.171.141.252
+Host is up (0.45s latency).
+Not shown: 989 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+25/tcp   open  smtp
+80/tcp   open  http     Apache httpd 2.4.18 ((Ubuntu))
+110/tcp  open  pop3     Dovecot pop3d
+143/tcp  open  imap     Dovecot imapd
+443/tcp  open  ssl/http nginx
+465/tcp  open  ssl/smtp Postfix smtpd
+587/tcp  open  smtp     Postfix smtpd
+993/tcp  open  imaps?
+995/tcp  open  pop3s?
+8080/tcp open  http     nginx
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port25-TCP:V=7.40%I=7%D=5/26%Time=5ECD86C2%P=x86_64-pc-linux-gnu%r(NULL
+SF:,4C,"220-mail\.swizzynack\.de\x20ESMTP\x20Postcow\r\n220\x20mail\.swizz
+SF:ynack\.de\x20ESMTP\x20Postcow\r\n")%r(Hello,67,"220-mail\.swizzynack\.d
+SF:e\x20ESMTP\x20Postcow\r\n220\x20mail\.swizzynack\.de\x20ESMTP\x20Postco
+SF:w\r\n501\x20Syntax:\x20EHLO\x20hostname\r\n")%r(Help,4F,"220-mail\.swiz
+SF:zynack\.de\x20ESMTP\x20Postcow\r\n502\x205\.5\.2\x20Error:\x20command\x
+SF:20not\x20recognized\r\n")%r(GenericLines,78,"220-mail\.swizzynack\.de\x
+SF:20ESMTP\x20Postcow\r\n502\x205\.5\.2\x20Error:\x20command\x20not\x20rec
+SF:ognized\r\n502\x205\.5\.2\x20Error:\x20command\x20not\x20recognized\r\n
+SF:")%r(GetRequest,59,"220-mail\.swizzynack\.de\x20ESMTP\x20Postcow\r\n521
+SF:\x205\.7\.0\x20Error:\x20I\x20can\x20break\x20rules,\x20too\.\x20Goodby
+SF:e\.\r\n");
+Service Info: Host: mail.swizzynack.de; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue May 26 23:17:58 2020 -- 1 IP address (1 host up) scanned in 16689.36 seconds

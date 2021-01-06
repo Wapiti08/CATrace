@@ -1,0 +1,109 @@
+# Nmap 7.40 scan initiated Sun May 10 19:21:36 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/150.95.115.145.nmap 150.95.115.145
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 150.95.115.145
+Host is up (0.85s latency).
+Not shown: 994 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE   VERSION
+22/tcp  open  ssh       OpenSSH 7.4 (protocol 2.0)
+25/tcp  open  smtp      Exim smtpd 4.92.3
+80/tcp  open  http      Nginx
+443/tcp open  ssl/https Nginx
+465/tcp open  ssl/smtp  Exim smtpd 4.92.3
+587/tcp open  smtp      Exim smtpd 4.92.3
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.40%I=7%D=5/10%Time=5EB87554%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,1217,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2010\x20May\x2020
+SF:20\x2021:42:43\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\
+SF:x204358\r\nLast-Modified:\x20Tue,\x2016\x20Apr\x202019\x2010:49:13\x20G
+SF:MT\r\nConnection:\x20close\r\nVary:\x20Accept-Encoding\r\nETag:\x20\"5c
+SF:b5b329-1106\"\r\nServer:\x20Nginx\r\nX-Powered-By:\x20VPSSIM\r\nAccept-
+SF:Ranges:\x20bytes\r\n\r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x2
+SF:0XHTML\x201\.1//EN\"\x20\"http://www\.w3\.org/TR/xhtml11/DTD/xhtml11\.d
+SF:td\">\n\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20xml:lang=
+SF:\"en\">\n\t<head>\n\t\t<title>Test\x20Page\x20for\x20the\x20Nginx\x20HT
+SF:TP\x20Server</title>\n\t\t<meta\x20http-equiv=\"Content-Type\"\x20conte
+SF:nt=\"text/html;\x20charset=UTF-8\"/>\n\t\t<style\x20type=\"text/css\">b
+SF:ody{background-color:#fff;color:#000;font-size:\.9em;font-family:sans-s
+SF:erif,helvetica;margin:0;padding:0}:link{color:blue}:visited{color:#c00}
+SF:a:hover{color:#224}h1{text-align:center;margin:0;padding:1em\x202em\x20
+SF:1em;background-color:yellow;color:red;font-weight:normal;font-size:2em;
+SF:border-bottom:5px\x20solid\x20#000}h1\x20str")%r(HTTPOptions,13D,"HTTP/
+SF:1\.1\x20405\x20Not\x20Allowed\r\nDate:\x20Sun,\x2010\x20May\x202020\x20
+SF:21:42:44\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20150
+SF:\r\nConnection:\x20close\r\nServer:\x20Nginx\r\nX-Powered-By:\x20VPSSIM
+SF:\r\n\r\n<html>\r\n<head><title>405\x20Not\x20Allowed</title></head>\r\n
+SF:<body>\r\n<center><h1>405\x20Not\x20Allowed</h1></center>\r\n<hr><cente
+SF:r>nginx</center>\r\n</body>\r\n</html>\r\n")%r(RTSPRequest,96,"<html>\r
+SF:\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<cente
+SF:r><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>nginx</center>
+SF:\r\n</body>\r\n</html>\r\n")%r(X11Probe,13D,"HTTP/1\.1\x20400\x20Bad\x2
+SF:0Request\r\nDate:\x20Sun,\x2010\x20May\x202020\x2021:42:46\x20GMT\r\nCo
+SF:ntent-Type:\x20text/html\r\nContent-Length:\x20150\r\nConnection:\x20cl
+SF:ose\r\nServer:\x20Nginx\r\nX-Powered-By:\x20VPSSIM\r\n\r\n<html>\r\n<he
+SF:ad><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><h1
+SF:>400\x20Bad\x20Request</h1></center>\r\n<hr><center>nginx</center>\r\n<
+SF:/body>\r\n</html>\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.40%T=SSL%I=7%D=5/10%Time=5EB8757F%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,173,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nDate:\x2
+SF:0Sun,\x2010\x20May\x202020\x2021:43:27\x20GMT\r\nContent-Type:\x20text/
+SF:html\r\nContent-Length:\x20162\r\nConnection:\x20close\r\nLocation:\x20
+SF:https://sukientitan\.com/\r\nServer:\x20Nginx\r\nX-Powered-By:\x20VPSSI
+SF:M\r\n\r\n<html>\r\n<head><title>301\x20Moved\x20Permanently</title></he
+SF:ad>\r\n<body>\r\n<center><h1>301\x20Moved\x20Permanently</h1></center>\
+SF:r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions
+SF:,173,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nDate:\x20Sun,\x2010\x
+SF:20May\x202020\x2021:43:28\x20GMT\r\nContent-Type:\x20text/html\r\nConte
+SF:nt-Length:\x20162\r\nConnection:\x20close\r\nLocation:\x20https://sukie
+SF:ntitan\.com/\r\nServer:\x20Nginx\r\nX-Powered-By:\x20VPSSIM\r\n\r\n<htm
+SF:l>\r\n<head><title>301\x20Moved\x20Permanently</title></head>\r\n<body>
+SF:\r\n<center><h1>301\x20Moved\x20Permanently</h1></center>\r\n<hr><cente
+SF:r>nginx</center>\r\n</body>\r\n</html>\r\n")%r(FourOhFourRequest,196,"H
+SF:TTP/1\.1\x20301\x20Moved\x20Permanently\r\nDate:\x20Sun,\x2010\x20May\x
+SF:202020\x2021:43:30\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Leng
+SF:th:\x20162\r\nConnection:\x20close\r\nLocation:\x20https://sukientitan\
+SF:.com/nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nServer:\x20Nginx\r\nX-Powe
+SF:red-By:\x20VPSSIM\r\n\r\n<html>\r\n<head><title>301\x20Moved\x20Permane
+SF:ntly</title></head>\r\n<body>\r\n<center><h1>301\x20Moved\x20Permanentl
+SF:y</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n
+SF:")%r(vmware-esx,13D,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sun
+SF:,\x2010\x20May\x202020\x2021:43:31\x20GMT\r\nContent-Type:\x20text/html
+SF:\r\nContent-Length:\x20150\r\nConnection:\x20close\r\nServer:\x20Nginx\
+SF:r\nX-Powered-By:\x20VPSSIM\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20
+SF:Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</
+SF:h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n")%
+SF:r(tor-versions,13D,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sun,
+SF:\x2010\x20May\x202020\x2021:43:32\x20GMT\r\nContent-Type:\x20text/html\
+SF:r\nContent-Length:\x20150\r\nConnection:\x20close\r\nServer:\x20Nginx\r
+SF:\nX-Powered-By:\x20VPSSIM\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20R
+SF:equest</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</h
+SF:1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n");
+Service Info: Host: 150-95-115-145
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 10 23:44:20 2020 -- 1 IP address (1 host up) scanned in 15764.68 seconds

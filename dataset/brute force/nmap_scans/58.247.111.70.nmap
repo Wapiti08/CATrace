@@ -1,0 +1,66 @@
+# Nmap 7.40 scan initiated Sat Feb  8 13:04:03 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/58.247.111.70.nmap 58.247.111.70
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 58.247.111.70
+Host is up (0.81s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.4 (protocol 2.0)
+443/tcp  open  ssl/http SoftEther VPN httpd
+1024/tcp open  kdm?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1024-TCP:V=7.40%I=7%D=2/8%Time=5E3EE438%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,130,"HTTP/1\.1\x20404\x20Not\x20Found\r\ncontent-type:\x20appli
+SF:cation/json\r\ncontent-length:\x2047\r\naccess-control-allow-origin:\x2
+SF:0\*\r\naccess-control-allow-headers:\x20Origin,\x20X-Requested-With,\x2
+SF:0Content-Type,\x20Accept,\x20RCS-ACCESS-TOKEN\r\naccess-control-allow-m
+SF:ethods:\x20GET,POST,PUT,DELETE\r\n\r\n{\"code\":404,\"message\":\"REQUE
+SF:ST\x20PATH\x20NOT\x20FOUND\"}")%r(HTTPOptions,130,"HTTP/1\.1\x20404\x20
+SF:Not\x20Found\r\ncontent-type:\x20application/json\r\ncontent-length:\x2
+SF:047\r\naccess-control-allow-origin:\x20\*\r\naccess-control-allow-heade
+SF:rs:\x20Origin,\x20X-Requested-With,\x20Content-Type,\x20Accept,\x20RCS-
+SF:ACCESS-TOKEN\r\naccess-control-allow-methods:\x20GET,POST,PUT,DELETE\r\
+SF:n\r\n{\"code\":404,\"message\":\"REQUEST\x20PATH\x20NOT\x20FOUND\"}")%r
+SF:(RTSPRequest,130,"HTTP/1\.1\x20404\x20Not\x20Found\r\ncontent-type:\x20
+SF:application/json\r\ncontent-length:\x2047\r\naccess-control-allow-origi
+SF:n:\x20\*\r\naccess-control-allow-headers:\x20Origin,\x20X-Requested-Wit
+SF:h,\x20Content-Type,\x20Accept,\x20RCS-ACCESS-TOKEN\r\naccess-control-al
+SF:low-methods:\x20GET,POST,PUT,DELETE\r\n\r\n{\"code\":404,\"message\":\"
+SF:REQUEST\x20PATH\x20NOT\x20FOUND\"}")%r(Help,130,"HTTP/1\.1\x20404\x20No
+SF:t\x20Found\r\ncontent-type:\x20application/json\r\ncontent-length:\x204
+SF:7\r\naccess-control-allow-origin:\x20\*\r\naccess-control-allow-headers
+SF::\x20Origin,\x20X-Requested-With,\x20Content-Type,\x20Accept,\x20RCS-AC
+SF:CESS-TOKEN\r\naccess-control-allow-methods:\x20GET,POST,PUT,DELETE\r\n\
+SF:r\n{\"code\":404,\"message\":\"REQUEST\x20PATH\x20NOT\x20FOUND\"}")%r(S
+SF:SLSessionReq,130,"HTTP/1\.1\x20404\x20Not\x20Found\r\ncontent-type:\x20
+SF:application/json\r\ncontent-length:\x2047\r\naccess-control-allow-origi
+SF:n:\x20\*\r\naccess-control-allow-headers:\x20Origin,\x20X-Requested-Wit
+SF:h,\x20Content-Type,\x20Accept,\x20RCS-ACCESS-TOKEN\r\naccess-control-al
+SF:low-methods:\x20GET,POST,PUT,DELETE\r\n\r\n{\"code\":404,\"message\":\"
+SF:REQUEST\x20PATH\x20NOT\x20FOUND\"}")%r(TLSSessionReq,130,"HTTP/1\.1\x20
+SF:404\x20Not\x20Found\r\ncontent-type:\x20application/json\r\ncontent-len
+SF:gth:\x2047\r\naccess-control-allow-origin:\x20\*\r\naccess-control-allo
+SF:w-headers:\x20Origin,\x20X-Requested-With,\x20Content-Type,\x20Accept,\
+SF:x20RCS-ACCESS-TOKEN\r\naccess-control-allow-methods:\x20GET,POST,PUT,DE
+SF:LETE\r\n\r\n{\"code\":404,\"message\":\"REQUEST\x20PATH\x20NOT\x20FOUND
+SF:\"}");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  8 17:41:30 2020 -- 1 IP address (1 host up) scanned in 16646.73 seconds

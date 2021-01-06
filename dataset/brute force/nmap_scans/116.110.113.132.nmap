@@ -1,0 +1,3 @@
+# Nmap 7.40 scan initiated Sat Jul 18 00:03:18 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/116.110.113.132.nmap 116.110.113.132
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul 18 04:13:20 2020 -- 1 IP address (1 host up) scanned in 15001.70 seconds

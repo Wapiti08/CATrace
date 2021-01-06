@@ -1,0 +1,15 @@
+# Nmap 7.40 scan initiated Fri Apr 10 21:37:46 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/81.170.214.154.nmap 81.170.214.154
+Nmap scan report for 81.170.214.154
+Host is up (0.43s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE      VERSION
+22/tcp  open  ssh          OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+53/tcp  open  domain
+80/tcp  open  http         Apache httpd 2.4.29 ((Ubuntu))
+88/tcp  open  kerberos-sec MIT Kerberos (server time: 2020-04-11 00:12:21Z)
+443/tcp open  ssl/http     Apache httpd 2.4.29
+Service Info: Hosts: VERTEL.SE, ipa.vertel.se; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Apr 11 02:13:12 2020 -- 1 IP address (1 host up) scanned in 16526.17 seconds

@@ -1,0 +1,68 @@
+# Nmap 7.40 scan initiated Mon Nov 30 10:51:23 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/178.128.124.182.nmap 178.128.124.182
+Nmap scan report for 178.128.124.182
+Host is up (0.55s latency).
+Not shown: 973 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE         VERSION
+20/tcp    open  ftp-data?
+21/tcp    open  ftp             vsftpd 3.0.2
+22/tcp    open  ssh             OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+25/tcp    open  smtp?
+33/tcp    open  dsp?
+80/tcp    open  http?
+443/tcp   open  https?
+445/tcp   open  microsoft-ds?
+458/tcp   open  appleqtc?
+544/tcp   open  kshell?
+801/tcp   open  device?
+1046/tcp  open  wfremotertm?
+1074/tcp  open  warmspotMgmt?
+1091/tcp  open  ff-sm?
+1141/tcp  open  mxomss?
+1213/tcp  open  mpc-lifenet?
+2005/tcp  open  deslogin?
+2196/tcp  open  unknown
+3323/tcp  open  active-net?
+3324/tcp  open  active-net?
+5850/tcp  open  unknown
+8080/tcp  open  http-proxy?
+8873/tcp  open  dxspider?
+9080/tcp  open  glrpc?
+32772/tcp open  sometimes-rpc7?
+50001/tcp open  ssl/unknown
+55055/tcp open  unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port25-TCP:V=7.40%I=7%D=11/30%Time=5FC50159%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,38,"220\x20smtp\.icloud\.com\x20Simple\x20Mail\x20Transfer\x20Service
+SF:\x20Ready\r\n")%r(Hello,38,"220\x20smtp\.icloud\.com\x20Simple\x20Mail\
+SF:x20Transfer\x20Service\x20Ready\r\n")%r(Help,38,"220\x20smtp\.icloud\.c
+SF:om\x20Simple\x20Mail\x20Transfer\x20Service\x20Ready\r\n")%r(GenericLin
+SF:es,38,"220\x20smtp\.icloud\.com\x20Simple\x20Mail\x20Transfer\x20Servic
+SF:e\x20Ready\r\n")%r(GetRequest,85,"220\x20smtp\.icloud\.com\x20Simple\x2
+SF:0Mail\x20Transfer\x20Service\x20Ready\r\n250-icloud\.com\x20greets\x20i
+SF:cloud\.com\r\n250-8BITMIME\r\n250-DSN\r\n250-SIZE\r\n250\x20HELP\r\n")%
+SF:r(HTTPOptions,85,"220\x20smtp\.icloud\.com\x20Simple\x20Mail\x20Transfe
+SF:r\x20Service\x20Ready\r\n250-icloud\.com\x20greets\x20icloud\.com\r\n25
+SF:0-8BITMIME\r\n250-DSN\r\n250-SIZE\r\n250\x20HELP\r\n")%r(RTSPRequest,85
+SF:,"220\x20smtp\.icloud\.com\x20Simple\x20Mail\x20Transfer\x20Service\x20
+SF:Ready\r\n250-icloud\.com\x20greets\x20icloud\.com\r\n250-8BITMIME\r\n25
+SF:0-DSN\r\n250-SIZE\r\n250\x20HELP\r\n")%r(RPCCheck,85,"220\x20smtp\.iclo
+SF:ud\.com\x20Simple\x20Mail\x20Transfer\x20Service\x20Ready\r\n250-icloud
+SF:\.com\x20greets\x20icloud\.com\r\n250-8BITMIME\r\n250-DSN\r\n250-SIZE\r
+SF:\n250\x20HELP\r\n")%r(DNSVersionBindReq,85,"220\x20smtp\.icloud\.com\x2
+SF:0Simple\x20Mail\x20Transfer\x20Service\x20Ready\r\n250-icloud\.com\x20g
+SF:reets\x20icloud\.com\r\n250-8BITMIME\r\n250-DSN\r\n250-SIZE\r\n250\x20H
+SF:ELP\r\n")%r(DNSStatusRequest,38,"220\x20smtp\.icloud\.com\x20Simple\x20
+SF:Mail\x20Transfer\x20Service\x20Ready\r\n")%r(SSLSessionReq,95,"220\x20s
+SF:mtp\.icloud\.com\x20Simple\x20Mail\x20Transfer\x20Service\x20Ready\r\n2
+SF:50-icloud\.com\x20greets\x20icloud\.com\r\n250-8BITMIME\r\n250-DSN\r\n2
+SF:50-SIZE\r\n250\x20HELP\r\n250\x20OK\r\n250\x20OK\r\n")%r(TLSSessionReq,
+SF:5A,"220\x20smtp\.icloud\.com\x20Simple\x20Mail\x20Transfer\x20Service\x
+SF:20Ready\r\n250-icloud\.com\x20greets\x20icloud\.com\r\n")%r(Kerberos,85
+SF:,"220\x20smtp\.icloud\.com\x20Simple\x20Mail\x20Transfer\x20Service\x20
+SF:Ready\r\n250-icloud\.com\x20greets\x20icloud\.com\r\n250-8BITMIME\r\n25
+SF:0-DSN\r\n250-SIZE\r\n250\x20HELP\r\n");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov 30 16:02:49 2020 -- 1 IP address (1 host up) scanned in 18685.98 seconds

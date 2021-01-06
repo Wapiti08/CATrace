@@ -1,0 +1,48 @@
+# Nmap 7.40 scan initiated Fri Mar 20 23:08:24 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/37.139.9.23.nmap 37.139.9.23
+Nmap scan report for 37.139.9.23
+Host is up (0.17s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE   VERSION
+22/tcp  open  ssh       OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http      nginx 1.17.8
+443/tcp open  ssl/https nginx-rc
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.40%T=SSL%I=7%D=3/21%Time=5E757F52%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,4000,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20nginx-rc\r\nDa
+SF:te:\x20Sat,\x2021\x20Mar\x202020\x2002:43:30\x20GMT\r\nContent-Type:\x2
+SF:0text/html;\x20charset=UTF-8\r\nConnection:\x20close\r\nVary:\x20Accept
+SF:-Encoding\r\nLink:\x20<https://akhbarona\.aljalia\.ma/wp-json/>;\x20rel
+SF:=\"https://api\.w\.org/\",\x20<https://wp\.me/8dPg0>;\x20rel=shortlink\
+SF:r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=bl
+SF:ock\r\nX-Content-Type-Options:\x20nosniff\r\n\r\n<!DOCTYPE\x20html>\n<h
+SF:tml\x20dir=\"rtl\"\x20lang=\"ar\"\x20prefix=\"og:\x20//ogp\.me/ns#\">\n
+SF:<head>\n\x20\n<meta\x20charset=\"UTF-8\"\x20/>\n<link\x20rel=\"profile\
+SF:"\x20href=\"//gmpg\.org/xfn/11\"\x20/>\n<link\x20rel=\"pingback\"\x20hr
+SF:ef=\"//akhbarona\.aljalia\.ma/xmlrpc\.php\"\x20/>\n<link\x20rel=\"style
+SF:sheet\"\x20type=\"text/css\"\x20href=\"//www\.fontstatic\.com/f=tunisia
+SF:,DroidKufi-Regular\"\x20/>\n<link\x20rel=\"stylesheet\"\x20type=\"text/
+SF:css\"\x20href=\"//www\.fontstatic\.com/f=jazeera\"\x20/>\n<link\x20rel=
+SF:\"stylesheet\"\x20href=\"//use\.fontawesome\.com/releases/v5\.4\.2/css/
+SF:all\.css\"\x20integrity=\"sha384-/rXc/GQVaYpyDdyxK\+ecHPVYJSN9bmVFBvjA/
+SF:9eOB\+pb3F")%r(HTTPOptions,4000,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20n
+SF:ginx-rc\r\nDate:\x20Sat,\x2021\x20Mar\x202020\x2002:43:32\x20GMT\r\nCon
+SF:tent-Type:\x20text/html;\x20charset=UTF-8\r\nConnection:\x20close\r\nVa
+SF:ry:\x20Accept-Encoding\r\nLink:\x20<https://akhbarona\.aljalia\.ma/wp-j
+SF:son/>;\x20rel=\"https://api\.w\.org/\",\x20<https://wp\.me/8dPg0>;\x20r
+SF:el=shortlink\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x20
+SF:1;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\n\r\n<!DOCTYPE
+SF:\x20html>\n<html\x20dir=\"rtl\"\x20lang=\"ar\"\x20prefix=\"og:\x20//ogp
+SF:\.me/ns#\">\n<head>\n\x20\n<meta\x20charset=\"UTF-8\"\x20/>\n<link\x20r
+SF:el=\"profile\"\x20href=\"//gmpg\.org/xfn/11\"\x20/>\n<link\x20rel=\"pin
+SF:gback\"\x20href=\"//akhbarona\.aljalia\.ma/xmlrpc\.php\"\x20/>\n<link\x
+SF:20rel=\"stylesheet\"\x20type=\"text/css\"\x20href=\"//www\.fontstatic\.
+SF:com/f=tunisia,DroidKufi-Regular\"\x20/>\n<link\x20rel=\"stylesheet\"\x2
+SF:0type=\"text/css\"\x20href=\"//www\.fontstatic\.com/f=jazeera\"\x20/>\n
+SF:<link\x20rel=\"stylesheet\"\x20href=\"//use\.fontawesome\.com/releases/
+SF:v5\.4\.2/css/all\.css\"\x20integrity=\"sha384-/rXc/GQVaYpyDdyxK\+ecHPVY
+SF:JSN9bmVFBvjA/9eOB\+pb3F");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar 21 03:43:49 2020 -- 1 IP address (1 host up) scanned in 16525.29 seconds

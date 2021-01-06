@@ -1,0 +1,99 @@
+# Nmap 7.40 scan initiated Fri Mar  6 02:45:11 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/196.27.115.50.nmap 196.27.115.50
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 196.27.115.50
+Host is up (3.6s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+25/tcp   open  smtp        Postfix smtpd
+443/tcp  open  ssl/https   xxxx
+2022/tcp open  ssh         OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+4444/tcp open  ssl/krb524?
+8080/tcp open  http        Apache httpd 2.4.29 ((Ubuntu))
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.40%T=SSL%I=7%D=3/6%Time=5E61E647%P=x86_64-pc-linux-gnu%
+SF:r(GetRequest,275,"HTTP/1\.1\x20302\x20Found\r\nDate:\x20Fri,\x2006\x20M
+SF:ar\x202020\x2005:47:22\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\x2
+SF:0SAMEORIGIN\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Cont
+SF:ent-Type-Options:\x20nosniff\r\nLocation:\x20https:///userportal/webpag
+SF:es/myaccount/login\.jsp\r\nCache-Control:\x20max-age=2592000\r\nExpires
+SF::\x20Sun,\x2005\x20Apr\x202020\x2005:47:22\x20GMT\r\nContent-Length:\x2
+SF:0232\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=
+SF:iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML
+SF:\x202\.0//EN\">\n<html><head>\n<title>302\x20Found</title>\n</head><bod
+SF:y>\n<h1>Found</h1>\n<p>The\x20document\x20has\x20moved\x20<a\x20href=\"
+SF:https:///userportal/webpages/myaccount/login\.jsp\">here</a>\.</p>\n</b
+SF:ody></html>\n")%r(HTTPOptions,255,"HTTP/1\.1\x20403\x20Forbidden\r\nDat
+SF:e:\x20Fri,\x2006\x20Mar\x202020\x2005:47:25\x20GMT\r\nServer:\x20xxxx\r
+SF:\nX-Frame-Options:\x20SAMEORIGIN\r\nStrict-Transport-Security:\x20max-a
+SF:ge=31536000\r\nX-Content-Type-Options:\x20nosniff\r\nContent-Length:\x2
+SF:0328\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=
+SF:iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML
+SF:\x202\.0//EN\">\n<html><head>\n<title>403\x20Forbidden</title>\n</head>
+SF:<body>\n<h1>Forbidden</h1>\n<p>You\x20don't\x20have\x20permission\x20to
+SF:\x20access\x20/\non\x20this\x20server\.<br\x20/>\n</p>\n<p>Additionally
+SF:,\x20a\x20404\x20Not\x20Found\nerror\x20was\x20encountered\x20while\x20
+SF:trying\x20to\x20use\x20an\x20ErrorDocument\x20to\x20handle\x20the\x20re
+SF:quest\.</p>\n</body></html>\n")%r(FourOhFourRequest,17E,"HTTP/1\.1\x204
+SF:04\x20Not\x20Found\r\nDate:\x20Fri,\x2006\x20Mar\x202020\x2005:47:27\x2
+SF:0GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\x20SAMEORIGIN\r\nStrict-Tra
+SF:nsport-Security:\x20max-age=31536000\r\nX-Content-Type-Options:\x20nosn
+SF:iff\r\nAccept-Ranges:\x20bytes\r\nConnection:\x20close\r\nContent-Lengt
+SF:h:\x20111\r\nContent-Type:\x20text/html\r\n\r\n<!DOCTYPE\x20html>\n<htm
+SF:l>\n<body>\n<h3>Error:404\x20Page\x20not\x20found</h3>\n<h4>Check\x20th
+SF:e\x20entered\x20URL\.</h4>\n</body>\n<html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port4444-TCP:V=7.40%T=SSL%I=7%D=3/6%Time=5E61E6E5%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,261,"HTTP/1\.1\x20302\x20Found\r\nDate:\x20Fri,\x2006\x20
+SF:Mar\x202020\x2005:50:01\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\x
+SF:20SAMEORIGIN\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Con
+SF:tent-Type-Options:\x20nosniff\r\nLocation:\x20https:///webconsole/webpa
+SF:ges/login\.jsp\r\nCache-Control:\x20max-age=2592000\r\nExpires:\x20Sun,
+SF:\x2005\x20Apr\x202020\x2005:50:01\x20GMT\r\nContent-Length:\x20222\r\nC
+SF:onnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-
+SF:1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0/
+SF:/EN\">\n<html><head>\n<title>302\x20Found</title>\n</head><body>\n<h1>F
+SF:ound</h1>\n<p>The\x20document\x20has\x20moved\x20<a\x20href=\"https:///
+SF:webconsole/webpages/login\.jsp\">here</a>\.</p>\n</body></html>\n")%r(H
+SF:TTPOptions,1DE,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Fri,\x2006\x2
+SF:0Mar\x202020\x2005:50:03\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\
+SF:x20SAMEORIGIN\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Co
+SF:ntent-Type-Options:\x20nosniff\r\nContent-Length:\x20209\r\nConnection:
+SF:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<
+SF:!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<h
+SF:tml><head>\n<title>403\x20Forbidden</title>\n</head><body>\n<h1>Forbidd
+SF:en</h1>\n<p>You\x20don't\x20have\x20permission\x20to\x20access\x20/\non
+SF:\x20this\x20server\.<br\x20/>\n</p>\n</body></html>\n")%r(RTSPRequest,1
+SF:DE,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Fri,\x2006\x20Mar\x202020
+SF:\x2005:50:05\x20GMT\r\nServer:\x20xxxx\r\nX-Frame-Options:\x20SAMEORIGI
+SF:N\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type-O
+SF:ptions:\x20nosniff\r\nContent-Length:\x20209\r\nConnection:\x20close\r\
+SF:nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20
+SF:HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n
+SF:<title>403\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>
+SF:You\x20don't\x20have\x20permission\x20to\x20access\x20/\non\x20this\x20
+SF:server\.<br\x20/>\n</p>\n</body></html>\n");
+Service Info: Host: mail.printflow.co.zw; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar  6 07:02:11 2020 -- 1 IP address (1 host up) scanned in 15419.34 seconds

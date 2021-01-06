@@ -1,0 +1,126 @@
+# Nmap 7.40 scan initiated Fri Apr 10 12:25:56 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/179.185.89.94.nmap 179.185.89.94
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 179.185.89.94
+Host is up (6.3s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       Apache httpd 2.4.10 ((Debian))
+90/tcp   open  http       lighttpd 1.4.33
+8000/tcp open  http-alt   Webs
+8080/tcp open  http-proxy
+8292/tcp open  blp3?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8000-TCP:V=7.40%I=7%D=4/10%Time=5E9088FF%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,2C5,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Fri,\x2010\x20Apr\x202
+SF:020\x2010:55:45\x20GMT\r\nServer:\x20Webs\r\nX-Frame-Options:\x20SAMEOR
+SF:IGIN\r\nETag:\x20\"0-d2f-1e0\"\r\nContent-Length:\x20480\r\nContent-Typ
+SF:e:\x20text/html\r\nConnection:\x20close\r\nLast-Modified:\x20Sun,\x2030
+SF:\x20Sep\x202018\x2002:37:15\x20GMT\r\n\r\n\xef\xbb\xbf<!doctype\x20html
+SF:>\r\n<html>\r\n<head>\r\n\t<title></title>\r\n\t<meta\x20http-equiv=\"C
+SF:ontent-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>\r\n\t<me
+SF:ta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\"\x20>\r\n\t<
+SF:meta\x20http-equiv=\"Pragma\"\x20content=\"no-cache\"\x20/>\r\n\t<meta\
+SF:x20http-equiv=\"Cache-Control\"\x20content=\"no-cache,\x20must-revalida
+SF:te\"\x20/>\r\n\t<meta\x20http-equiv=\"Expires\"\x20content=\"0\"\x20/>\
+SF:r\n</head>\r\n<body>\r\n</body>\r\n<script>\r\n\twindow\.location\.href
+SF:\x20=\x20\"/doc/page/login\.asp\?_\"\x20\+\x20\(new\x20Date\(\)\)\.getT
+SF:ime\(\);\r\n</script>\r\n</html>")%r(FourOhFourRequest,16A,"HTTP/1\.0\x
+SF:20404\x20Not\x20Found\r\nDate:\x20Fri,\x2010\x20Apr\x202020\x2010:55:52
+SF:\x20GMT\r\nServer:\x20Webs\r\nX-Frame-Options:\x20SAMEORIGIN\r\nCache-C
+SF:ontrol:\x20no-cache\r\nContent-Length:\x20166\r\nContent-Type:\x20text/
+SF:html\r\nConnection:\x20close\r\n\r\n<!DOCTYPE\x20html>\r\n<html><head><
+SF:title>Document\x20Error:\x20Not\x20Found</title></head>\r\n<body><h2>Ac
+SF:cess\x20Error:\x20404\x20--\x20Not\x20Found</h2>\r\n<p>Can't\x20open\x2
+SF:0URL</p>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions,CB,"HTTP/1\.0\x20200
+SF:\x20OK\r\nDate:\x20Fri,\x2010\x20Apr\x202020\x2010:56:03\x20GMT\r\nServ
+SF:er:\x20Webs\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Length:\x200\r
+SF:\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nAllow:\x20OPTIO
+SF:NS,GET,HEAD,POST,PUT,DELETE\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.40%I=7%D=4/10%Time=5E908989%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,1842,"HTTP/1\.1\x20200\x20OK\r\nCONNECTION:\x20close\r\nDate:\
+SF:x20Fri,\x2010\x20Apr\x202020\x2011:05:38\x20GMT\r\nLast-Modified:\x20Fr
+SF:i,\x2014\x20Oct\x202016\x2012:29:23\x20GMT\r\nEtag:\x20\"1476448163:35f
+SF:4\"\r\nCONTENT-LENGTH:\x2013812\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<!
+SF:DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Strict//
+SF:EN\"\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-strict\.dtd\">\x20<h
+SF:tml>\x20<head>\x20<title>Intelbras</title>\x20<meta\x20http-equiv=\"Con
+SF:tent-Type\"\x20content=\"text/html;\x20charset=UTF-8\">\x20<meta\x20htt
+SF:p-equiv=\"X-UA-Compatible\"\x20content=\"IE=6;IE=7;\x20IE=8;\x20IE=Emul
+SF:ateIE7\">\x20<script\x20type=\"text/javascript\"\x20src=\"jsBase/lib/ba
+SF:se64\.js\"></script>\x20<script\x20type=\"text/javascript\"\x20src=\"js
+SF:Base/lib/md5\.js\"></script>\x20<script\x20type=\"text/javascript\"\x20
+SF:src=\"jsBase/lib/m1\.2\.js\"></script>\x20<script\x20type=\"text/javasc
+SF:ript\"\x20src=\"jsBase/lib/more\.js\"></script>\x20<script\x20type=\"te
+SF:xt/javascript\"\x20src=\"jsCore/aes\.js\"></script>\x20<script\x20type=
+SF:\"text/javascript\"\x20src=\"jsCore/rsa\.js\"></script>\x20<script\x20t
+SF:ype=\"text/javasc")%r(FourOhFourRequest,8A,"HTTP/1\.1\x20404\x20Not\x20
+SF:Found\r\nCONNECTION:\x20close\r\nCONTENT-LENGTH:\x2048\r\nCONTENT-TYPE:
+SF:\x20text/html\r\n\r\n<html><body><h1>404\x20Not\x20Found</h1></body></h
+SF:tml>");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 10 17:01:17 2020 -- 1 IP address (1 host up) scanned in 16520.88 seconds

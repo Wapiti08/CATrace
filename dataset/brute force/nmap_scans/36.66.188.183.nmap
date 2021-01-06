@@ -1,0 +1,31 @@
+# Nmap 7.40 scan initiated Fri Mar 20 18:28:22 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/36.66.188.183.nmap 36.66.188.183
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 36.66.188.183
+Host is up (0.58s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+1723/tcp open  pptp           MikroTik (Firmware: 1)
+2000/tcp open  bandwidth-test MikroTik bandwidth-test server
+7007/tcp open  http           Jetty
+8000/tcp open  http           MikroTik router config httpd
+8800/tcp open  http           Apache httpd 2.4.34 ((Win32) OpenSSL/1.0.2o PHP/5.6.38)
+9000/tcp open  ssh            MikroTik RouterOS sshd (protocol 2.0)
+9009/tcp open  pichat?
+Service Info: Host: RB-Utama-Boyolali; OSs: RouterOS, Linux; Device: router; CPE: cpe:/o:mikrotik:routeros
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar 20 23:07:44 2020 -- 1 IP address (1 host up) scanned in 16761.98 seconds

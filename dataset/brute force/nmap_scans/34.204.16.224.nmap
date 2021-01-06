@@ -1,0 +1,98 @@
+# Nmap 7.40 scan initiated Thu Mar 19 12:37:51 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/34.204.16.224.nmap 34.204.16.224
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 34.204.16.224
+Host is up (5.4s latency).
+Not shown: 997 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http
+8080/tcp open  http-proxy
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.40%I=7%D=3/19%Time=5E73947A%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,226,"HTTP/1\.1\x20500\x20\r\nX-OneAgent-JS-Injection:\x20true\r\
+SF:nSet-Cookie:\x20dtCookie=v_4_srv_1_sn_020201DCD2F62A2F96BC1F265C3E1DB1_
+SF:perc_100000_ol_0_mul_1;\x20Path=/\r\nX-Content-Type-Options:\x20nosniff
+SF:\r\nX-XSS-Protection:\x201;\x20mode=block\r\nCache-Control:\x20no-cache
+SF:,\x20no-store,\x20max-age=0,\x20must-revalidate\r\nPragma:\x20no-cache\
+SF:r\nExpires:\x200\r\nX-Frame-Options:\x20DENY\r\nContent-Type:\x20applic
+SF:ation/json\r\nDate:\x20Thu,\x2019\x20Mar\x202020\x2015:49:13\x20GMT\r\n
+SF:Connection:\x20close\r\n\r\n{\"timestamp\":\"2020-03-19T15:49:13\.810\+
+SF:0000\",\"status\":500,\"error\":\"Internal\x20Server\x20Error\",\"messa
+SF:ge\":\"No\x20message\x20available\",\"path\":\"/\"}")%r(HTTPOptions,1C3
+SF:,"HTTP/1\.1\x20500\x20\r\nX-OneAgent-JS-Injection:\x20true\r\nX-Content
+SF:-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nC
+SF:ache-Control:\x20no-cache,\x20no-store,\x20max-age=0,\x20must-revalidat
+SF:e\r\nPragma:\x20no-cache\r\nExpires:\x200\r\nX-Frame-Options:\x20DENY\r
+SF:\nContent-Type:\x20application/json\r\nDate:\x20Thu,\x2019\x20Mar\x2020
+SF:20\x2015:49:14\x20GMT\r\nConnection:\x20close\r\n\r\n{\"timestamp\":\"2
+SF:020-03-19T15:49:15\.240\+0000\",\"status\":500,\"error\":\"Internal\x20
+SF:Server\x20Error\",\"message\":\"No\x20message\x20available\",\"path\":\
+SF:"/\"}")%r(RTSPRequest,3C6,"HTTP/1\.1\x20505\x20\r\nContent-Type:\x20tex
+SF:t/html;charset=utf-8\r\nContent-Language:\x20en\r\nContent-Length:\x208
+SF:30\r\nDate:\x20Thu,\x2019\x20Mar\x202020\x2015:49:15\x20GMT\r\n\r\n<!do
+SF:ctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x20Status\x20505\x
+SF:20\xe2\x80\x93\x20HTTP\x20Version\x20Not\x20Supported</title><style\x20
+SF:type=\"text/css\">h1\x20{font-family:Tahoma,Arial,sans-serif;color:whit
+SF:e;background-color:#525D76;font-size:22px;}\x20h2\x20{font-family:Tahom
+SF:a,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;
+SF:}\x20h3\x20{font-family:Tahoma,Arial,sans-serif;color:white;background-
+SF:color:#525D76;font-size:14px;}\x20body\x20{font-family:Tahoma,Arial,san
+SF:s-serif;color:black;background-color:white;}\x20b\x20{font-family:Tahom
+SF:a,Arial,sans-serif;color:white;background-color:#525D76;}\x20p\x20{font
+SF:-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:
+SF:12px;}\x20a\x20{color:black;}\x20a\.name\x20{color:black;}\x20\.line\x2
+SF:0{height:1px;background-color:#525D76;border:none;}</style></head><body
+SF:><h1");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.40%I=7%D=3/19%Time=5E73949B%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,1BD,"HTTP/1\.1\x20404\x20\r\nX-OneAgent-JS-Injection:\x20true\
+SF:r\nSet-Cookie:\x20dtCookie=v_4_srv_2_sn_C0FCF3B8FDDD08E3E1492586014381E
+SF:C_perc_100000_ol_0_mul_1;\x20Path=/\r\nVary:\x20Origin\r\nVary:\x20Acce
+SF:ss-Control-Request-Method\r\nVary:\x20Access-Control-Request-Headers\r\
+SF:nContent-Type:\x20application/json\r\nDate:\x20Thu,\x2019\x20Mar\x20202
+SF:0\x2015:49:46\x20GMT\r\nConnection:\x20close\r\n\r\n{\"timestamp\":\"20
+SF:20-03-19T15:49:46\.748\+0000\",\"status\":404,\"error\":\"Not\x20Found\
+SF:",\"message\":\"No\x20message\x20available\",\"path\":\"/\"}")%r(HTTPOp
+SF:tions,15A,"HTTP/1\.1\x20404\x20\r\nX-OneAgent-JS-Injection:\x20true\r\n
+SF:Vary:\x20Origin\r\nVary:\x20Access-Control-Request-Method\r\nVary:\x20A
+SF:ccess-Control-Request-Headers\r\nContent-Type:\x20application/json\r\nD
+SF:ate:\x20Thu,\x2019\x20Mar\x202020\x2015:49:47\x20GMT\r\nConnection:\x20
+SF:close\r\n\r\n{\"timestamp\":\"2020-03-19T15:49:48\.583\+0000\",\"status
+SF:\":404,\"error\":\"Not\x20Found\",\"message\":\"No\x20message\x20availa
+SF:ble\",\"path\":\"/\"}")%r(RTSPRequest,3C6,"HTTP/1\.1\x20505\x20\r\nCont
+SF:ent-Type:\x20text/html;charset=utf-8\r\nContent-Language:\x20en\r\nCont
+SF:ent-Length:\x20830\r\nDate:\x20Thu,\x2019\x20Mar\x202020\x2015:49:48\x2
+SF:0GMT\r\n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x2
+SF:0Status\x20505\x20\xe2\x80\x93\x20HTTP\x20Version\x20Not\x20Supported</
+SF:title><style\x20type=\"text/css\">h1\x20{font-family:Tahoma,Arial,sans-
+SF:serif;color:white;background-color:#525D76;font-size:22px;}\x20h2\x20{f
+SF:ont-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76
+SF:;font-size:16px;}\x20h3\x20{font-family:Tahoma,Arial,sans-serif;color:w
+SF:hite;background-color:#525D76;font-size:14px;}\x20body\x20{font-family:
+SF:Tahoma,Arial,sans-serif;color:black;background-color:white;}\x20b\x20{f
+SF:ont-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76
+SF:;}\x20p\x20{font-family:Tahoma,Arial,sans-serif;background:white;color:
+SF:black;font-size:12px;}\x20a\x20{color:black;}\x20a\.name\x20{color:blac
+SF:k;}\x20\.line\x20{height:1px;background-color:#525D76;border:none;}</st
+SF:yle></head><body><h1");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar 19 16:50:06 2020 -- 1 IP address (1 host up) scanned in 15135.39 seconds

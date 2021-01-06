@@ -1,0 +1,67 @@
+# Nmap 7.40 scan initiated Sat Feb  8 17:42:10 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/60.224.81.70.nmap 60.224.81.70
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 60.224.81.70
+Host is up (4.4s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+222/tcp  open  ssh           Dropbear sshd 2016.74 (protocol 2.0)
+443/tcp  open  ssl/http      lighttpd 1.4.39
+8443/tcp open  ssl/https-alt httpd/2.0
+9000/tcp open  cslistener?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8443-TCP:V=7.40%T=SSL%I=7%D=2/8%Time=5E3F2014%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,106,"HTTP/1\.0\x20200\x20OK\r\nServer:\x20httpd/2\.0\r\nx
+SF:-frame-options:\x20SAMEORIGIN\r\nx-xss-protection:\x201;\x20mode=block\
+SF:r\nDate:\x20Sat,\x2008\x20Feb\x202020\x2020:54:44\x20GMT\r\nContent-Typ
+SF:e:\x20text/html\r\nConnection:\x20close\r\n\r\n<HTML><HEAD><script>top\
+SF:.location\.href='/Main_Login\.asp';</script>\n</HEAD></HTML>\n")%r(HTTP
+SF:Options,15C,"HTTP/1\.0\x20501\x20Not\x20Implemented\r\nServer:\x20httpd
+SF:/2\.0\r\nx-frame-options:\x20SAMEORIGIN\r\nx-xss-protection:\x201;\x20m
+SF:ode=block\r\nDate:\x20Sat,\x2008\x20Feb\x202020\x2020:54:46\x20GMT\r\nC
+SF:ontent-Type:\x20text/html\r\nConnection:\x20close\r\n\r\n<HTML><HEAD><T
+SF:ITLE>501\x20Not\x20Implemented</TITLE></HEAD>\n<BODY\x20BGCOLOR=\"#cc99
+SF:99\"><H4>501\x20Not\x20Implemented</H4>\nThat\x20method\x20is\x20not\x2
+SF:0implemented\.\n</BODY></HTML>\n")%r(FourOhFourRequest,13A,"HTTP/1\.0\x
+SF:20404\x20Not\x20Found\r\nServer:\x20httpd/2\.0\r\nx-frame-options:\x20S
+SF:AMEORIGIN\r\nx-xss-protection:\x201;\x20mode=block\r\nDate:\x20Sat,\x20
+SF:08\x20Feb\x202020\x2020:54:47\x20GMT\r\nContent-Type:\x20text/html\r\nC
+SF:onnection:\x20close\r\n\r\n<HTML><HEAD><TITLE>404\x20Not\x20Found</TITL
+SF:E></HEAD>\n<BODY\x20BGCOLOR=\"#cc9999\"><H4>404\x20Not\x20Found</H4>\nF
+SF:ile\x20not\x20found\.\n</BODY></HTML>\n")%r(RTSPRequest,15C,"HTTP/1\.0\
+SF:x20501\x20Not\x20Implemented\r\nServer:\x20httpd/2\.0\r\nx-frame-option
+SF:s:\x20SAMEORIGIN\r\nx-xss-protection:\x201;\x20mode=block\r\nDate:\x20S
+SF:at,\x2008\x20Feb\x202020\x2020:54:50\x20GMT\r\nContent-Type:\x20text/ht
+SF:ml\r\nConnection:\x20close\r\n\r\n<HTML><HEAD><TITLE>501\x20Not\x20Impl
+SF:emented</TITLE></HEAD>\n<BODY\x20BGCOLOR=\"#cc9999\"><H4>501\x20Not\x20
+SF:Implemented</H4>\nThat\x20method\x20is\x20not\x20implemented\.\n</BODY>
+SF:</HTML>\n")%r(Help,145,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nServer:\x
+SF:20httpd/2\.0\r\nx-frame-options:\x20SAMEORIGIN\r\nx-xss-protection:\x20
+SF:1;\x20mode=block\r\nDate:\x20Sat,\x2008\x20Feb\x202020\x2020:55:10\x20G
+SF:MT\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\n\r\n<HTML><
+SF:HEAD><TITLE>400\x20Bad\x20Request</TITLE></HEAD>\n<BODY\x20BGCOLOR=\"#c
+SF:c9999\"><H4>400\x20Bad\x20Request</H4>\nCan't\x20parse\x20request\.\n</
+SF:BODY></HTML>\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  8 21:57:31 2020 -- 1 IP address (1 host up) scanned in 15321.55 seconds

@@ -1,0 +1,74 @@
+# Nmap 7.40 scan initiated Thu May 21 20:37:30 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/141.144.115.107.nmap 141.144.115.107
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 141.144.115.107
+Host is up (5.5s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE            VERSION
+22/tcp   open  ssh                OpenSSH 5.3 (protocol 2.0)
+80/tcp   open  http               Oracle WebLogic admin httpd
+443/tcp  open  ssl/http           Oracle WebLogic admin httpd
+7002/tcp open  ssl/afs3-prserver?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port7002-TCP:V=7.40%T=SSL%I=7%D=5/22%Time=5EC705B2%P=x86_64-pc-linux-gn
+SF:u%r(GenericLines,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\
+SF:x20close\r\n\r\n")%r(GetRequest,10E2,"HTTP/1\.1\x20200\x20OK\r\nConnect
+SF:ion:\x20close\r\nDate:\x20Thu,\x2021\x20May\x202020\x2022:50:27\x20GMT\
+SF:r\nContent-Length:\x2011387\r\nContent-Type:\x20text/html\r\nLast-Modif
+SF:ied:\x20Mon,\x2012\x20Sep\x202011\x2014:24:50\x20GMT\r\nX-ORACLE-DMS-EC
+SF:ID:\x20266e7db23b96fd6c:2daf3f6d:1722bed0c62:-8000-0000000000010c0a\r\n
+SF:\r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Tr
+SF:ansitional//EN\"\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transiti
+SF:onal\.dtd\">\r\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\">\r\n<
+SF:head>\r\n\t<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;
+SF:\x20charset=utf-8\"\x20/>\r\n\t<title>Welcome\x20to\x20Oracle\x20Fusion
+SF:\x20Middleware</title>\r\n\r\n\x20\x20\x20\x20<link\x20href=\"css/fmw\.
+SF:css\"\x20rel=\"stylesheet\"\x20type=\"text/css\">\r\n\x20\x20\x20\x20<l
+SF:ink\x20href=\"css/fmw_top_frame_welcome_area\.css\"\x20rel=\"stylesheet
+SF:\"\x20type=\"text/css\">\r\n\x20\x20\x20\x20<link\x20href=\"css/fmw_bot
+SF:tom_area\.css\"\x20rel=\"stylesheet\"\x20type=\"text/css\">\r\n\r\n\x20
+SF:\x20\x20\x20<script\x20src=\"JSLibrary/fmw_all\.js\"\x20language=\"java
+SF:script\"></script>\r\n\t<script\x20src=\"JSLibrary/educational_text\.js
+SF:\"\x20l")%r(HTTPOptions,D0,"HTTP/1\.1\x20200\x20OK\r\nConnection:\x20cl
+SF:ose\r\nDate:\x20Thu,\x2021\x20May\x202020\x2022:50:27\x20GMT\r\nContent
+SF:-Length:\x200\r\nX-ORACLE-DMS-ECID:\x20266e7db23b96fd6c:2daf3f6d:1722be
+SF:d0c62:-8000-0000000000010c0c\r\nAllow:\x20GET,\x20HEAD,\x20OPTIONS,\x20
+SF:POST\r\n\r\n")%r(RTSPRequest,D0,"HTTP/1\.1\x20200\x20OK\r\nConnection:\
+SF:x20close\r\nDate:\x20Thu,\x2021\x20May\x202020\x2022:50:27\x20GMT\r\nCo
+SF:ntent-Length:\x200\r\nX-ORACLE-DMS-ECID:\x20266e7db23b96fd6c:2daf3f6d:1
+SF:722bed0c62:-8000-0000000000010c0e\r\nAllow:\x20GET,\x20HEAD,\x20OPTIONS
+SF:,\x20POST\r\n\r\n")%r(FourOhFourRequest,56D,"HTTP/1\.1\x20404\x20Not\x2
+SF:0Found\r\nConnection:\x20close\r\nDate:\x20Thu,\x2021\x20May\x202020\x2
+SF:022:51:17\x20GMT\r\nContent-Length:\x201164\r\nContent-Type:\x20text/ht
+SF:ml;\x20charset=UTF-8\r\nX-ORACLE-DMS-ECID:\x20266e7db23b96fd6c:2daf3f6d
+SF::1722bed0c62:-8000-0000000000010c34\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\
+SF:x20\"-//W3C//DTD\x20HTML\x204\.0\x20Draft//EN\">\n<HTML>\n<HEAD>\n<TITL
+SF:E>Error\x20404--Not\x20Found</TITLE>\n</HEAD>\n<BODY\x20bgcolor=\"white
+SF:\">\n<FONT\x20FACE=Helvetica><BR\x20CLEAR=all>\n<TABLE\x20border=0\x20c
+SF:ellspacing=5><TR><TD><BR\x20CLEAR=all>\n<FONT\x20FACE=\"Helvetica\"\x20
+SF:COLOR=\"black\"\x20SIZE=\"3\"><H2>Error\x20404--Not\x20Found</H2>\n</FO
+SF:NT></TD></TR>\n</TABLE>\n<TABLE\x20border=0\x20width=100%\x20cellpaddin
+SF:g=10><TR><TD\x20VALIGN=top\x20WIDTH=100%\x20BGCOLOR=white><FONT\x20FACE
+SF:=\"Courier\x20New\"><FONT\x20FACE=\"Helvetica\"\x20SIZE=\"3\"><H3>From\
+SF:x20RFC\x202068\x20<i>Hypertext\x20Transfer\x20Protocol\x20--\x20HTTP/1\
+SF:.1</i>:</H3>\n</FONT><FONT\x20FACE=\"Helvetica\"\x20SIZE=\"3\"><H4>10\.
+SF:4\.5\x20404\x20Not\x20Found</H4>\n</FONT><P><FONT\x20FACE=\"Courier\x20
+SF:New\">The\x20server\x20has\x20not\x20found\x20any");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 22 00:52:42 2020 -- 1 IP address (1 host up) scanned in 15312.25 seconds

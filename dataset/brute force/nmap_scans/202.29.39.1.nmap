@@ -1,0 +1,11 @@
+# Nmap 7.40 scan initiated Sat Mar  7 17:56:46 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/202.29.39.1.nmap 202.29.39.1
+Nmap scan report for 202.29.39.1
+Host is up (0.83s latency).
+Not shown: 998 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE    VERSION
+22/tcp open  tcpwrapped
+53/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  7 22:09:00 2020 -- 1 IP address (1 host up) scanned in 15134.11 seconds

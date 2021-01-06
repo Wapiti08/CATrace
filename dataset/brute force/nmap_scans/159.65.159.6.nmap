@@ -1,0 +1,91 @@
+# Nmap 7.40 scan initiated Sun Oct 18 16:08:14 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/159.65.159.6.nmap 159.65.159.6
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 159.65.159.6
+Host is up (1.0s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+22/tcp   open  tcpwrapped
+80/tcp   open  http       Apache httpd 2.4.6 ((CentOS) OpenSSL/1.0.2k-fips PHP/7.0.31)
+443/tcp  open  ssl/http   Apache httpd 2.4.6 ((CentOS) OpenSSL/1.0.2k-fips PHP/7.0.31)
+4443/tcp open  ssl/sip    (SIP end point; Status: 403 Not relaying)
+5061/tcp open  ssl/sip    (SIP end point; Status: 403 Not relaying)
+8080/tcp open  sip        (SIP end point; Status: 403 Not relaying)
+9080/tcp open  ssl/sip    (SIP end point; Status: 403 Not relaying)
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port4443-TCP:V=7.40%T=SSL%I=7%D=10/18%Time=5F8C8BB9%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,55,"HTTP/1\.0\x20404\x20Not\x20Found\r\nSia:\x20SIP/2\.
+SF:0/TLS\x20185\.220\.101\.129:22700\r\nContent-Length:\x200\r\n\r\n")%r(H
+SF:TTPOptions,55,"HTTP/1\.0\x20404\x20Not\x20Found\r\nSia:\x20SIP/2\.0/TLS
+SF:\x20185\.220\.101\.129:22372\r\nContent-Length:\x200\r\n\r\n")%r(FourOh
+SF:FourRequest,54,"HTTP/1\.0\x20404\x20Not\x20Found\r\nSia:\x20SIP/2\.0/TL
+SF:S\x20185\.220\.101\.129:8676\r\nContent-Length:\x200\r\n\r\n")%r(Generi
+SF:cLines,2,"\r\n")%r(SIPOptions,EF,"SIP/2\.0\x20403\x20Not\x20relaying\r\
+SF:nVia:\x20SIP/2\.0/TCP\x20nm;branch=foo;rport=18952;received=185\.220\.1
+SF:01\.129\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=9d
+SF:d61ff61e802d8e2bef5f14621ef3c2\.1e84\r\nCall-ID:\x2050000\r\nCSeq:\x204
+SF:2\x20OPTIONS\r\nContent-Length:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5061-TCP:V=7.40%T=SSL%I=7%D=10/18%Time=5F8C8C25%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,55,"HTTP/1\.0\x20403\x20Forbidden\r\nSia:\x20SIP/2\.0/T
+SF:LS\x20185\.220\.101\.129:24164\r\nContent-Length:\x200\r\n\r\n")%r(SIPO
+SF:ptions,EF,"SIP/2\.0\x20403\x20Not\x20relaying\r\nVia:\x20SIP/2\.0/TCP\x
+SF:20nm;branch=foo;rport=30986;received=185\.220\.101\.129\r\nFrom:\x20<si
+SF:p:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=9dd61ff61e802d8e2bef5f146
+SF:21ef3c2\.1e84\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nContent
+SF:-Length:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.40%I=7%D=10/18%Time=5F8C8C3A%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,54,"HTTP/1\.0\x20404\x20Not\x20Found\r\nSia:\x20SIP/2\.0/TCP\
+SF:x20185\.220\.101\.129:2300\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOpti
+SF:ons,55,"HTTP/1\.0\x20404\x20Not\x20Found\r\nSia:\x20SIP/2\.0/TCP\x20185
+SF:\.220\.101\.129:28666\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourReq
+SF:uest,55,"HTTP/1\.0\x20404\x20Not\x20Found\r\nSia:\x20SIP/2\.0/TCP\x2018
+SF:5\.220\.101\.129:20814\r\nContent-Length:\x200\r\n\r\n")%r(GenericLines
+SF:,2,"\r\n")%r(SIPOptions,EF,"SIP/2\.0\x20403\x20Not\x20relaying\r\nVia:\
+SF:x20SIP/2\.0/TCP\x20nm;branch=foo;rport=25110;received=185\.220\.101\.12
+SF:9\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=9dd61ff6
+SF:1e802d8e2bef5f14621ef3c2\.1e84\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20O
+SF:PTIONS\r\nContent-Length:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9080-TCP:V=7.40%T=SSL%I=7%D=10/18%Time=5F8C8CB4%P=x86_64-pc-linux-g
+SF:nu%r(GenericLines,2,"\r\n")%r(GetRequest,54,"HTTP/1\.0\x20403\x20Forbid
+SF:den\r\nSia:\x20SIP/2\.0/TLS\x20185\.220\.101\.129:6328\r\nContent-Lengt
+SF:h:\x200\r\n\r\n")%r(HTTPOptions,54,"HTTP/1\.0\x20403\x20Forbidden\r\nSi
+SF:a:\x20SIP/2\.0/TLS\x20185\.220\.101\.129:4256\r\nContent-Length:\x200\r
+SF:\n\r\n")%r(FourOhFourRequest,55,"HTTP/1\.0\x20403\x20Forbidden\r\nSia:\
+SF:x20SIP/2\.0/TLS\x20185\.220\.101\.129:21336\r\nContent-Length:\x200\r\n
+SF:\r\n")%r(SIPOptions,EF,"SIP/2\.0\x20403\x20Not\x20relaying\r\nVia:\x20S
+SF:IP/2\.0/TCP\x20nm;branch=foo;rport=19406;received=185\.220\.101\.129\r\
+SF:nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=9dd61ff61e80
+SF:2d8e2bef5f14621ef3c2\.1e84\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIO
+SF:NS\r\nContent-Length:\x200\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 18 20:44:33 2020 -- 1 IP address (1 host up) scanned in 16579.71 seconds

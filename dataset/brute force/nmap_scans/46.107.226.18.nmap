@@ -1,0 +1,97 @@
+# Nmap 7.40 scan initiated Wed Nov  4 04:32:16 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/46.107.226.18.nmap 46.107.226.18
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 46.107.226.18
+Host is up (0.22s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE  VERSION
+22/tcp    open  ssh      OpenSSH 5.5p1 Debian 6+squeeze3 (protocol 2.0)
+111/tcp   open  rpcbind  2 (RPC #100000)
+880/tcp   open  http     OSCam softcam httpd
+50000/tcp open  ibm-db2?
+50001/tcp open  unknown
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port50000-TCP:V=7.40%I=7%D=11/4%Time=5FA2618B%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,10,"\xa4jb\x8b=\x05w\+\xd9\x86\xd7\xb5\xba\xf5\xb0k")%r(GetRequest,
+SF:10,"\?\x95\xe6\xb8N2C\x90_E\xfbG\xec\x0c\$\x8f")%r(ibm-db2-das,10,"\x9a
+SF:p\xc8\x7f\xc2\x06\xe6\x06m\xee\t\x14\xc9d\xb7\x99")%r(ibm-db2,10,"\xe8\
+SF:xde\$>\xac}\xecc\xeb\xaa;\xc7\x7f\x05Kh")%r(drda,10,"\xf1\xa5\x194\$!\)
+SF:q/\x8aApDP\x83\x15")%r(GenericLines,10,"\xdfa\xc4\xcf\]02xe/1,\xa1\xc0'
+SF:s")%r(HTTPOptions,10,"\xf4A\xb6;\*\x9d\x1fJfi\xce\x98\x84G\xa3\x1d")%r(
+SF:RTSPRequest,10,"xf\xe6}\xbc\xdd\*\xf4S\x93f\x16\x87\xd6v\x87")%r(RPCChe
+SF:ck,10,"%\xd0\r\x8c\xccYl\xa3y\xc9\x0c\xd9j\xf2\x85\x08")%r(DNSVersionBi
+SF:ndReq,10,"@\xd1Fe\xa0\xab\xb9A@\xd2\xa1,\x20N\xa0\xd2")%r(DNSStatusRequ
+SF:est,10,"Zd\[7\x14o\x8d\x13;\xdb\x85\x18\xa9\xaemb")%r(Help,10,"\xbf\x1e
+SF:\xf0\xfb\xae\x0e\t\$\x98\x9d{i\x05\xc9t\x88")%r(SSLSessionReq,10,"7cT\x
+SF:97\?\x8cEB\xe4U<\$ZD\xd5\xfd")%r(TLSSessionReq,10,"_\x88\xf1\x88\x88\x9
+SF:6\xe3\xacf=\xa3\xe7M\[w\x1b")%r(Kerberos,10,">\xe6\x8a\xa3`Y\xdf\|FS\xf
+SF:2\xdd\xe4\x92\[\xfc")%r(SMBProgNeg,10,"\xb8\xe5n\xa3t#\xde\ta\x03\xe8\x
+SF:b5\x8d\x0b4a")%r(X11Probe,10,"`\xd7\x88\x0b,\xf1\xd74\xfc\x88\x8d\xb6\x
+SF:88P\xec\xf5")%r(FourOhFourRequest,10,"\xe2\x19J\x143\xfd<\xf9\xe8\)\xf1
+SF:E\xfd\?wR")%r(LPDString,10,"f\xf9V'mI}l&;\x19\x9a\xf9}\xec-")%r(LDAPSea
+SF:rchReq,10,"\xf7\.\xdcr\x01J\x1cl}U\xa43u\xcd\x9c\x11")%r(LDAPBindReq,10
+SF:,"\xc2\x8a\xbb\x91x\x81\x0e\xbc\xc474\xae\xfeB\xfd\xfb")%r(SIPOptions,1
+SF:0,"A\xe5g\xa18\xc3\x88\xa6O\)}\x86\xc8\xd1l\xcd")%r(LANDesk-RC,10,"\xcd
+SF:<J\x9d\xd3\xbb\xb2!\xed\)\xc3P\x8d\x20\xbf\x0e")%r(TerminalServer,10,"\
+SF:xf7p\xdb\xa3,\xfe\xcd\xab\x1b\xe3\xb2\xd0>QZ\x1e")%r(NCP,10,"o\xa1\xfd\
+SF:\\x1c\xe5\x90\*\x87\xf3\x16\[\x12y\xa3\xe1")%r(NotesRPC,10,"\x8b\x03\\\
+SF:xfe:\x15\xfa\xaeA\xff\x80\xd7\x06\x17\xd6\x83")%r(WMSRequest,10,"\xc9@\
+SF:xdd\xe1\x99\?\x1d\xc4\x1aG\x95\xc6\|\xc6\x8fk")%r(oracle-tns,10,"\|\xf1
+SF:\0\x7f\xdc\xa5\"y\xdf\"'v7\xb8In")%r(afp,10,"\xed\|80\t\x99\xa6\x81\x90
+SF:\x843G\x86\x99\x11\xf8")%r(giop,10,"\x1d\x8f\xd8,\(\x14L\xf6\xc0r\x9c0\
+SF:x05\x15\xc0R");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port50001-TCP:V=7.40%I=7%D=11/4%Time=5FA261F3%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,E,"\xe0Zrp\xb4\x9d\x95\x8e\x8cO\x96\xfe\xcc;")%r(ibm-db2,E,"\xe0Zrp
+SF:\xb4\x9d\x95\x8e\x8cO\x96\xfe\xcc;")%r(GenericLines,E,"\xdc\xa4\x0290\x
+SF:ae\xba\x85\xd6h>\x86\xefD")%r(GetRequest,E,"\x04\x9b\x01\x93\x1c&Y\xc7z
+SF:\xbe%\x0edz")%r(HTTPOptions,E,"\xa5\xfdw%\t\xa9\xc4\xfa\x9f\x8b\xac\xfb
+SF:\x1eL")%r(RTSPRequest,E,"\xd7\xb3N\xfa\x94M\xba\x82@\x8c\xc2k-\0")%r(RP
+SF:CCheck,E,"#\xc4m\n\xda\xd4\xd7\xd4;\x9ct_\xed\x04")%r(DNSVersionBindReq
+SF:,E,"\xff\x8d\x17\x05q\x12\x0b\xe7\xca\xf8G\x90\xb3\x1c")%r(DNSStatusReq
+SF:uest,E,"\xfd\xd3\xed\xf5\[d9\[\xba\x06\xde-\x1d\x81")%r(Help,E,"o\[\xe7
+SF:\x15\n\\-8\xfb\x80\xc8\x84\x04q")%r(SSLSessionReq,E,"\+1y\xb2\xb7\x9c\x
+SF:96<\x86\xbb\xaew\xe2\x15")%r(TLSSessionReq,E,"\x1dZ\x8a\]\x11%\xae\xe0\
+SF:xcd@H\x17\xba4")%r(Kerberos,E,"\x03\xc2\^\xf5f-\xcdo\?mo,\x17\x99")%r(S
+SF:MBProgNeg,E,"\xfd\x05\x1e\xd5\xaf\x9a\x14\x18z\x1a\xa7\xe2\xd4\xe8")%r(
+SF:X11Probe,E,"OnW\xfdE\x1cA\xc0:\xfd\x80\xf82\xd0")%r(FourOhFourRequest,E
+SF:,"K\xf7\x837\xca\xc3m\x94\xf4\xfa\x9f\x1b\xceh")%r(LPDString,E,"\.\xd9\
+SF:x13\x20\xd6\xc5\xb3\xa0\t\xbd<A\xb7A")%r(LDAPSearchReq,E,"\x99\xcf\xab\
+SF:xb3\0\xa5\xf3\xcc\x9b\x9ev\xc343")%r(LDAPBindReq,E,"\x05z\xed\xc6\xac\x
+SF:bc\xa0\x84\x7f\xa4\^\xb8\xd0T")%r(SIPOptions,E,"V}\]\x16\x04\xf0\xfd\xa
+SF:a\xcet\xc7\xb7of")%r(LANDesk-RC,E,"\xa5\x12\x97\xeb\x8ez\x875f\xf9_8\^\
+SF:xd4")%r(TerminalServer,E,"\\\x84;De\x90k\xd9\xca\x87\xc2\x8a\xc7b")%r(N
+SF:CP,E,"z\xb5\xa4\x93\x04\x90\x8e\x1f\x10\x9bxOa\xcd")%r(NotesRPC,E,"\x03
+SF:\xb5\xfc\xd1w\xb6\x1f,\|\xdbn\x7f/\x9b")%r(WMSRequest,E,"\xee\x12\xe8\x
+SF:7f\x16\xd6<&\x97\xd5\x83\xad\x17\x83")%r(oracle-tns,E,"\xb7\xe9\x18\x8f
+SF:\]t\xb2Ai\xb0B\xd1\xba\xe6")%r(afp,E,"\?\xf1\x92\x17\xa1OBM\xf1\xf3\xa0
+SF:\xd4\x10\xa8")%r(giop,E,"\xbd\xd3\x04\"v\xd6\xdd\x1a\(\xb7\x0c\x15\\\x1
+SF:d");
+Service Info: OS: Linux; Device: media device; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov  4 09:11:38 2020 -- 1 IP address (1 host up) scanned in 16762.04 seconds

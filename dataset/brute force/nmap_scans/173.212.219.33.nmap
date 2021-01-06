@@ -1,0 +1,46 @@
+# Nmap 7.40 scan initiated Sun Feb  2 07:15:36 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/173.212.219.33.nmap 173.212.219.33
+Nmap scan report for 173.212.219.33
+Host is up (1.1s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE        VERSION
+22/tcp   open  ssh            OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)
+80/tcp   open  http-proxy     sslstrip
+3306/tcp open  mysql          MySQL 5.5.62-0+deb8u1
+8087/tcp open  simplifymedia?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8087-TCP:V=7.40%I=7%D=2/2%Time=5E36A98C%P=x86_64-pc-linux-gnu%r(Gen
+SF:ericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20te
+SF:xt/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x2
+SF:0Request")%r(GetRequest,15A8,"HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\
+SF:x20bytes\r\nContent-Length:\x2013075\r\nContent-Type:\x20text/html;\x20
+SF:charset=utf-8\r\nLast-Modified:\x20Sun,\x2002\x20Feb\x202020\x2010:50:5
+SF:4\x20GMT\r\nDate:\x20Sun,\x2002\x20Feb\x202020\x2010:50:54\x20GMT\r\n\r
+SF:\n<!DOCTYPE\x20html>\n<html\x20ng-app=\"ts3soundboard-bot\"\x20ng-contr
+SF:oller=\"base\">\n<head>\n<title>SinusBot</title>\n<meta\x20name=\"robot
+SF:s\"\x20content=\"noindex,\x20nofollow\"/>\n<script\x20type=\"text/javas
+SF:cript\"\x20src=\"/api/v1/themes\.js\"></script>\n<script\x20type=\"text
+SF:/javascript\"\x20src=\"/js/main\.js\"></script>\n<script\x20type=\"text
+SF:/javascript\"\x20src=\"/js/partials\.js\"></script>\n<script\x20type=\"
+SF:text/javascript\"\x20src=\"/js/base\.js\"></script>\n<script\x20type=\"
+SF:text/javascript\"\x20src=\"/api/v1/locales\.js\"></script>\n<style>\.ba
+SF:se{display:\x20none;}</style>\n<link\x20rel=\"stylesheet\"\x20ng-href=\
+SF:"/themes/{{theme\.file\x20\|\|\x20'default'}}\.css\"\x20/>\n<base\x20hr
+SF:ef=\"/\"/>\n<meta\x20name=\"viewport\"\x20content=\"width=device-width,
+SF:\x20initial-scale=1,\x20maximum-scale=1,\x20user-scalable=no\"/>\n<link
+SF:\x20rel=\"ico")%r(HTTPOptions,74,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Su
+SF:n,\x2002\x20Feb\x202020\x2010:51:00\x20GMT\r\nContent-Length:\x200\r\nC
+SF:ontent-Type:\x20text/plain;\x20charset=utf-8\r\n\r\n")%r(RTSPRequest,67
+SF:,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x2
+SF:0charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r
+SF:(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/p
+SF:lain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Req
+SF:uest")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConten
+SF:t-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n
+SF:400\x20Bad\x20Request")%r(TLSSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20
+SF:Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:
+SF:\x20close\r\n\r\n400\x20Bad\x20Request");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb  2 11:53:43 2020 -- 1 IP address (1 host up) scanned in 16686.97 seconds

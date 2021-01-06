@@ -1,0 +1,10 @@
+# Nmap 7.40 scan initiated Wed May 27 16:59:32 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/212.83.162.90.nmap 212.83.162.90
+Nmap scan report for 212.83.162.90
+Host is up (0.56s latency).
+Not shown: 999 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 27 21:34:26 2020 -- 1 IP address (1 host up) scanned in 16494.83 seconds

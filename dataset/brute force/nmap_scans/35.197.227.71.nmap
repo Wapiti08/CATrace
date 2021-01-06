@@ -1,0 +1,45 @@
+# Nmap 7.40 scan initiated Mon May  4 15:09:01 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/35.197.227.71.nmap 35.197.227.71
+Nmap scan report for 35.197.227.71
+Host is up (0.17s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+1022/tcp open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.1 (Ubuntu Linux; protocol 2.0)
+3306/tcp open  mysql       MySQL 5.7.11
+9998/tcp open  distinct32?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9998-TCP:V=7.40%I=7%D=5/4%Time=5EB0546A%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,4B8,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Type:\x20text/
+SF:html;charset=ISO-8859-1\r\nDate:\x20Mon,\x2004\x20May\x202020\x2017:44:
+SF:09\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x201060\r\n\r\n<ht
+SF:ml><head><title>Grizzly\x202\.3\.23</title><style><!--div\.header\x20{f
+SF:ont-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300
+SF:;font-size:22px;-moz-border-radius-topleft:\x2010px;border-top-left-rad
+SF:ius:\x2010px;-moz-border-radius-topright:\x2010px;border-top-right-radi
+SF:us:\x2010px;padding-left:\x205px}div\.body\x20{font-family:Tahoma,Arial
+SF:,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding
+SF:-top:10px;padding-bottom:10px;padding-left:10px}div\.footer\x20{font-fa
+SF:mily:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-
+SF:size:14px;-moz-border-radius-bottomleft:\x2010px;border-bottom-left-rad
+SF:ius:\x2010px;-moz-border-radius-bottomright:\x2010px;border-bottom-righ
+SF:t-radius:\x2010px;padding-left:\x205px}BODY\x20{font-family:Tahoma,Aria
+SF:l,sans-serif;color")%r(HTTPOptions,4B8,"HTTP/1\.1\x20404\x20Not\x20Foun
+SF:d\r\nContent-Type:\x20text/html;charset=ISO-8859-1\r\nDate:\x20Mon,\x20
+SF:04\x20May\x202020\x2017:44:09\x20GMT\r\nConnection:\x20close\r\nContent
+SF:-Length:\x201060\r\n\r\n<html><head><title>Grizzly\x202\.3\.23</title><
+SF:style><!--div\.header\x20{font-family:Tahoma,Arial,sans-serif;color:whi
+SF:te;background-color:#003300;font-size:22px;-moz-border-radius-topleft:\
+SF:x2010px;border-top-left-radius:\x2010px;-moz-border-radius-topright:\x2
+SF:010px;border-top-right-radius:\x2010px;padding-left:\x205px}div\.body\x
+SF:20{font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FF
+SF:FFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:1
+SF:0px}div\.footer\x20{font-family:Tahoma,Arial,sans-serif;color:white;bac
+SF:kground-color:#666633;font-size:14px;-moz-border-radius-bottomleft:\x20
+SF:10px;border-bottom-left-radius:\x2010px;-moz-border-radius-bottomright:
+SF:\x2010px;border-bottom-right-radius:\x2010px;padding-left:\x205px}BODY\
+SF:x20{font-family:Tahoma,Arial,sans-serif;color");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May  4 19:46:07 2020 -- 1 IP address (1 host up) scanned in 16626.38 seconds

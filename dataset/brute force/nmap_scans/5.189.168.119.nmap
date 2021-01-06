@@ -1,0 +1,79 @@
+# Nmap 7.40 scan initiated Thu Jun  4 08:28:07 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/5.189.168.119.nmap 5.189.168.119
+Nmap scan report for 5.189.168.119
+Host is up (0.65s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE     VERSION
+21/tcp    open  ftp         vsftpd 3.0.2
+22/tcp    open  ssh         OpenSSH 7.4 (protocol 2.0)
+80/tcp    open  http        Apache httpd 2.4.6 ((CentOS) PHP/5.6.40)
+3306/tcp  open  mysql       MariaDB (unauthorized)
+9001/tcp  open  tor-orport?
+9003/tcp  open  unknown
+10000/tcp open  http        MiniServ 1.941 (Webmin httpd)
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9001-TCP:V=7.40%I=7%D=6/4%Time=5ED8D4F3%P=x86_64-pc-linux-gnu%r(Gen
+SF:ericLines,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20
+SF:line\.\r\n\r\n")%r(SSLSessionReq,32,"HTTP/1\.0\x20400\x20BadRequest:\x2
+SF:0Invalid\x20request\x20line\.\r\n\r\n")%r(TLSSessionReq,32,"HTTP/1\.0\x
+SF:20400\x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(SSLv23
+SF:SessionReq,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x2
+SF:0line\.\r\n\r\n")%r(Radmin,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Inval
+SF:id\x20request\x20line\.\r\n\r\n")%r(RTSPRequest,5B,"HTTP/1\.0\x20400\x2
+SF:0BadRequest:\x20Invalid\x20HTTP\x20version\x20in\x20Request\x20line\.\x
+SF:20Line:\x20OPTIONS\x20/\x20RTSP/1\.0\r\n\r\n")%r(RPCCheck,32,"HTTP/1\.0
+SF:\x20400\x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(DNSV
+SF:ersionBindReq,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request
+SF:\x20line\.\r\n\r\n")%r(DNSStatusRequest,32,"HTTP/1\.0\x20400\x20BadRequ
+SF:est:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(Help,4D,"HTTP/1\.0\x20
+SF:400\x20BadRequest:\x20Invalid\x20request\x20line,\x20missing\x20Method\
+SF:.\x20Line:\x20HELP\r\n\r\n")%r(Kerberos,32,"HTTP/1\.0\x20400\x20BadRequ
+SF:est:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(SMBProgNeg,32,"HTTP/1\
+SF:.0\x20400\x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(LP
+SF:DString,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20li
+SF:ne\.\r\n\r\n")%r(LDAPSearchReq,5A,"HTTP/1\.0\x20400\x20BadRequest:\x20I
+SF:nvalid\x20request\x20line,\x20missing\x20Method\.\x20Line:\x200\?\0\0\0
+SF:-\x02\x01\x07c\?\0\0\0\$\x04\0\r\n\r\n")%r(SIPOptions,5F,"HTTP/1\.0\x20
+SF:400\x20BadRequest:\x20Invalid\x20HTTP\x20version\x20in\x20Request\x20li
+SF:ne\.\x20Line:\x20OPTIONS\x20sip:nm\x20SIP/2\.0\r\n\r\n")%r(TerminalServ
+SF:er,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20line\.\
+SF:r\n\r\n")%r(NotesRPC,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20
+SF:request\x20line\.\r\n\r\n")%r(WMSRequest,32,"HTTP/1\.0\x20400\x20BadReq
+SF:uest:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(oracle-tns,32,"HTTP/1
+SF:\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(a
+SF:fp,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20line\.\
+SF:r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9003-TCP:V=7.40%I=7%D=6/4%Time=5ED8D54C%P=x86_64-pc-linux-gnu%r(Gen
+SF:ericLines,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20
+SF:line\.\r\n\r\n")%r(RTSPRequest,5B,"HTTP/1\.0\x20400\x20BadRequest:\x20I
+SF:nvalid\x20HTTP\x20version\x20in\x20Request\x20line\.\x20Line:\x20OPTION
+SF:S\x20/\x20RTSP/1\.0\r\n\r\n")%r(RPCCheck,32,"HTTP/1\.0\x20400\x20BadReq
+SF:uest:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(DNSVersionBindReq,32,
+SF:"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\r\
+SF:n")%r(DNSStatusRequest,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x
+SF:20request\x20line\.\r\n\r\n")%r(Help,4D,"HTTP/1\.0\x20400\x20BadRequest
+SF::\x20Invalid\x20request\x20line,\x20missing\x20Method\.\x20Line:\x20HEL
+SF:P\r\n\r\n")%r(SSLSessionReq,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Inva
+SF:lid\x20request\x20line\.\r\n\r\n")%r(TLSSessionReq,32,"HTTP/1\.0\x20400
+SF:\x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(Kerberos,32
+SF:,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\r
+SF:\n")%r(SMBProgNeg,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20req
+SF:uest\x20line\.\r\n\r\n")%r(LPDString,32,"HTTP/1\.0\x20400\x20BadRequest
+SF::\x20Invalid\x20request\x20line\.\r\n\r\n")%r(LDAPSearchReq,5A,"HTTP/1\
+SF:.0\x20400\x20BadRequest:\x20Invalid\x20request\x20line,\x20missing\x20M
+SF:ethod\.\x20Line:\x200\?\0\0\0-\x02\x01\x07c\?\0\0\0\$\x04\0\r\n\r\n")%r
+SF:(SIPOptions,5F,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20HTTP\x20v
+SF:ersion\x20in\x20Request\x20line\.\x20Line:\x20OPTIONS\x20sip:nm\x20SIP/
+SF:2\.0\r\n\r\n")%r(TerminalServer,32,"HTTP/1\.0\x20400\x20BadRequest:\x20
+SF:Invalid\x20request\x20line\.\r\n\r\n")%r(NotesRPC,32,"HTTP/1\.0\x20400\
+SF:x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\r\n")%r(WMSRequest,3
+SF:2,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20request\x20line\.\r\n\
+SF:r\n")%r(oracle-tns,32,"HTTP/1\.0\x20400\x20BadRequest:\x20Invalid\x20re
+SF:quest\x20line\.\r\n\r\n")%r(afp,32,"HTTP/1\.0\x20400\x20BadRequest:\x20
+SF:Invalid\x20request\x20line\.\r\n\r\n");
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun  4 13:06:49 2020 -- 1 IP address (1 host up) scanned in 16722.05 seconds

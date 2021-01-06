@@ -1,0 +1,17 @@
+# Nmap 7.40 scan initiated Mon Nov 30 20:14:38 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/51.68.139.16.nmap 51.68.139.16
+Nmap scan report for 51.68.139.16
+Host is up (0.54s latency).
+Not shown: 993 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      vsftpd 3.0.3
+22/tcp  open  ssh      OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+25/tcp  open  smtp     Postfix smtpd
+80/tcp  open  ssl/http Apache/2.4.25 (Debian)
+143/tcp open  imap     Dovecot imapd
+443/tcp open  ssl/http Apache httpd 2.4.25 ((Debian))
+993/tcp open  ssl/imap Dovecot imapd
+Service Info: Host: mail.tomiko.pl; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec  1 00:50:55 2020 -- 1 IP address (1 host up) scanned in 16577.09 seconds

@@ -1,0 +1,153 @@
+# Nmap 7.40 scan initiated Fri Mar 27 23:17:31 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/61.41.159.29.nmap 61.41.159.29
+Nmap scan report for 61.41.159.29
+Host is up (0.43s latency).
+Not shown: 989 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE     VERSION
+25/tcp   open  smtp?
+80/tcp   open  http        nginx
+110/tcp  open  pop3
+143/tcp  open  imap?
+465/tcp  open  ssl/smtp
+587/tcp  open  submission?
+993/tcp  open  ssl/imaps?
+995/tcp  open  ssl/pop3
+1022/tcp open  ssh         OpenSSH 5.9 (protocol 2.0)
+8083/tcp open  http        MochiWeb httpd
+9090/tcp open  http        Jetty 8.1.21.v20160908
+7 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port25-TCP:V=7.40%I=7%D=3/28%Time=5E7EBBE7%P=x86_64-pc-linux-gnu%r(NULL
+SF:,31,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n
+SF:")%r(Hello,44,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20R
+SF:eady\.\r\n501\x20Syntax\x20error\.\r\n")%r(Help,4E,"220\x20novatech\.co
+SF:\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20not\x2
+SF:0implemented\r\n")%r(GenericLines,6D,"220\x20novatech\.co\.kr\x20AntiSP
+SF:AM/VIRUS\x20FILTER\x20Ready\.\r\n500\x20Command\x20unrecognized:\x20\"\
+SF:"\r\n500\x20Command\x20unrecognized:\x20\"\"\r\n")%r(GetRequest,6C,"220
+SF:\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20C
+SF:ommand\x20not\x20implemented\r\n500\x20Command\x20unrecognized:\x20\"\"
+SF:\r\n")%r(HTTPOptions,6C,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20F
+SF:ILTER\x20Ready\.\r\n502\x20Command\x20not\x20implemented\r\n500\x20Comm
+SF:and\x20unrecognized:\x20\"\"\r\n")%r(RTSPRequest,6C,"220\x20novatech\.c
+SF:o\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20not\x
+SF:20implemented\r\n500\x20Command\x20unrecognized:\x20\"\"\r\n")%r(RPCChe
+SF:ck,31,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r
+SF:\n")%r(DNSVersionBindReq,31,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\
+SF:x20FILTER\x20Ready\.\r\n")%r(DNSStatusRequest,31,"220\x20novatech\.co\.
+SF:kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n")%r(SSLSessionReq,4E,"220
+SF:\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20C
+SF:ommand\x20not\x20implemented\r\n")%r(TLSSessionReq,4E,"220\x20novatech\
+SF:.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20not
+SF:\x20implemented\r\n")%r(Kerberos,4E,"220\x20novatech\.co\.kr\x20AntiSPA
+SF:M/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20not\x20implemented\r\
+SF:n")%r(SMBProgNeg,31,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTE
+SF:R\x20Ready\.\r\n")%r(X11Probe,31,"220\x20novatech\.co\.kr\x20AntiSPAM/V
+SF:IRUS\x20FILTER\x20Ready\.\r\n")%r(FourOhFourRequest,6C,"220\x20novatech
+SF:\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20no
+SF:t\x20implemented\r\n500\x20Command\x20unrecognized:\x20\"\"\r\n")%r(LPD
+SF:String,4E,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready
+SF:\.\r\n502\x20Command\x20not\x20implemented\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.40%I=7%D=3/28%Time=5E7EBC87%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,11,"\+OK\x20POP3\x20server\r\n")%r(GenericLines,3D,"\+OK\x20POP3\x20s
+SF:erver\r\n-ERR\x20Unknown\x20Command\r\n-ERR\x20Unknown\x20Command\r\n")
+SF:%r(HTTPOptions,3D,"\+OK\x20POP3\x20server\r\n-ERR\x20Unknown\x20Command
+SF:\r\n-ERR\x20Unknown\x20Command\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.40%I=7%D=3/28%Time=5E7EBC98%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(GetRequest,24,"\*\x20OK\x20IMA
+SF:P4\x20ready\r\nGET\x20BAD\x20\r\n\*\x20BAD\x20\r\n")%r(GenericLines,22,
+SF:"\*\x20OK\x20IMAP4\x20ready\r\n\*\x20BAD\x20\r\n\*\x20BAD\x20\r\n")%r(H
+SF:TTPOptions,28,"\*\x20OK\x20IMAP4\x20ready\r\nOPTIONS\x20BAD\x20\r\n\*\x
+SF:20BAD\x20\r\n")%r(RTSPRequest,28,"\*\x20OK\x20IMAP4\x20ready\r\nOPTIONS
+SF:\x20BAD\x20\r\n\*\x20BAD\x20\r\n")%r(RPCCheck,12,"\*\x20OK\x20IMAP4\x20
+SF:ready\r\n")%r(DNSVersionBindReq,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(
+SF:DNSStatusRequest,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(Help,1A,"\*\x20
+SF:OK\x20IMAP4\x20ready\r\n\*\x20BAD\x20\r\n")%r(SSLSessionReq,1A,"\*\x20O
+SF:K\x20IMAP4\x20ready\r\n\*\x20BAD\x20\r\n")%r(TLSSessionReq,1A,"\*\x20OK
+SF:\x20IMAP4\x20ready\r\n\*\x20BAD\x20\r\n")%r(Kerberos,1A,"\*\x20OK\x20IM
+SF:AP4\x20ready\r\n\*\x20BAD\x20\r\n")%r(SMBProgNeg,12,"\*\x20OK\x20IMAP4\
+SF:x20ready\r\n")%r(X11Probe,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(FourOh
+SF:FourRequest,24,"\*\x20OK\x20IMAP4\x20ready\r\nGET\x20BAD\x20\r\n\*\x20B
+SF:AD\x20\r\n")%r(LPDString,1A,"\*\x20OK\x20IMAP4\x20ready\r\n\*\x20BAD\x2
+SF:0\r\n")%r(LDAPSearchReq,22,"\*\x20OK\x20IMAP4\x20ready\r\n\*\x20BAD\x20
+SF:\r\n\*\x20BAD\x20\r\n")%r(LDAPBindReq,12,"\*\x20OK\x20IMAP4\x20ready\r\
+SF:n")%r(SIPOptions,AB,"\*\x20OK\x20IMAP4\x20ready\r\nOPTIONS\x20BAD\x20\r
+SF:\nVia:\x20BAD\x20\r\nFrom:\x20BAD\x20\r\nTo:\x20BAD\x20\r\nCall-ID:\x20
+SF:BAD\x20\r\nCSeq:\x20BAD\x20\r\nMax-Forwards:\x20BAD\x20\r\nContent-Leng
+SF:th:\x20BAD\x20\r\nContact:\x20BAD\x20\r\nAccept:\x20BAD\x20\r\n\*\x20BA
+SF:D\x20\r\n")%r(LANDesk-RC,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(Termina
+SF:lServer,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(NCP,12,"\*\x20OK\x20IMAP
+SF:4\x20ready\r\n")%r(NotesRPC,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(WMSR
+SF:equest,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(oracle-tns,12,"\*\x20OK\x
+SF:20IMAP4\x20ready\r\n")%r(afp,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(gio
+SF:p,12,"\*\x20OK\x20IMAP4\x20ready\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port465-TCP:V=7.40%T=SSL%I=7%D=3/28%Time=5E7EBD39%P=x86_64-pc-linux-gnu
+SF:%r(NULL,26,"220\x20novatech\.co\.kr\x20Duzon\x20ESMTP\x20Ready\r\n")%r(
+SF:Hello,8A,"220\x20novatech\.co\.kr\x20Duzon\x20ESMTP\x20Ready\r\n250-nov
+SF:atech\.co\.kr\x20helo\x20\[127\.0\.0\.1\]\x20pleased\x20to\x20meet\x20y
+SF:ou\r\n250-SIZE\x2099000000\r\n250-AUTH\x20LOGIN\r\n250\x20OK\r\n")%r(He
+SF:lp,40,"220\x20novatech\.co\.kr\x20Duzon\x20ESMTP\x20Ready\r\n500\x20COM
+SF:MAND\x20UNRECOGNIZED\r\n")%r(GenericLines,5A,"220\x20novatech\.co\.kr\x
+SF:20Duzon\x20ESMTP\x20Ready\r\n500\x20COMMAND\x20UNRECOGNIZED\r\n500\x20C
+SF:OMMAND\x20UNRECOGNIZED\r\n")%r(GetRequest,5A,"220\x20novatech\.co\.kr\x
+SF:20Duzon\x20ESMTP\x20Ready\r\n500\x20COMMAND\x20UNRECOGNIZED\r\n500\x20C
+SF:OMMAND\x20UNRECOGNIZED\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port587-TCP:V=7.40%I=7%D=3/28%Time=5E7EBD5C%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,31,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\
+SF:n")%r(GenericLines,6D,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FIL
+SF:TER\x20Ready\.\r\n500\x20Command\x20unrecognized:\x20\"\"\r\n500\x20Com
+SF:mand\x20unrecognized:\x20\"\"\r\n")%r(Hello,44,"220\x20novatech\.co\.kr
+SF:\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n501\x20Syntax\x20error\.\r\n
+SF:")%r(Help,4E,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Re
+SF:ady\.\r\n502\x20Command\x20not\x20implemented\r\n")%r(GetRequest,6C,"22
+SF:0\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20
+SF:Command\x20not\x20implemented\r\n500\x20Command\x20unrecognized:\x20\"\
+SF:"\r\n")%r(HTTPOptions,6C,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20
+SF:FILTER\x20Ready\.\r\n502\x20Command\x20not\x20implemented\r\n500\x20Com
+SF:mand\x20unrecognized:\x20\"\"\r\n")%r(RTSPRequest,6C,"220\x20novatech\.
+SF:co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20not\
+SF:x20implemented\r\n500\x20Command\x20unrecognized:\x20\"\"\r\n")%r(RPCCh
+SF:eck,31,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\
+SF:r\n")%r(DNSVersionBindReq,31,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS
+SF:\x20FILTER\x20Ready\.\r\n")%r(DNSStatusRequest,31,"220\x20novatech\.co\
+SF:.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n")%r(SSLSessionReq,4E,"22
+SF:0\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20
+SF:Command\x20not\x20implemented\r\n")%r(TLSSessionReq,4E,"220\x20novatech
+SF:\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20no
+SF:t\x20implemented\r\n")%r(Kerberos,4E,"220\x20novatech\.co\.kr\x20AntiSP
+SF:AM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20not\x20implemented\r
+SF:\n")%r(SMBProgNeg,31,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILT
+SF:ER\x20Ready\.\r\n")%r(X11Probe,31,"220\x20novatech\.co\.kr\x20AntiSPAM/
+SF:VIRUS\x20FILTER\x20Ready\.\r\n")%r(FourOhFourRequest,6C,"220\x20novatec
+SF:h\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Ready\.\r\n502\x20Command\x20n
+SF:ot\x20implemented\r\n500\x20Command\x20unrecognized:\x20\"\"\r\n")%r(LP
+SF:DString,4E,"220\x20novatech\.co\.kr\x20AntiSPAM/VIRUS\x20FILTER\x20Read
+SF:y\.\r\n502\x20Command\x20not\x20implemented\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port993-TCP:V=7.40%T=SSL%I=7%D=3/28%Time=5E7EBDFE%P=x86_64-pc-linux-gnu
+SF:%r(NULL,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(GetRequest,24,"\*\x20OK\
+SF:x20IMAP4\x20ready\r\nGET\x20BAD\x20\r\n\*\x20BAD\x20\r\n")%r(GenericLin
+SF:es,22,"\*\x20OK\x20IMAP4\x20ready\r\n\*\x20BAD\x20\r\n\*\x20BAD\x20\r\n
+SF:")%r(HTTPOptions,28,"\*\x20OK\x20IMAP4\x20ready\r\nOPTIONS\x20BAD\x20\r
+SF:\n\*\x20BAD\x20\r\n")%r(RTSPRequest,28,"\*\x20OK\x20IMAP4\x20ready\r\nO
+SF:PTIONS\x20BAD\x20\r\n\*\x20BAD\x20\r\n")%r(RPCCheck,12,"\*\x20OK\x20IMA
+SF:P4\x20ready\r\n")%r(DNSVersionBindReq,12,"\*\x20OK\x20IMAP4\x20ready\r\
+SF:n")%r(DNSStatusRequest,12,"\*\x20OK\x20IMAP4\x20ready\r\n")%r(Help,1A,"
+SF:\*\x20OK\x20IMAP4\x20ready\r\n\*\x20BAD\x20\r\n")%r(SSLSessionReq,1A,"\
+SF:*\x20OK\x20IMAP4\x20ready\r\n\*\x20BAD\x20\r\n")%r(TLSSessionReq,1A,"\*
+SF:\x20OK\x20IMAP4\x20ready\r\n\*\x20BAD\x20\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port995-TCP:V=7.40%T=SSL%I=7%D=3/28%Time=5E7EBE56%P=x86_64-pc-linux-gnu
+SF:%r(NULL,11,"\+OK\x20POP3\x20server\r\n")%r(GenericLines,3D,"\+OK\x20POP
+SF:3\x20server\r\n-ERR\x20Unknown\x20Command\r\n-ERR\x20Unknown\x20Command
+SF:\r\n")%r(GetRequest,3D,"\+OK\x20POP3\x20server\r\n-ERR\x20Unknown\x20Co
+SF:mmand\r\n-ERR\x20Unknown\x20Command\r\n")%r(HTTPOptions,3D,"\+OK\x20POP
+SF:3\x20server\r\n-ERR\x20Unknown\x20Command\r\n-ERR\x20Unknown\x20Command
+SF:\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar 28 04:03:43 2020 -- 1 IP address (1 host up) scanned in 17172.34 seconds

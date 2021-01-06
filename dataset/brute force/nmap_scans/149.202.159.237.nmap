@@ -1,0 +1,68 @@
+# Nmap 7.40 scan initiated Tue Oct 13 01:47:45 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/149.202.159.237.nmap 149.202.159.237
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 149.202.159.237
+Host is up (2.4s latency).
+Not shown: 995 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http     nginx 1.14.0 (Ubuntu)
+443/tcp  open  ssl/http nginx 1.14.0 (Ubuntu)
+5060/tcp open  sip      (SIP end point; Status: 200 OK)
+5080/tcp open  sip      (SIP end point; Status: 200 OK)
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5060-TCP:V=7.40%I=7%D=10/13%Time=5F852655%P=x86_64-pc-linux-gnu%r(S
+SF:IPOptions,258,"SIP/2\.0\x20200\x20OK\r\nVia:\x20SIP/2\.0/TCP\x20nm;bran
+SF:ch=foo;received=185\.220\.101\.13;rport=10692\r\nFrom:\x20<sip:nm@nm>;t
+SF:ag=root\r\nTo:\x20<sip:nm2@nm2>;tag=cSr1DtQt34a7H\r\nCall-ID:\x2050000\
+SF:r\nCSeq:\x2042\x20OPTIONS\r\nContact:\x20<sip:149\.202\.159\.237>\r\nUs
+SF:er-Agent:\x20FreeSWITCH\r\nAccept:\x20application/sdp\r\nAllow:\x20INVI
+SF:TE,\x20ACK,\x20BYE,\x20CANCEL,\x20OPTIONS,\x20MESSAGE,\x20INFO,\x20UPDA
+SF:TE,\x20REGISTER,\x20REFER,\x20NOTIFY,\x20PUBLISH,\x20SUBSCRIBE\r\nSuppo
+SF:rted:\x20timer,\x20path,\x20replaces\r\nAllow-Events:\x20talk,\x20hold,
+SF:\x20conference,\x20presence,\x20as-feature-event,\x20dialog,\x20line-se
+SF:ize,\x20call-info,\x20sla,\x20include-session-description,\x20presence\
+SF:.winfo,\x20message-summary,\x20refer\r\nContent-Length:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5080-TCP:V=7.40%I=7%D=10/13%Time=5F852666%P=x86_64-pc-linux-gnu%r(G
+SF:enericLines,2,"\r\n")%r(SIPOptions,229,"SIP/2\.0\x20200\x20OK\r\nVia:\x
+SF:20SIP/2\.0/TCP\x20nm;branch=foo;received=185\.220\.101\.13;rport=13028\
+SF:r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=vX8FgpDZKU
+SF:U7g\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nContact:\x20<sip:
+SF:gw\+e5e37f78-61ac-429e-906a-459c6bac75e3@149\.202\.159\.237:5080;transp
+SF:ort=udp;gw=e5e37f78-61ac-429e-906a-459c6bac75e3>\r\nUser-Agent:\x20Free
+SF:SWITCH\r\nAccept:\x20application/sdp\r\nAllow:\x20INVITE,\x20ACK,\x20BY
+SF:E,\x20CANCEL,\x20OPTIONS,\x20MESSAGE,\x20INFO,\x20UPDATE,\x20REGISTER,\
+SF:x20REFER,\x20NOTIFY\r\nSupported:\x20timer,\x20path,\x20replaces\r\nAll
+SF:ow-Events:\x20talk,\x20hold,\x20conference,\x20refer\r\nContent-Length:
+SF:\x200\r\n\r\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 13 06:02:12 2020 -- 1 IP address (1 host up) scanned in 15266.44 seconds

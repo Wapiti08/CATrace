@@ -1,0 +1,49 @@
+# Nmap 7.40 scan initiated Sat Feb  1 05:15:12 2020 as: nmap -sT -Pn -n -sV --max-retries 1 --open -T sneaky -oN /home/lapolis_sup/bots/logs/scanned/163.172.178.153.nmap 163.172.178.153
+WARNING: Service 163.172.178.153:9000 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+WARNING: Service 163.172.178.153:9000 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+Nmap scan report for 163.172.178.153
+Host is up (0.20s latency).
+Not shown: 996 closed ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http     nginx 1.14.0 (Ubuntu)
+443/tcp  open  ssl/http nginx 1.14.0 (Ubuntu)
+9000/tcp open  rtsp
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9000-TCP:V=7.40%I=7%D=2/1%Time=5E353BD0%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,1DB,"HTTP/1\.0\x20302\x20FOUND\r\nContent-Length:\x200\r\nX-XSS
+SF:-Protection:\x201;\x20mode=block\r\nX-Robots-Tag:\x20noindex,\x20nofoll
+SF:ow\r\nContent-Language:\x20en\r\nVary:\x20Accept-Language,\x20Cookie\r\
+SF:nLocation:\x20http://scw-blissful-nash:9000/auth/login/\r\nX-Frame-Opti
+SF:ons:\x20deny\r\nX-Content-Type-Options:\x20nosniff\r\nContent-Type:\x20
+SF:text/html;\x20charset=utf-8\r\nSet-Cookie:\x20\x20sentrysid=\"gAJ9cQFVB
+SF:V9uZXh0cQJYAQAAAC9zLg:1ixoTw:gewv6scIBRlEtwcYO4fUkPEjgZs\";\x20expires=
+SF:Sat,\x2015-Feb-2020\x2008:50:24\x20GMT;\x20httponly;\x20Max-Age=1209600
+SF:;\x20Path=/\r\n\r\n")%r(HTTPOptions,1DB,"HTTP/1\.0\x20302\x20FOUND\r\nC
+SF:ontent-Length:\x200\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Robot
+SF:s-Tag:\x20noindex,\x20nofollow\r\nContent-Language:\x20en\r\nVary:\x20A
+SF:ccept-Language,\x20Cookie\r\nLocation:\x20http://scw-blissful-nash:9000
+SF:/auth/login/\r\nX-Frame-Options:\x20deny\r\nX-Content-Type-Options:\x20
+SF:nosniff\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\
+SF:x20\x20sentrysid=\"gAJ9cQFVBV9uZXh0cQJYAQAAAC9zLg:1ixoTx:_yQasSoUdJ9YkB
+SF:HunRBYfiNhYdk\";\x20expires=Sat,\x2015-Feb-2020\x2008:50:25\x20GMT;\x20
+SF:httponly;\x20Max-Age=1209600;\x20Path=/\r\n\r\n")%r(RTSPRequest,1DB,"RT
+SF:SP/1\.0\x20302\x20FOUND\r\nContent-Length:\x200\r\nX-XSS-Protection:\x2
+SF:01;\x20mode=block\r\nX-Robots-Tag:\x20noindex,\x20nofollow\r\nContent-L
+SF:anguage:\x20en\r\nVary:\x20Accept-Language,\x20Cookie\r\nLocation:\x20h
+SF:ttp://scw-blissful-nash:9000/auth/login/\r\nX-Frame-Options:\x20deny\r\
+SF:nX-Content-Type-Options:\x20nosniff\r\nContent-Type:\x20text/html;\x20c
+SF:harset=utf-8\r\nSet-Cookie:\x20\x20sentrysid=\"gAJ9cQFVBV9uZXh0cQJYAQAA
+SF:AC9zLg:1ixoTx:_yQasSoUdJ9YkBHunRBYfiNhYdk\";\x20expires=Sat,\x2015-Feb-
+SF:2020\x2008:50:25\x20GMT;\x20httponly;\x20Max-Age=1209600;\x20Path=/\r\n
+SF:\r\n")%r(FourOhFourRequest,12D,"HTTP/1\.0\x20301\x20MOVED\x20PERMANENTL
+SF:Y\r\nContent-Length:\x200\r\nX-XSS-Protection:\x201;\x20mode=block\r\nC
+SF:ontent-Language:\x20en\r\nX-Content-Type-Options:\x20nosniff\r\nVary:\x
+SF:20Accept-Language\r\nLocation:\x20http://scw-blissful-nash:9000/nice%20
+SF:ports%2C/Trinity\.txt\.bak/\r\nX-Frame-Options:\x20deny\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\n\r\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  1 09:50:27 2020 -- 1 IP address (1 host up) scanned in 16515.02 seconds
